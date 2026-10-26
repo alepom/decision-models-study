@@ -15,4 +15,4 @@ Task-Specific Classifiers* (Alessio Pomaro, 2026).
 Raw API request/response caches; model weights; real customer data (none were used).
 
 ## Reproduce the paper's tables and figures
-`python -m dmstudy.analysis && python -m dmstudy.robustness` (no GPU, no API keys).
+`python -m dmstudy.analysis && python -m dmstudy.robustness && python -m dmstudy.extras` (no GPU, no API keys).

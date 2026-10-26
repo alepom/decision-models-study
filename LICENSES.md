@@ -1,4 +1,4 @@
-# Licence map (proposed; to be approved by the author before publication)
+# Licence map
 
 | Material | Path | Licence | Notes |
 |---|---|---|---|

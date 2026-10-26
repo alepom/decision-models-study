@@ -44,7 +44,7 @@ Dati: Banking77 (inglese, pubblico), MASSIVE (italiano, pubblico), Ottavo Store 
 | Affermazione iniziale | Ora |
 |---|---|
 | "Con 10.000 esempi Qwen3-0.6B (0,940) batte Mammoth (0,935)" | **Corretta.** Il punteggio si riproduce: con la ricetta originale e 4 seed fa 0,936 (0,931–0,940). Ma "batte" no: rispetto a Mammoth la differenza non è risolta. La ricetta del protocollo (0,910) era semplicemente peggiore su questo caso. |
-| "Il crollo con 5 esempi è colpa della ricetta" | **Ritirata.** Con la ricetta scelta in cross-validation il risultato è identico (0,150 contro 0,150). È un limite del metodo con testa di classificazione nuova. |
+| "Il crollo con 5 esempi è colpa della ricetta" | **Ritirata.** Con la ricetta scelta in cross-validation il risultato è identico (0,150 contro 0,150). Il crollo persiste con entrambe le ricette provate (testa di classificazione nuova); altre ricette non sono state testate. |
 | "Le descrizioni contano più del modello" | **Ridimensionata.** L'effetto varia con modello e dataset; inoltre sui dataset pubblici le descrizioni sono state scritte da esempi etichettati. |
 | "Il vantaggio dei decision model è l'addestramento decisionale (6,2 milioni di esempi)" | **Ridimensionata.** Gran parte viene dal modello base più recente; l'addestramento decisionale aggiunge 1–3 punti. |
 | "Elephant e Qwen3-8B differiscono solo per l'addestramento" | **Falsa.** Modello base diverso, attenzione modificata, obiettivo diverso. |
