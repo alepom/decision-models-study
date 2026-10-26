@@ -8,7 +8,7 @@ Task-Specific Classifiers* (Alessio Pomaro, 2026).
   SetFit, mmBERT, Qwen3 LoRA/QLoRA) with recipe selection by cross-validation, generalist zero-shot scorer, statistics and figures.
 - Frozen protocol (`protocol.md`), pre-declared contrasts, split manifests with example IDs.
 - Synthetic datasets: Ottavo Store (2,629 messages), lexical stress set (601), Ottavo-R robustness set (312), with generation prompts.
-- Per-example predictions and metrics for 442 runs used in the paper (470 including superseded runs, flagged in `results/runs_index.csv`).
+- Per-example predictions and metrics for 450 runs used in the paper (478 including superseded runs, flagged in `results/runs_index.csv`).
 - Colab notebooks that run the same modules on a T4.
 
 ## Not included
