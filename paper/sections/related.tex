@@ -1,0 +1,27 @@
+\section{Related Work}
+
+\paragraph{Few-shot text classification.} Fine-tuning sentence encoders contrastively on few labelled pairs (SetFit;
+\citealp{tunstall2022setfit}) is a strong prompt-free baseline with very few examples per class. Parameter-efficient fine-tuning
+has been reported to be both more accurate and cheaper than in-context learning in the few-shot regime \citep{liu2022tfew}.
+We use LoRA \citep{hu2022lora} and QLoRA \citep{dettmers2023qlora} to adapt decoder models with a classification head on consumer GPUs,
+and mmBERT \citep{marone2026mmbert}, a modern multilingual encoder, as a fully fine-tuned baseline.
+
+\paragraph{Zero-shot classification with LLMs.} Reading the probability of option tokens turns a generative model into a classifier
+without training; such classifiers are sensitive to prompt format, option order and label wording, and their raw probabilities are
+often mis-calibrated \citep{zhao2021calibrate}. Decision models productise this setting: a model is post-trained to return a
+distribution over the offered options. Base Labs describe Elephant-1 (post-trained from Qwen3.5-9B) and Mammoth-1 as trained on
+millions of synthetic and public decision tasks, with a block-bidirectional attention mask on full-attention layers and a
+Brier-score term in the objective \citep{baselabs2026decision,elephant1card}.
+
+\paragraph{Calibration and selective prediction.} We report expected calibration error \citep{guo2017calibration} and the Brier score
+\citep{brier1950}, and evaluate routing low-confidence inputs to human review through risk--coverage analysis
+\citep{geifman2017selective}.
+
+\paragraph{Benchmarks, contamination and synthetic data.} Banking77 \citep{casanueva2020banking77} and MASSIVE \citep{fitzgerald2022massive}
+are standard intent benchmarks. Public benchmarks may have been seen during training of large models; contamination cannot be
+ruled out without access to training data \citep{sainz2023contamination}, which motivates our private synthetic task. LLM-generated
+training and test data are useful but their value varies across tasks and is lower for subjective ones \citep{li2023synthetic};
+our synthetic data are written and validated by language models, which bounds what they can show (Section~\ref{sec:limitations}).
+
+\paragraph{Distillation.} Training a small student on labels produced by a larger teacher \citep{hinton2015distilling} is a common
+answer to the labelling cost; we discuss but do not validate it on real data.

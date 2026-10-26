@@ -1,0 +1,72 @@
+{
+ "run_id": "sup-qwen0.6b-banking77-kfull-seed42-original-20261025T213634Z-79a417",
+ "config": {
+  "task": "banking77",
+  "model": "qwen0.6b",
+  "model_id": "Qwen/Qwen3-0.6B",
+  "budget": "full",
+  "seed": 42,
+  "recipe": "original",
+  "max_len": 256,
+  "batch_size": 16,
+  "train_n": 9993,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "banking77",
+  "lr": 0.0002,
+  "epochs": 3,
+  "train_seed": 42,
+  "micro_batch": 16,
+  "grad_accumulation": 1,
+  "dtype": "torch.float32",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 1.4847898344919093
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.2292392671701774
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.04337436398896323
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 372.2559509277344,
+   "head_params": [
+    "base_model.model.score.modules_to_save.default.weight"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "ee3feacc2c78814962c0399b2e0d6d6fe47a3699",
+  "utc": "2026-10-25T21:36:34.318142+00:00",
+  "host": "3cfe0c8270aa",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/banking77/test.jsonl": "b3aaf349ec393cff19b2e9eefaba91f7c13210006c09534a78ee95b10e5bcfab",
+   "data/banking77/train_full.jsonl": "a9eaff7d4f9bc00b3aa0a5c818bd6daa7f38468f1f22215bf996bfb102d80993"
+  }
+ },
+ "metrics": {
+  "n": 1000,
+  "coverage": 1.0,
+  "macro_f1": 0.9368521588046891,
+  "accuracy": 0.937,
+  "refusals": 0,
+  "n_calibrated": 1000,
+  "ece15": 0.03316226589679717,
+  "brier": 0.09266594027229744,
+  "mean_confidence": 0.9701622658967972,
+  "latency_p50_ms": 95.86589000014101,
+  "latency_p95_ms": 111.39374929996391,
+  "train_s": 521.2,
+  "selection": null,
+  "peak_vram_gb": 7.67,
+  "load_s": 5.1
+ }
+}

@@ -1,0 +1,32 @@
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+  font=\footnotesize, execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000},
+  box/.style={draw, rounded corners=2pt, align=center, inner sep=4pt, text width=4.4cm, minimum height=1.25cm},
+  cond/.style={align=center, text width=4.4cm, font=\scriptsize, text=black!70, minimum height=1.05cm},
+  data/.style={draw, fill=black!4, rounded corners=2pt, align=center, inner sep=4pt, text width=14.6cm},
+  arr/.style={-{Stealth[length=2mm]}, thick}
+]
+\node[data] (tasks) at (0,0) {\textbf{Same test messages:} Banking77 (EN) $\cdot$ MASSIVE-it (IT) $\cdot$ Ottavo (IT, synthetic)
+  $\cdot$ Ottavo lexical stress $\cdot$ Ottavo-R phenomena};
+
+\node[box, fill=blue!6, anchor=north] (gen) at (0,-0.9) {\textbf{Generalist LLMs}\\ Qwen3-8B, Qwen3.5-9B\\ (base of Elephant-1)};
+\node[box, fill=blue!12, left=0.3cm of gen] (dm) {\textbf{Decision models}\\ OpenAI Decisions, Elephant-1,\\ Mammoth-1 (API)};
+\node[box, fill=orange!10, right=0.3cm of gen] (sup) {\textbf{Compact classifiers}\\ TF-IDF, SetFit, mmBERT,\\ Qwen3 0.6B / 1.7B / 8B};
+
+\node[cond, below=0.1cm of dm] (cdm) {names only (N): no task labels;\\ names + descriptions (D)$^*$;\\ option order; examples in the prompt};
+\node[cond, below=0.1cm of gen] (cgen) {Ottavo only, no task labels;\\ descriptions (D) = specification;\\ scoring of option letters};
+\node[cond, below=0.1cm of sup] (csup) {trained on 5 or 20 examples per class\\ or on all training data; 3 seeds;\\ recipe chosen by CV inside the budget};
+
+\node[data, anchor=north] (out) at ([yshift=-0.45cm] cgen.south |- csup.south) {\textbf{Paired comparison on identical messages:} macro-F1 with
+  bootstrap CIs $\cdot$ robustness by phenomenon $\cdot$ calibration and routing to human review $\cdot$ latency and cost};
+
+\foreach \n in {dm, gen, sup} { \draw[arr] (tasks.south -| \n.north) -- (\n.north); }
+\foreach \c in {cdm, cgen, csup} { \draw[arr] (\c.south) -- (\c.south |- out.north); }
+\end{tikzpicture}
+\caption{Study design. The same test messages are classified by decision models used zero-shot, by generalist LLMs used the same
+way, and by compact classifiers trained on increasing numbers of labelled examples. Zero-shot systems see no labelled example in the
+request; with label names (N) they use no task label at all. $^*$On Banking77 and MASSIVE-it the descriptions were written from
+labelled training examples.}
+\label{fig:design}
+\end{figure}

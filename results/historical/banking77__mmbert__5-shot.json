@@ -1,0 +1,17 @@
+{
+ "accuracy": 0.503,
+ "macro_f1": 0.5011,
+ "no_answer": 0,
+ "ece": 0.1991,
+ "latency_p50_ms": 45.2,
+ "latency_p95_ms": 145.7,
+ "system": "mmbert",
+ "variant": "5-shot",
+ "task": "banking77",
+ "train_examples": 385,
+ "n": 1000,
+ "train_s": 227.5,
+ "epochs": 11,
+ "throughput_per_s": 574.3,
+ "peak_vram_gb": 6.28
+}

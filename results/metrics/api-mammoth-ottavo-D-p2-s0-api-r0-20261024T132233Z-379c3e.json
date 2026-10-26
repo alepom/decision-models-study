@@ -1,0 +1,73 @@
+{
+ "run_id": "api-mammoth-ottavo-D-p2-s0-api-r0-20261024T132233Z-379c3e",
+ "config": {
+  "kind": "decision_api",
+  "task": "ottavo",
+  "provider": "mammoth",
+  "requested_model": "decision-models/baseten-mammoth-27b-latest",
+  "labels": "D",
+  "perm": 2,
+  "shots": "0",
+  "shot_seed": null,
+  "subset": "api",
+  "repeat": 0,
+  "n": 288,
+  "instruction": "Classify the user's message into the single most appropriate intent.",
+  "label_order_presented": [
+   "disiscrizione_marketing",
+   "supporto_uso_prodotto",
+   "codice_sconto",
+   "articolo_errato_mancante",
+   "recesso_ripensamento",
+   "reclamo_servizio_clienti",
+   "rimborso_stato",
+   "privacy_cancellazione_dati",
+   "disponibilita_riassortimento",
+   "pagamento_rifiutato",
+   "addebito_doppio_errato",
+   "programma_fedelta",
+   "ordine_ritardo_reclamo",
+   "danno_alla_consegna",
+   "info_prodotto_prevendita",
+   "ordine_stato_spedizione",
+   "ordine_annullamento",
+   "pagamento_rate",
+   "fattura_richiesta",
+   "ritiro_in_negozio",
+   "reso_garanzia_difetto",
+   "ordine_modifica_indirizzo",
+   "fuori_tema",
+   "accesso_account"
+  ],
+  "prompt_sha256": "bc907299624d41b565f1f64a63c2df981d222c025bcca4c49e886e6c91e91c89",
+  "returned_models": [
+   "decision-models/baseten-mammoth-27b-latest"
+  ]
+ },
+ "provenance": {
+  "git_commit": "ee66428576c816fcf67d7470e77c9bb41a481745-dirty",
+  "utc": "2026-10-24T13:22:33.194734+00:00",
+  "host": "PCAlessio",
+  "python": "3.13.5",
+  "data_sha256": {
+   "data/ottavo/test.jsonl": "f958582ee2e89f3d9f389bedf063e669f889e29a881cd1baa9823a53db0b125c",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 288,
+  "coverage": 1.0,
+  "macro_f1": 0.9965217391304347,
+  "accuracy": 0.9965277777777778,
+  "refusals": 0,
+  "n_calibrated": 288,
+  "ece15": 0.03834193857828686,
+  "brier": 0.006449894544038137,
+  "mean_confidence": 0.9619820847415651,
+  "input_tokens_billed": 0,
+  "cost_usd": 0.0,
+  "wall_s": 0.1,
+  "errors": 0,
+  "cached": 288
+ }
+}

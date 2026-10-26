@@ -1,0 +1,46 @@
+{
+ "run_id": "sup-tfidf-massive_it-k5-seed42-corrected-20261024T161712Z-6e5692",
+ "config": {
+  "kind": "supervised",
+  "task": "massive_it",
+  "trained_on_task": "massive_it",
+  "model": "tfidf",
+  "budget": "5",
+  "seed": 42,
+  "recipe": "corrected",
+  "train_n": 299
+ },
+ "provenance": {
+  "git_commit": "91bcbc5f785edae6d577957e71ebf0e2766bd244-dirty",
+  "utc": "2026-10-24T16:17:12.309188+00:00",
+  "host": "PCAlessio",
+  "python": "3.13.5",
+  "data_sha256": {
+   "data/massive_it/test.jsonl": "b2adfa00cf4b7e502348ad97f660610b384094dd2c2520d30271041547ba8022",
+   "data/massive_it/train_full.jsonl": "6ae6a7107abed99d28485edc6472d702d9989498aaca3d130926ba5883b7e015"
+  }
+ },
+ "metrics": {
+  "n": 996,
+  "coverage": 1.0,
+  "macro_f1": 0.5067562070730955,
+  "accuracy": 0.5210843373493976,
+  "refusals": 0,
+  "n_calibrated": 996,
+  "ece15": 0.28023876311479673,
+  "brier": 0.7380085815721896,
+  "mean_confidence": 0.24148818537461725,
+  "latency_p50_ms": 1.0536214977037162,
+  "latency_p95_ms": 1.9475887456792407,
+  "train_s": 3.0,
+  "selection": {
+   "by": "cv3",
+   "C": 10,
+   "grid": {
+    "1": 0.47981481481481475,
+    "10": 0.5113492063492063,
+    "100": 0.5061640211640211
+   }
+  }
+ }
+}

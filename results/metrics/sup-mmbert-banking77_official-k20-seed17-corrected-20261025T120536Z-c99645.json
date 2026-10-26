@@ -1,0 +1,109 @@
+{
+ "run_id": "sup-mmbert-banking77_official-k20-seed17-corrected-20261025T120536Z-c99645",
+ "config": {
+  "task": "banking77_official",
+  "model": "mmbert",
+  "model_id": "jhu-clsp/mmBERT-base",
+  "budget": "20",
+  "seed": 17,
+  "recipe": "corrected",
+  "max_len": 256,
+  "batch_size": 32,
+  "train_n": 1540,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "banking77",
+  "lr": 5e-05,
+  "epochs": 12,
+  "train_seed": 17,
+  "micro_batch": 32,
+  "grad_accumulation": 1,
+  "dtype": "torch.float32",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 3.7823755419099485
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.7750809790252091
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.20336274889769493
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.0931785277732007
+   },
+   {
+    "epoch": 5,
+    "train_loss": 0.07812805887456838
+   },
+   {
+    "epoch": 6,
+    "train_loss": 0.04985170994292606
+   },
+   {
+    "epoch": 7,
+    "train_loss": 0.0363730675868944
+   },
+   {
+    "epoch": 8,
+    "train_loss": 0.02393800071924441
+   },
+   {
+    "epoch": 9,
+    "train_loss": 0.020550192394422354
+   },
+   {
+    "epoch": 10,
+    "train_loss": 0.014357477383364549
+   },
+   {
+    "epoch": 11,
+    "train_loss": 0.008123589163213702
+   },
+   {
+    "epoch": 12,
+    "train_loss": 0.0027607408512078297
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 53.76417104527354,
+   "head_params": [
+    "classifier.weight",
+    "classifier.bias"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "8287db9b263ca6754500f33937ce8664a27e1f51",
+  "utc": "2026-10-25T12:05:36.598094+00:00",
+  "host": "d36c696de22f",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/banking77_official/test.jsonl": "260ab65c221e3b627a2c87c0f3070da17d192937d2b077e19a7c1efcb2380696",
+   "data/banking77/train_full.jsonl": "a9eaff7d4f9bc00b3aa0a5c818bd6daa7f38468f1f22215bf996bfb102d80993"
+  }
+ },
+ "metrics": {
+  "n": 3076,
+  "coverage": 1.0,
+  "macro_f1": 0.8485175253880642,
+  "accuracy": 0.8507802340702211,
+  "refusals": 0,
+  "n_calibrated": 3076,
+  "ece15": 0.08890698815275697,
+  "brier": 0.24161868828106356,
+  "mean_confidence": 0.9395039794852736,
+  "latency_p50_ms": 22.53843600010441,
+  "latency_p95_ms": 28.491506499449315,
+  "train_s": 143.5,
+  "selection": null,
+  "peak_vram_gb": 6.25,
+  "load_s": 5.5
+ }
+}

@@ -1,0 +1,23 @@
+Are decision models worth it, or can small task-specific classifiers do the same job? In our experiments the answer depends
+mainly on how many labelled examples are available and, when many are available, on how well the small model is trained.
+
+With 5 or 20 labelled examples per class, decision models used zero-shot with label names only were far ahead of every compact
+classifier on all datasets. With the full training sets (70--190 examples per class) and our frozen recipes, the gap was 2.4 points on
+Banking77, 5.5 points on Italian MASSIVE and not resolved on the synthetic Ottavo task. On Banking77 the recipe of the earlier exploratory
+study raised Qwen3-0.6B from 0.910 to 0.936: the exploratory score was reproduced, but the claim that the small model wins was not, since
+the difference from Mammoth-1 was no longer resolved. Among the compact methods evaluated, SetFit was the best with five examples per
+class; decoders with a fresh classification head collapsed in that regime with both recipes tested, and needed at least 20 examples per
+class.
+
+Three further results qualify the picture. First, the effect of category descriptions varied with the model and the dataset: they helped
+OpenAI Decisions on Banking77 and all decision models on the synthetic task, and elsewhere the observed effects were small and mixed. On the
+public datasets our descriptions were written from labelled examples, so they are not a free resource. Second, Elephant-1 was much closer
+to its own base checkpoint, Qwen3.5-9B, than to an older generalist; the remaining gap was small and larger on lexically adversarial
+messages. Third, the Base Labs models were insensitive to option order and well calibrated, which matters for routing uncertain cases to a
+human; OpenAI's coarse probabilities were less useful for that purpose.
+
+For a practitioner this suggests a simple rule of thumb, valid for intent-style tasks like those tested: without a substantial labelled set,
+a decision model (or a strong recent generalist) is the better tool; with thousands of labels, a well-trained small classifier can come close
+to it, or show no resolved difference, and is cheaper to run at volume, but its quality depends on the training recipe, and the cost of
+labelling and of maintenance has to be weighed. Whether these conclusions hold on real customer traffic is the main open question; a second
+version of this report with human-annotated real messages would answer it.

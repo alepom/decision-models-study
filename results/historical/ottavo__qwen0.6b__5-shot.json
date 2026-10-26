@@ -1,0 +1,17 @@
+{
+ "accuracy": 0.2177,
+ "macro_f1": 0.2104,
+ "no_answer": 0,
+ "ece": 0.3779,
+ "latency_p50_ms": 101.0,
+ "latency_p95_ms": 271.1,
+ "system": "qwen0.6b",
+ "variant": "5-shot",
+ "task": "ottavo",
+ "train_examples": 120,
+ "n": 960,
+ "train_s": 315.7,
+ "epochs": 34,
+ "throughput_per_s": 45.7,
+ "peak_vram_gb": 5.21
+}

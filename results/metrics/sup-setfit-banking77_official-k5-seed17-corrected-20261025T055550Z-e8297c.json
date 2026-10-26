@@ -1,0 +1,45 @@
+{
+ "run_id": "sup-setfit-banking77_official-k5-seed17-corrected-20261025T055550Z-e8297c",
+ "config": {
+  "kind": "supervised",
+  "task": "banking77_official",
+  "trained_on_task": "banking77",
+  "model": "setfit",
+  "budget": "5",
+  "seed": 17,
+  "recipe": "corrected",
+  "train_n": 385
+ },
+ "provenance": {
+  "git_commit": "734d4aef3cca579eb8390ebf9c45974ec81511ee",
+  "utc": "2026-10-25T05:55:50.642664+00:00",
+  "host": "b8254cc68f60",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/banking77_official/test.jsonl": "260ab65c221e3b627a2c87c0f3070da17d192937d2b077e19a7c1efcb2380696",
+   "data/banking77/train_full.jsonl": "a9eaff7d4f9bc00b3aa0a5c818bd6daa7f38468f1f22215bf996bfb102d80993"
+  }
+ },
+ "metrics": {
+  "n": 3076,
+  "coverage": 1.0,
+  "macro_f1": 0.7164108576469913,
+  "accuracy": 0.7223667100130039,
+  "refusals": 0,
+  "n_calibrated": 3076,
+  "ece15": 0.5793914681285989,
+  "brier": 0.7823541552124367,
+  "mean_confidence": 0.1429752418844051,
+  "latency_p50_ms": 10.957615500956308,
+  "latency_p95_ms": 14.70634239958599,
+  "train_s": 370.8,
+  "selection": {
+   "by": "frozen_recipe",
+   "encoder": "intfloat/multilingual-e5-base",
+   "num_iterations": 20,
+   "epochs": 1,
+   "max_steps": null,
+   "max_seq_length": 256
+  }
+ }
+}

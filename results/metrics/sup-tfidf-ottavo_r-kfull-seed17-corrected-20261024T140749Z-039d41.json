@@ -1,0 +1,46 @@
+{
+ "run_id": "sup-tfidf-ottavo_r-kfull-seed17-corrected-20261024T140749Z-039d41",
+ "config": {
+  "kind": "supervised",
+  "task": "ottavo_r",
+  "trained_on_task": "ottavo",
+  "model": "tfidf",
+  "budget": "full",
+  "seed": 17,
+  "recipe": "corrected",
+  "train_n": 1669
+ },
+ "provenance": {
+  "git_commit": "93d658ff418390f54a8e9c5e2773f879957ba147-dirty",
+  "utc": "2026-10-24T14:07:49.822882+00:00",
+  "host": "PCAlessio",
+  "python": "3.13.5",
+  "data_sha256": {
+   "data/ottavo_r/test.jsonl": "55902e5657c6f0c61069dd8d3f361aa8d675cee704383a2b8509425e979cd616",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 312,
+  "coverage": 1.0,
+  "macro_f1": 0.6250721700302623,
+  "accuracy": 0.6025641025641025,
+  "refusals": 0,
+  "n_calibrated": 238,
+  "ece15": 0.07917746605195784,
+  "brier": 0.31021402095837336,
+  "mean_confidence": 0.7432604095871619,
+  "latency_p50_ms": 1.366551499813795,
+  "latency_p95_ms": 1.9533621365553693,
+  "train_s": 11.9,
+  "selection": {
+   "by": "full_val",
+   "C": 10,
+   "grid": {
+    "1": 0.8944466481231187,
+    "10": 0.9007815101565102,
+    "100": 0.8947986041736042
+   }
+  }
+ }
+}

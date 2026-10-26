@@ -1,0 +1,18 @@
+\begin{tabular}{lrrr}
+\toprule
+Item & Ottavo-like (24 classes) & Banking77-like (77 classes) & Basis \\
+\midrule
+OpenAI Decisions{,} zero-shot{,} USD per 1M messages & 91 & 349 & measured (beta price) \\
+Elephant-1 / Mammoth-1{,} USD per 1M messages & n/a & n/a & promotional access{,} no price \\
+Labels for 20 per class & 480 & 1{,}540 & protocol \\
+Labels for the full training sets used here & 1{,}669 & 9{,}993 & protocol \\
+Person-hours to label 20 per class (one annotator) & 4 & 13 & assumption: 120 labels/hour \\
+Person-hours to label the full sets (one annotator) & 14 & 83 & assumption: 120 labels/hour \\
+mmBERT-base: training on all Ottavo data{,} T4 minutes & 2 & -- & measured \\
+mmBERT-base: inference{,} T4 GPU-hours per 1M messages & 6.5 & -- & upper bound from batch-1 latency \\
+Qwen3-0.6B LoRA: training on all Ottavo data{,} T4 minutes & 5 & -- & measured \\
+Qwen3-0.6B LoRA: inference{,} T4 GPU-hours per 1M messages & 27.5 & -- & upper bound from batch-1 latency \\
+Qwen3-8B QLoRA: training on all Ottavo data{,} T4 minutes & 51 & -- & measured \\
+Qwen3-8B QLoRA: inference{,} T4 GPU-hours per 1M messages & 46.2 & -- & upper bound from batch-1 latency \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,46 @@
+{
+ "run_id": "sup-tfidf-banking77_official-k20-seed42-corrected-20261024T160424Z-fc205c",
+ "config": {
+  "kind": "supervised",
+  "task": "banking77_official",
+  "trained_on_task": "banking77",
+  "model": "tfidf",
+  "budget": "20",
+  "seed": 42,
+  "recipe": "corrected",
+  "train_n": 1540
+ },
+ "provenance": {
+  "git_commit": "91bcbc5f785edae6d577957e71ebf0e2766bd244-dirty",
+  "utc": "2026-10-24T16:04:24.783452+00:00",
+  "host": "PCAlessio",
+  "python": "3.13.5",
+  "data_sha256": {
+   "data/banking77_official/test.jsonl": "260ab65c221e3b627a2c87c0f3070da17d192937d2b077e19a7c1efcb2380696",
+   "data/banking77/train_full.jsonl": "a9eaff7d4f9bc00b3aa0a5c818bd6daa7f38468f1f22215bf996bfb102d80993"
+  }
+ },
+ "metrics": {
+  "n": 3076,
+  "coverage": 1.0,
+  "macro_f1": 0.8277949825110054,
+  "accuracy": 0.8283485045513654,
+  "refusals": 0,
+  "n_calibrated": 3076,
+  "ece15": 0.10548819018784841,
+  "brier": 0.26860289276595845,
+  "mean_confidence": 0.7229674531907814,
+  "latency_p50_ms": 1.2549505045171827,
+  "latency_p95_ms": 2.655646741914097,
+  "train_s": 9.0,
+  "selection": {
+   "by": "cv3",
+   "C": 100,
+   "grid": {
+    "1": 0.7395378569656975,
+    "10": 0.7571762193821149,
+    "100": 0.7623454910032782
+   }
+  }
+ }
+}

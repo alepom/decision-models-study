@@ -1,0 +1,46 @@
+{
+ "run_id": "sup-tfidf-massive_it_official-kfull-seed42-corrected-20261024T162211Z-0ff063",
+ "config": {
+  "kind": "supervised",
+  "task": "massive_it_official",
+  "trained_on_task": "massive_it",
+  "model": "tfidf",
+  "budget": "full",
+  "seed": 42,
+  "recipe": "corrected",
+  "train_n": 11514
+ },
+ "provenance": {
+  "git_commit": "91bcbc5f785edae6d577957e71ebf0e2766bd244-dirty",
+  "utc": "2026-10-24T16:22:11.374182+00:00",
+  "host": "PCAlessio",
+  "python": "3.13.5",
+  "data_sha256": {
+   "data/massive_it_official/test.jsonl": "849daf5f47fc47eb12f706b2ea5cd9559d6bf371a315cd0a015be9e8c9c39061",
+   "data/massive_it/train_full.jsonl": "6ae6a7107abed99d28485edc6472d702d9989498aaca3d130926ba5883b7e015"
+  }
+ },
+ "metrics": {
+  "n": 2974,
+  "coverage": 1.0,
+  "macro_f1": 0.7976779996787859,
+  "accuracy": 0.8325487558843309,
+  "refusals": 0,
+  "n_calibrated": 2974,
+  "ece15": 0.055359837512506074,
+  "brier": 0.24640826164892807,
+  "mean_confidence": 0.8868338600028115,
+  "latency_p50_ms": 1.1701990006258711,
+  "latency_p95_ms": 2.439348798361607,
+  "train_s": 53.7,
+  "selection": {
+   "by": "full_val",
+   "C": 100,
+   "grid": {
+    "1": 0.7864431341747438,
+    "10": 0.8055650281574648,
+    "100": 0.8061085553970447
+   }
+  }
+ }
+}

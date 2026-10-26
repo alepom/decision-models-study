@@ -1,0 +1,17 @@
+{
+ "accuracy": 0.9896,
+ "macro_f1": 0.9895,
+ "no_answer": 0,
+ "ece": 0.0277,
+ "latency_p50_ms": 265.1,
+ "latency_p95_ms": 467.6,
+ "system": "openai-decisions",
+ "variant": "0-shot",
+ "task": "ottavo",
+ "train_examples": 0,
+ "n": 960,
+ "wall_s": 18.1,
+ "input_tokens": 875726,
+ "cost_usd": 0.0876,
+ "cost_per_1k_usd": 0.0912
+}

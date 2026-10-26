@@ -1,0 +1,26 @@
+{
+ "task": "massive_it",
+ "model": "mmbert",
+ "model_id": "jhu-clsp/mmBERT-base",
+ "budget": "5",
+ "seed": 17,
+ "recipe": "corrected",
+ "max_len": 256,
+ "batch_size": 32,
+ "train_n": 299,
+ "torch": "2.11.0+cu130",
+ "gpu": "Tesla T4",
+ "kind": "cv_selection",
+ "folds": 3,
+ "grid": {
+  "2e-05|5": 0.2551227784561118,
+  "2e-05|10": 0.3197134038800706,
+  "2e-05|20": 0.34037037037037043,
+  "5e-05|5": 0.3611640211640211,
+  "5e-05|10": 0.3670282186948853,
+  "5e-05|20": 0.3769797178130511
+ },
+ "best_lr": 5e-05,
+ "best_epochs": 20,
+ "trainings": 6
+}

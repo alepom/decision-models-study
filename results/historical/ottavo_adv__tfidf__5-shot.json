@@ -1,0 +1,14 @@
+{
+ "accuracy": 0.6106,
+ "macro_f1": 0.5679,
+ "no_answer": 0,
+ "ece": 0.459,
+ "latency_p50_ms": 3.5,
+ "latency_p95_ms": 5.9,
+ "system": "tfidf",
+ "variant": "5-shot",
+ "task": "ottavo_adv",
+ "train_examples": 120,
+ "n": 601,
+ "train_s": 2.2
+}

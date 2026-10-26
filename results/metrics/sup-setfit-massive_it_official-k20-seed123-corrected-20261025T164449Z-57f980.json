@@ -1,0 +1,45 @@
+{
+ "run_id": "sup-setfit-massive_it_official-k20-seed123-corrected-20261025T164449Z-57f980",
+ "config": {
+  "kind": "supervised",
+  "task": "massive_it_official",
+  "trained_on_task": "massive_it",
+  "model": "setfit",
+  "budget": "20",
+  "seed": 123,
+  "recipe": "corrected",
+  "train_n": 1176
+ },
+ "provenance": {
+  "git_commit": "8287db9b263ca6754500f33937ce8664a27e1f51",
+  "utc": "2026-10-25T16:44:49.313041+00:00",
+  "host": "d36c696de22f",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/massive_it_official/test.jsonl": "849daf5f47fc47eb12f706b2ea5cd9559d6bf371a315cd0a015be9e8c9c39061",
+   "data/massive_it/train_full.jsonl": "6ae6a7107abed99d28485edc6472d702d9989498aaca3d130926ba5883b7e015"
+  }
+ },
+ "metrics": {
+  "n": 2974,
+  "coverage": 1.0,
+  "macro_f1": 0.6918469893818154,
+  "accuracy": 0.7353732347007398,
+  "refusals": 0,
+  "n_calibrated": 2974,
+  "ece15": 0.24505469163913574,
+  "brier": 0.47064372710807134,
+  "mean_confidence": 0.490318543061604,
+  "latency_p50_ms": 10.46244649842265,
+  "latency_p95_ms": 12.89120299770729,
+  "train_s": 806.1,
+  "selection": {
+   "by": "frozen_recipe",
+   "encoder": "intfloat/multilingual-e5-base",
+   "num_iterations": 20,
+   "epochs": 1,
+   "max_steps": null,
+   "max_seq_length": 256
+  }
+ }
+}

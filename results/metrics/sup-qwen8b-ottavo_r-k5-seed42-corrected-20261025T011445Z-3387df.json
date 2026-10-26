@@ -1,0 +1,138 @@
+{
+ "run_id": "sup-qwen8b-ottavo_r-k5-seed42-corrected-20261025T011445Z-3387df",
+ "config": {
+  "task": "ottavo_r",
+  "model": "qwen8b",
+  "model_id": "Qwen/Qwen3-8B",
+  "budget": "5",
+  "seed": 42,
+  "recipe": "corrected",
+  "max_len": 256,
+  "batch_size": 8,
+  "train_n": 120,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "ottavo",
+  "lr": 0.0001,
+  "epochs": 20,
+  "train_seed": 42,
+  "dtype": "torch.float16",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 6.710413026809692
+   },
+   {
+    "epoch": 2,
+    "train_loss": 3.379169495900472
+   },
+   {
+    "epoch": 3,
+    "train_loss": 1.4786879579226175
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.14594154668351014
+   },
+   {
+    "epoch": 5,
+    "train_loss": 0.007228991667701242
+   },
+   {
+    "epoch": 6,
+    "train_loss": 0.003873029354629883
+   },
+   {
+    "epoch": 7,
+    "train_loss": 0.0002150922341873714
+   },
+   {
+    "epoch": 8,
+    "train_loss": 7.080101228590744e-05
+   },
+   {
+    "epoch": 9,
+    "train_loss": 2.868078105772535e-05
+   },
+   {
+    "epoch": 10,
+    "train_loss": 2.1606162408716046e-05
+   },
+   {
+    "epoch": 11,
+    "train_loss": 1.778469583465873e-05
+   },
+   {
+    "epoch": 12,
+    "train_loss": 1.5493976267559143e-05
+   },
+   {
+    "epoch": 13,
+    "train_loss": 1.3275771379994694e-05
+   },
+   {
+    "epoch": 14,
+    "train_loss": 1.1994300287672861e-05
+   },
+   {
+    "epoch": 15,
+    "train_loss": 1.0761511354454949e-05
+   },
+   {
+    "epoch": 16,
+    "train_loss": 9.93898417315601e-06
+   },
+   {
+    "epoch": 17,
+    "train_loss": 8.947578044171678e-06
+   },
+   {
+    "epoch": 18,
+    "train_loss": 8.258162354953432e-06
+   },
+   {
+    "epoch": 19,
+    "train_loss": 7.626363549206872e-06
+   },
+   {
+    "epoch": 20,
+    "train_loss": 7.2488727406986675e-06
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 88.35660552978516,
+   "head_params": [
+    "base_model.model.score.modules_to_save.default.weight"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "734d4aef3cca579eb8390ebf9c45974ec81511ee",
+  "utc": "2026-10-25T01:14:45.788046+00:00",
+  "host": "b8254cc68f60",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/ottavo_r/test.jsonl": "55902e5657c6f0c61069dd8d3f361aa8d675cee704383a2b8509425e979cd616",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 312,
+  "coverage": 1.0,
+  "macro_f1": 0.21431350521932765,
+  "accuracy": 0.21474358974358973,
+  "refusals": 0,
+  "n_calibrated": 238,
+  "ece15": 0.34202370617319555,
+  "brier": 0.9766633172082496,
+  "mean_confidence": 0.6235363112152124,
+  "latency_p50_ms": 164.56832500080054,
+  "latency_p95_ms": 188.09208130060142,
+  "train_s": 803.5,
+  "selection": null,
+  "peak_vram_gb": 7.76,
+  "load_s": 64.9
+ }
+}

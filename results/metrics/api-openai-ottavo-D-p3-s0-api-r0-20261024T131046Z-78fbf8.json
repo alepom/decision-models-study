@@ -1,0 +1,75 @@
+{
+ "run_id": "api-openai-ottavo-D-p3-s0-api-r0-20261024T131046Z-78fbf8",
+ "config": {
+  "kind": "decision_api",
+  "task": "ottavo",
+  "provider": "openai",
+  "requested_model": "gpt-6-luna",
+  "labels": "D",
+  "perm": 3,
+  "shots": "0",
+  "shot_seed": null,
+  "subset": "api",
+  "repeat": 0,
+  "n": 288,
+  "instruction": "Classify the user's message into the single most appropriate intent.",
+  "label_order_presented": [
+   "privacy_cancellazione_dati",
+   "info_prodotto_prevendita",
+   "pagamento_rate",
+   "articolo_errato_mancante",
+   "accesso_account",
+   "supporto_uso_prodotto",
+   "reclamo_servizio_clienti",
+   "disponibilita_riassortimento",
+   "fattura_richiesta",
+   "ordine_stato_spedizione",
+   "programma_fedelta",
+   "reso_garanzia_difetto",
+   "ordine_ritardo_reclamo",
+   "ritiro_in_negozio",
+   "rimborso_stato",
+   "pagamento_rifiutato",
+   "codice_sconto",
+   "ordine_modifica_indirizzo",
+   "danno_alla_consegna",
+   "recesso_ripensamento",
+   "disiscrizione_marketing",
+   "fuori_tema",
+   "ordine_annullamento",
+   "addebito_doppio_errato"
+  ],
+  "prompt_sha256": "fb2a633cbf8a212bc7eedcd7bcb7a5e890b614550d35788b3ead5b0bd434e53a",
+  "returned_models": [
+   "gpt-6-luna"
+  ]
+ },
+ "provenance": {
+  "git_commit": "ee66428576c816fcf67d7470e77c9bb41a481745-dirty",
+  "utc": "2026-10-24T13:10:46.196470+00:00",
+  "host": "PCAlessio",
+  "python": "3.13.5",
+  "data_sha256": {
+   "data/ottavo/test.jsonl": "f958582ee2e89f3d9f389bedf063e669f889e29a881cd1baa9823a53db0b125c",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 288,
+  "coverage": 1.0,
+  "macro_f1": 0.9965217391304347,
+  "accuracy": 0.9965277777777778,
+  "refusals": 0,
+  "n_calibrated": 288,
+  "ece15": 0.02690972222222219,
+  "brier": 0.007805555555555555,
+  "mean_confidence": 0.9727430555555555,
+  "latency_p50_ms": 245.1475929992739,
+  "latency_p95_ms": 337.8851686924462,
+  "input_tokens_billed": 261923,
+  "cost_usd": 0.0262,
+  "wall_s": 4.3,
+  "errors": 0,
+  "cached": 1
+ }
+}

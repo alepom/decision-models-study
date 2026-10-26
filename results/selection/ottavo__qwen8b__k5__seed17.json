@@ -1,0 +1,23 @@
+{
+ "task": "ottavo",
+ "model": "qwen8b",
+ "model_id": "Qwen/Qwen3-8B",
+ "budget": "5",
+ "seed": 17,
+ "recipe": "corrected",
+ "max_len": 256,
+ "batch_size": 8,
+ "train_n": 120,
+ "torch": "2.11.0+cu130",
+ "gpu": "Tesla T4",
+ "kind": "cv_selection",
+ "folds": 3,
+ "grid": {
+  "0.0001|5": 0.10001202501202501,
+  "0.0001|10": 0.12192460317460319,
+  "0.0001|20": 0.1439866687415707
+ },
+ "best_lr": 0.0001,
+ "best_epochs": 20,
+ "trainings": 3
+}

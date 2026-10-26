@@ -1,0 +1,34 @@
+\paragraph{Calibration.} All probabilities are the distribution over the offered options (renormalised); the API
+\texttt{confidence} fields are not used. Elephant-1 and Mammoth-1 are well calibrated on the public datasets
+(ECE 0.026--0.052, Brier 0.117--0.199; Figure~\ref{fig:reliability}), better than OpenAI Decisions (Brier 0.241 on Banking77, 0.324 on MASSIVE-it) and than the
+compact classifiers trained on all data (mmBERT ECE 0.061 and 0.074; Qwen3-0.6B 0.055 and 0.089). SetFit's probabilities are the
+least calibrated (ECE 0.193 on Banking77). OpenAI's probabilities are coarse: on Banking77 only about 80 distinct values occur and
+32\% of answers carry probability 1.0, of which 3.4\% are wrong. With near-perfect accuracy on Ottavo, low ECE values there say
+little about rare errors.
+
+\paragraph{Routing uncertain cases to a human.} We choose a confidence threshold on one half of each test set so that the error
+among automatically accepted messages stays below a target, evaluate it on the other half, and swap the halves
+(Figure~\ref{fig:risk}). Table~\ref{tab:selective} reports, summed over the two evaluation halves, how many messages were accepted and
+how many of them were wrong. With a 2\% target on Banking77, Mammoth-1 accepts 84\% of messages, Elephant-1 79\%, Qwen3-0.6B
+trained on all data 80\% (89\% with the exploratory recipe of Section~\ref{sec:results}); OpenAI Decisions accepts none, because its
+top probability bucket already exceeds the target error. At a 5\% target OpenAI accepts 68\% and the Base Labs models 92--95\%. The
+target is used to choose the threshold and is not a guarantee: the observed error among accepted messages was 2.4\% [1.4, 3.4] for
+Mammoth-1 and 2.0\% [1.1, 3.0] for Elephant-1 at the 2\% target (bootstrap intervals over messages). A refused request has no
+probability; it stays in the denominator and is always sent to review (one OpenAI request on Banking77). On MASSIVE-it no system accepts more than 39\% of
+the messages at a 2\% target. Letting a person review only low-confidence cases is therefore plausible for Banking77-like tasks and not
+for MASSIVE-it-like ones; it was not tested on real traffic.
+
+\paragraph{Latency.} Figure~\ref{fig:quality} relates quality and latency. Measured end to end from the client machine with batch size 1: Elephant-1 201--330\,ms median, Mammoth-1 258--563\,ms,
+OpenAI Decisions 330--383\,ms (95th percentiles up to about 1.1\,s). Locally, on a Colab Tesla T4 (not comparable hardware, no network):
+mmBERT 23\,ms, SetFit 11--14\,ms, Qwen3-0.6B and 1.7B about 100\,ms, Qwen3-8B (4-bit) 166\,ms; TF-IDF 2\,ms on CPU. Generalist
+zero-shot scoring with Qwen3-8B or Qwen3.5-9B took 1.1--1.3\,s per message on the T4 with our reference implementation (full prompt
+re-encoded for every message, no prefix caching), so these numbers are upper bounds for that approach.
+
+\paragraph{Cost.} OpenAI costs are computed from the input tokens reported by the API at the beta rate of 0.10 USD per million
+input tokens reported in October 2026 (not reconciled with the provider's invoice): zero-shot classification cost 0.09 USD per
+1{,}000 Ottavo messages and 0.35 USD per 1{,}000 Banking77 messages with descriptions (longer option lists cost more), and all new
+OpenAI runs together about 8.10 USD. Baseten's Elephant-1 and Mammoth-1 were free during a promotional period;
+no production price was published at the time, so we report no cost for them. Training the compact models took from 0.2 minutes
+(TF-IDF, CPU) to about 50 minutes (Qwen3-8B QLoRA on all Ottavo data, T4, including per-epoch validation). Electricity was not
+measured. Table~\ref{tab:costs} collects the measured cost elements. A break-even between API and local inference depends on volume, on whether a GPU is already available and, above all, on the
+cost of producing labelled data, which our study does not measure; we therefore do not report a universal threshold.

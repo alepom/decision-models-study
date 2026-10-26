@@ -1,0 +1,41 @@
+{
+ "generated_vs_kept": {
+  "negation": [
+   40,
+   40
+  ],
+  "intent_correction": [
+   40,
+   40
+  ],
+  "multi_intent": [
+   40,
+   39
+  ],
+  "typo_pair": [
+   40,
+   40
+  ],
+  "lexical_distractor": [
+   40,
+   39
+  ],
+  "insufficient_info": [
+   40,
+   35
+  ],
+  "out_of_scope": [
+   40,
+   39
+  ],
+  "colloquial_short": [
+   40,
+   40
+  ]
+ },
+ "validator_agreement": [
+  0.984375,
+  0.975
+ ],
+ "n_final": 312
+}

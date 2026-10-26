@@ -1,0 +1,86 @@
+{
+ "run_id": "sup-mmbert-banking77_official-kfull-seed42-corrected-20261025T122604Z-459dc5",
+ "config": {
+  "task": "banking77_official",
+  "model": "mmbert",
+  "model_id": "jhu-clsp/mmBERT-base",
+  "budget": "full",
+  "seed": 42,
+  "recipe": "corrected",
+  "max_len": 256,
+  "batch_size": 32,
+  "train_n": 9993,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "banking77",
+  "lr": 5e-05,
+  "epochs": 4,
+  "train_seed": 42,
+  "micro_batch": 32,
+  "grad_accumulation": 1,
+  "dtype": "torch.float32",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 1.1719692803476174,
+    "val_macro_f1": 0.8894277685258303
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.2502506813236314,
+    "val_macro_f1": 0.8870274954112962
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.13257729146958822,
+    "val_macro_f1": 0.8994741302437171
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.0887806914652012,
+    "val_macro_f1": 0.9035783029195423
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 78.75318733602762,
+   "head_params": [
+    "classifier.weight",
+    "classifier.bias"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "8287db9b263ca6754500f33937ce8664a27e1f51",
+  "utc": "2026-10-25T12:26:05.260030+00:00",
+  "host": "d36c696de22f",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/banking77_official/test.jsonl": "260ab65c221e3b627a2c87c0f3070da17d192937d2b077e19a7c1efcb2380696",
+   "data/banking77/train_full.jsonl": "a9eaff7d4f9bc00b3aa0a5c818bd6daa7f38468f1f22215bf996bfb102d80993"
+  }
+ },
+ "metrics": {
+  "n": 3076,
+  "coverage": 1.0,
+  "macro_f1": 0.9069400470713336,
+  "accuracy": 0.9066970091027308,
+  "refusals": 0,
+  "n_calibrated": 3076,
+  "ece15": 0.05712514296077165,
+  "brier": 0.15140560831126135,
+  "mean_confidence": 0.9636945481689451,
+  "latency_p50_ms": 22.56582199879631,
+  "latency_p95_ms": 28.174517499792273,
+  "train_s": 287.5,
+  "selection": {
+   "by": "full_val",
+   "best_epoch": 4,
+   "val_macro_f1": 0.9035783029195423,
+   "trained_on": 8995
+  },
+  "peak_vram_gb": 6.26,
+  "load_s": 5.6
+ }
+}

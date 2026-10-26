@@ -1,0 +1,45 @@
+\section{Calibration and Operational Trade-offs}
+\label{sec:ops}
+\input{generated/ops_text.tex}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{reliability.pdf}
+\caption{Reliability diagrams on the historical test samples (decision models zero-shot with descriptions; best compact classifier
+trained on all data, seed 42).}
+\label{fig:reliability}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{quality_latency.pdf}
+\caption{Quality against median latency per message. API latencies include the network; local latencies were measured on a Colab T4;
+the two are not comparable as hardware measurements.}
+\label{fig:quality}
+\end{figure}
+
+\begin{table}[t]
+\centering\small
+\caption{Cost elements with their basis. Measured values come from this study; the labelling rate is an explicit assumption. No
+break-even volume is reported because it depends on labelling and infrastructure costs that were not measured.}
+\label{tab:costs}
+\resizebox{\linewidth}{!}{\input{generated/table_costs.tex}}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{risk_coverage.pdf}
+\caption{Risk--coverage curves: error rate among the most confident predictions as coverage grows.}
+\label{fig:risk}
+\end{figure}
+
+\begin{table}[t]
+\centering\footnotesize
+\caption{Automatic acceptance with cross-fitted thresholds (decision models zero-shot with descriptions). $n$: test messages, each
+evaluated once per run on the half not used to choose its threshold. Coverage: share of predictions accepted (range over runs in
+parentheses). Err./acc.: errors and accepted predictions, summed over runs. Error: observed error among accepted predictions, with a 95\% bootstrap interval that
+resamples messages and keeps all runs of a message together (2{,}000 replicates). Refused requests count as sent to review.}
+\label{tab:selective}
+\setlength{\tabcolsep}{4pt}
+\input{generated/table_selective.tex}
+\end{table}

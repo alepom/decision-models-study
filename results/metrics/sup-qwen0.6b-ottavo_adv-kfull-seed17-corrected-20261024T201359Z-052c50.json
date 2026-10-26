@@ -1,0 +1,93 @@
+{
+ "run_id": "sup-qwen0.6b-ottavo_adv-kfull-seed17-corrected-20261024T201359Z-052c50",
+ "config": {
+  "task": "ottavo_adv",
+  "model": "qwen0.6b",
+  "model_id": "Qwen/Qwen3-0.6B",
+  "budget": "full",
+  "seed": 17,
+  "recipe": "corrected",
+  "max_len": 256,
+  "batch_size": 16,
+  "train_n": 1669,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "ottavo",
+  "lr": 0.0002,
+  "epochs": 6,
+  "train_seed": 17,
+  "dtype": "torch.float32",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 2.6751033903438146,
+    "val_macro_f1": 0.7530457831928422
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.38165150475644877,
+    "val_macro_f1": 0.9020839114589115
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.15092084186273155,
+    "val_macro_f1": 0.9109239208503914
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.03833873085133719,
+    "val_macro_f1": 0.8815609159359159
+   },
+   {
+    "epoch": 5,
+    "train_loss": 0.05014319346065675,
+    "val_macro_f1": 0.8799618273882981
+   },
+   {
+    "epoch": 6,
+    "train_loss": 0.058402400154292176,
+    "val_macro_f1": 0.9272474053724054
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 88.88150024414062,
+   "head_params": [
+    "base_model.model.score.modules_to_save.default.weight"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "734d4aef3cca579eb8390ebf9c45974ec81511ee",
+  "utc": "2026-10-24T20:13:59.633512+00:00",
+  "host": "b8254cc68f60",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/ottavo_adv/test.jsonl": "1fa3054ba7b7cf002323ea0d084a86d07955b4f4530185ca6667b49766ad52b0",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 601,
+  "coverage": 1.0,
+  "macro_f1": 0.8636582750509348,
+  "accuracy": 0.870216306156406,
+  "refusals": 0,
+  "n_calibrated": 601,
+  "ece15": 0.0996956444421346,
+  "brier": 0.2179672786023697,
+  "mean_confidence": 0.9668622126000098,
+  "latency_p50_ms": 97.61885199986864,
+  "latency_p95_ms": 112.43070000000444,
+  "train_s": 290.1,
+  "selection": {
+   "by": "full_val",
+   "best_epoch": 6,
+   "val_macro_f1": 0.9272474053724054,
+   "trained_on": 1502
+  },
+  "peak_vram_gb": 9.97,
+  "load_s": 5.2
+ }
+}

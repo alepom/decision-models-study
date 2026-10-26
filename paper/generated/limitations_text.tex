@@ -1,0 +1,34 @@
+\begin{itemize}
+\item \textbf{No real customer messages and no human gold labels.} Ottavo, its lexical stress set and Ottavo-R are synthetic and were
+written and validated by Claude models; train and normal test come from the same generators. Scores near 0.99 on these sets are upper
+bounds and show a ceiling effect. External validity rests on the two public benchmarks, which cover intent classification only.
+\item \textbf{Descriptions written from training data, and a post-hoc zero-label comparison.} On Banking77 and MASSIVE-it the
+descriptions (D) were written by agents that read labelled training examples, so D is not a zero-label condition there. The zero-label
+budget comparison (label names only, family P2N) was added after the main analysis, following an external review; it was not
+pre-declared, although it uses the same runs and procedure as the pre-declared family. On Ottavo D is the generation specification and
+matches the data more closely than a real specification would.
+\item \textbf{Possible contamination.} Banking77 and MASSIVE are public; Base Labs report training on public decision tasks. We cannot
+rule out that the decision models (or the base models of every system) saw these data. The small effect of descriptions for Elephant-1
+and Mammoth-1 on Banking77 is compatible with, but not evidence of, such exposure.
+\item \textbf{Moving endpoints.} OpenAI Decisions was a public beta and the Baseten models were called through ``latest'' aliases. The
+results describe the endpoints in October 2026; one re-run of OpenAI with label names differed by 0.012 macro-F1 across days.
+\item \textbf{Test size.} Historical test samples have about 1{,}000 messages (601 and 312 for the Ottavo stress sets). Differences of
+about one point are often not resolved; the full official tests (3{,}076 and 2{,}974 messages) are reported for the decision models and
+the compact classifiers as a separate analysis.
+\item \textbf{Recipes.} Hyperparameters were selected by cross-validation on seed 17 and frozen for the other seeds, with a small grid
+(two learning rates, three durations). For mmBERT and Qwen3-1.7B at 5 examples per class the selected duration was the largest in the
+grid. The full-data recipe (constant learning rate, epoch chosen on 10\% of the training data) proved suboptimal for Qwen3-0.6B on
+Banking77, where the exploratory recipe scored 2.6 points higher (Section~\ref{sec:results}); the two recipes were not compared on the
+other datasets or models. Decoder classifiers use a newly initialised linear head that does not read the category
+descriptions; a variant that keeps the language-model head and the descriptions during fine-tuning was not tested, so conclusions about
+fine-tuned decoders apply to this recipe only.
+\item \textbf{Hardware and software.} Supervised GPU runs used a Colab Tesla T4 (fp16 mixed precision, Qwen3-8B at 4 bit, Qwen3-1.7B with
+micro-batches of 4 and gradient accumulation to an effective batch of 16) and, for a few runs, an RTX 4050 laptop GPU. Library versions
+were pinned only after the first Colab jobs (zero-shot scoring, SetFit, mmBERT) had run with the then-current releases. Latencies are not
+comparable across API and local hardware.
+\item \textbf{Generalist controls only on Ottavo.} Single-letter option scoring supports at most 26 options, so Qwen3-8B and Qwen3.5-9B were
+evaluated only on the 24-class Ottavo task. The progenitor comparison does not isolate the effect of the decision training data from the
+attention mask, the objective and the serving stack.
+\item \textbf{Not tested.} Jev (waiting-list access only); self-hosting of Elephant-1 or Mammoth-1; distillation from a decision model
+into a compact student; real-traffic costs, including the cost of labelling.
+\end{itemize}

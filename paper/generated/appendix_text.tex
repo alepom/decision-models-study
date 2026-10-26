@@ -1,0 +1,57 @@
+\subsection*{A.1 Prompts}
+\textbf{Decision APIs.} Instruction (identical for N and D, all datasets): \emph{``Classify the user's message into the single most
+appropriate intent.''} Options are the class identifiers with a description: in condition N the identifier with underscores replaced
+by spaces, in condition D the description in \nolinkurl{data/descriptions/*_D.json} (Ottavo: \nolinkurl{data/ottavo/labels.json}).
+In-context examples are appended as lines \texttt{- "<text>" -> <label>}. OpenAI receives the options as a \texttt{choice} question;
+Baseten System One receives them as \texttt{criteria}. Full request bodies are reproducible from \nolinkurl{dmstudy/decisions.py}.
+
+\textbf{Generalist controls.} One user turn with the instruction \emph{``Classify the customer's message into exactly one of the categories
+below, based on the customer's main intent. Answer with the letter of the category only.''}, the categories listed as
+\texttt{A) name: description}, and the message; chat template with thinking disabled. The next-token distribution is restricted to
+the valid letters and renormalised; the mean probability mass on valid letters was close to 1.
+
+\subsection*{A.2 Supervised configurations}
+TF-IDF: word 1--2-grams and character 2--5-grams, logistic regression, $C\in\{1,10,100\}$ by 3-fold CV inside the budget (validation
+split for full data). SetFit: \nolinkurl{intfloat/multilingual-e5-base}, prefix ``query: '', 256 tokens, 20 pair iterations, one epoch,
+batch 16, logistic head, at most 2{,}000 contrastive steps for full data. mmBERT-base: full fine-tuning, learning rate $\in\{2\cdot10^{-5},
+5\cdot10^{-5}\}$. Qwen3 0.6B/1.7B: LoRA $r=16$, $\alpha=32$, dropout 0.05 on all attention and MLP projections, linear classification head
+trained in fp32, learning rate $\in\{5\cdot10^{-5}, 2\cdot10^{-4}\}$, batch 16. Qwen3-8B: QLoRA (NF4, double quantisation), same adapters,
+learning rate $10^{-4}$, batch 8. Durations evaluated in CV: 5, 10, 20 epochs at 5 per class; 3, 6, 12 at 20 per class; full data: best of
+4 (public) or 6 (Ottavo) epochs on the validation split. Maximum input length 256 tokens. Selected recipes are in \nolinkurl{results/selection/}.
+
+\subsection*{A.3 Data}
+Few-shot subsets, validation splits, API subsets and option permutations are listed by example ID in \nolinkurl{data/manifests/}. The
+Ottavo generation prompts and the validators' instructions are in \nolinkurl{data/ottavo/generation/}; validator agreement and dropped
+items are in \nolinkurl{reports/audit_initial.md} and \nolinkurl{data/ottavo_r/build_report.json}.
+
+\subsection*{A.4 Statistics}
+Paired percentile bootstrap over test messages, 2{,}000 replicates, seed 20261024, implemented with multinomial weights; macro-F1 over
+classes present in the gold labels; supervised statistics are means over seeds within each replicate. Holm's correction is applied
+within each family of contrasts (P1--P6 and S1 declared in advance, P2N added post hoc) listed in \nolinkurl{reports/contrasts_primary.md}. ECE uses 15 equal-width bins on the maximum class probability;
+Brier is $\frac{1}{n}\sum_i\sum_k (p_{ik}-y_{ik})^2$. Selective prediction thresholds are chosen on one random half of the test set and
+evaluated on the other (two-fold cross-fitting).
+
+\subsection*{A.5 Per-class results}
+\label{app:perclass}
+Table~\ref{tab:perclass} summarises per-class F1 (supported classes only; compact classifiers: mean over three seeds). The complete
+per-class table with supports is in \nolinkurl{reports/per_class_f1.csv}.
+
+\subsection*{A.6 Variability across seeds}
+Table~\ref{tab:seeds} reports, for each supervised configuration, the mean, standard deviation, minimum and maximum macro-F1 over the
+three seeds (17, 42, 123). The seed changes both the few-shot subset and the training randomness. This run-to-run variability is distinct
+from the uncertainty due to the finite test sample, which the bootstrap intervals in the main text describe.
+
+\begin{table}[!htbp]
+\centering\scriptsize
+\caption{Macro-F1 across the three seeds.}
+\label{tab:seeds}
+\input{generated/table_seeds.tex}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\footnotesize
+\caption{Per-class F1: median, 10th percentile, minimum, number of classes below 0.5 and the three weakest classes (all data for
+compact classifiers; zero-shot with descriptions for decision models).}
+\label{tab:perclass}
+\input{generated/table_per_class.tex}
+\end{table}

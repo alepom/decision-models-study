@@ -1,0 +1,4 @@
+task,dm,sup,dm_errors,sup_errors,both,only_dm,only_sup,n
+banking77,mammoth,qwen0.6b,75,89.7,40.7,34.3,49.0,1000
+massive_it,elephant,mmbert,126,156.0,87.0,39.0,69.0,996
+ottavo,mammoth,qwen8b,9,23.7,3.0,6.0,20.7,960

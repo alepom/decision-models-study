@@ -1,0 +1,14 @@
+{
+ "accuracy": 0.657,
+ "macro_f1": 0.6519,
+ "no_answer": 0,
+ "ece": 0.3418,
+ "latency_p50_ms": 1.0,
+ "latency_p95_ms": 2.1,
+ "system": "tfidf",
+ "variant": "5-shot",
+ "task": "banking77",
+ "train_examples": 385,
+ "n": 1000,
+ "train_s": 3.3
+}

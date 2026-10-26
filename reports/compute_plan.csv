@@ -1,0 +1,11 @@
+activity,plan,hardware,runs_planned,runs_done,feasibility,peak_vram_gb,mean_seconds_per_run,est_remaining_hours,api_cost_usd,note
+tfidf,local,RTX 4050 Laptop 6 GB,27,27,verified,,78.9,0.0,0,GPU time only; Colab waits and human time excluded
+zero-shot LM,colab,Colab Tesla T4 16 GB,12,0,planned,,,,0,GPU time only; Colab waits and human time excluded
+setfit,colab,Colab Tesla T4 16 GB,27,3,verified,,1574.3,10.5,0,GPU time only; Colab waits and human time excluded
+cv,colab,Colab Tesla T4 16 GB,16,0,planned,,,,0,GPU time only; Colab waits and human time excluded
+mmbert,colab,Colab Tesla T4 16 GB,27,0,planned,6.55,,,0,GPU time only; Colab waits and human time excluded
+qwen0.6b,colab,Colab Tesla T4 16 GB,33,0,planned,9.97,,,0,GPU time only; Colab waits and human time excluded
+qwen8b,colab,Colab Tesla T4 16 GB,11,0,planned,9.23,,,0,GPU time only; Colab waits and human time excluded
+qwen1.7b,colab,Colab Tesla T4 16 GB,9,0,planned,7.56,,,0,GPU time only; Colab waits and human time excluded
+decision APIs (OpenAI),api,OpenAI Decisions,,35,verified,,,,8.1,cap 10 USD; few-shot-in-prompt on 300-example subset
+decision APIs (Baseten),api,Baseten System One,,66,verified,,,,0,promotional free access until 2026-10-27; not a production price

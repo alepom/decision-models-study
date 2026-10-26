@@ -1,0 +1,69 @@
+{
+ "run_id": "zs-qwen3-8b-ottavo-D-p2-api-20261024T165718Z-1f00e1",
+ "config": {
+  "kind": "zeroshot_lm",
+  "task": "ottavo",
+  "model": "qwen3-8b",
+  "labels": "D",
+  "perm": 2,
+  "subset": "api",
+  "instruction": "Classify the customer's message into exactly one of the categories below, based on the customer's main intent. Answer with the letter of the category only.",
+  "label_order_presented": [
+   "disiscrizione_marketing",
+   "supporto_uso_prodotto",
+   "codice_sconto",
+   "articolo_errato_mancante",
+   "recesso_ripensamento",
+   "reclamo_servizio_clienti",
+   "rimborso_stato",
+   "privacy_cancellazione_dati",
+   "disponibilita_riassortimento",
+   "pagamento_rifiutato",
+   "addebito_doppio_errato",
+   "programma_fedelta",
+   "ordine_ritardo_reclamo",
+   "danno_alla_consegna",
+   "info_prodotto_prevendita",
+   "ordine_stato_spedizione",
+   "ordine_annullamento",
+   "pagamento_rate",
+   "fattura_richiesta",
+   "ritiro_in_negozio",
+   "reso_garanzia_difetto",
+   "ordine_modifica_indirizzo",
+   "fuori_tema",
+   "accesso_account"
+  ],
+  "model_id": "Qwen/Qwen3-8B",
+  "model_class": "Qwen3ForCausalLM",
+  "dtype": "torch.float16",
+  "quantization": "nf4-4bit",
+  "load_s": 71.0,
+  "device": "Tesla T4",
+  "peak_vram_gb": 6.52,
+  "mean_prompt_tokens": 953.7152777777778
+ },
+ "provenance": {
+  "git_commit": "91bcbc5f785edae6d577957e71ebf0e2766bd244",
+  "utc": "2026-10-24T16:57:18.145550+00:00",
+  "host": "9f6f52ec6793",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/ottavo/test.jsonl": "f958582ee2e89f3d9f389bedf063e669f889e29a881cd1baa9823a53db0b125c",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 288,
+  "coverage": 1.0,
+  "macro_f1": 0.9278358095205922,
+  "accuracy": 0.9305555555555556,
+  "refusals": 0,
+  "n_calibrated": 288,
+  "ece15": 0.06519275220731899,
+  "brier": 0.1290916229057495,
+  "mean_confidence": 0.9935202315035794,
+  "latency_p50_ms": 1370.2915829999256,
+  "latency_p95_ms": 1468.2873728000231
+ }
+}

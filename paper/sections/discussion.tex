@@ -1,0 +1,35 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{What decision models buy.} The clearest benefit is the absence of a labelled training set: even with label names only,
+no compact classifier we tested came close with 5 or 20 examples per class. The second benefit is operational: the Base Labs models gave the same answer
+for any option order, had well-calibrated probabilities and therefore supported a usable ``accept automatically or send to a human''
+policy on Banking77, with an observed error close to, though not always below, the target. Neither benefit depends on the decision models being far better than a well-trained small model when thousands of
+labels are available; in that regime the remaining gap was 0--2.4 points on two of the three datasets (5.5 on MASSIVE-it),
+and on Banking77 a different training recipe left no resolved difference.
+
+\paragraph{Where the advantage comes from.} Comparing Elephant-1 with Qwen3-8B suggested a large effect of decision-specific
+post-training; compared with its actual base, Qwen3.5-9B, the observed gap is much smaller. This is not a causal decomposition (the two
+also differ in attention mask, objective, precision and serving), but it shows that an older generalist is the wrong baseline.
+For a practitioner this has a practical consequence: a recent open generalist, prompted with good category descriptions and scored
+on option letters, is already a strong zero-shot classifier on a task like Ottavo, although it is slower in our unoptimised
+implementation and more sensitive to option order.
+
+\paragraph{When a small classifier is the better choice.} Our data support a compact classifier when (i) thousands of labelled
+examples exist or can be produced at an acceptable cost, (ii) the taxonomy is stable, so labels do not need to be redone, and (iii)
+volume, latency or data-residency constraints matter more than one or two points of macro-F1. Below about 20 examples per class,
+SetFit was the best compact option among those we evaluated; decoders with a new classification head collapsed with both recipes we tried.
+
+\paragraph{Descriptions, prompts and evaluation practice.} Category descriptions and in-context examples are not universally helpful:
+their effect varies with the model and the dataset. Descriptions written from labelled examples also spend labels, which a fair
+comparison with trained classifiers has to count. Practitioners should measure both on their own data, using the same messages for the comparison, and
+prefer retrieved examples to long lists of examples when a prompt-based model benefits from them. More generally, evaluations that report
+a single run on a single test sample can mislead in both directions. The exploratory result that motivated this study (a small model
+beating a decision model on Banking77) looked refuted under our frozen protocol, which scored the small model 2.6 points lower; the
+exploratory recipe, re-run with four seeds, reproduced the original score, with no resolved difference from the decision model. A frozen protocol protects
+against choosing a recipe on the test set, not against a recipe that is simply worse: comparisons of fine-tuned models with API systems
+should report how sensitive they are to the training recipe.
+
+\paragraph{Errors are partly complementary.} Decision models and compact classifiers trained on all data share only part of their errors
+(Table~\ref{tab:overlap}). This suggests, without testing it, that a combination---for example a compact classifier that defers to a decision
+model when it is unsure---might outperform both; the teacher--student and cascade designs discussed in the literature are natural next steps.

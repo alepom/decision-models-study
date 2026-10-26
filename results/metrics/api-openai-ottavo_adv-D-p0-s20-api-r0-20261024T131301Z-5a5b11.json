@@ -1,0 +1,75 @@
+{
+ "run_id": "api-openai-ottavo_adv-D-p0-s20-api-r0-20261024T131301Z-5a5b11",
+ "config": {
+  "kind": "decision_api",
+  "task": "ottavo_adv",
+  "provider": "openai",
+  "requested_model": "gpt-6-luna",
+  "labels": "D",
+  "perm": 0,
+  "shots": "20",
+  "shot_seed": 42,
+  "subset": "api",
+  "repeat": 0,
+  "n": 299,
+  "instruction": "Classify the user's message into the single most appropriate intent.",
+  "label_order_presented": [
+   "ordine_stato_spedizione",
+   "ordine_ritardo_reclamo",
+   "ordine_modifica_indirizzo",
+   "ordine_annullamento",
+   "recesso_ripensamento",
+   "reso_garanzia_difetto",
+   "danno_alla_consegna",
+   "articolo_errato_mancante",
+   "rimborso_stato",
+   "addebito_doppio_errato",
+   "pagamento_rifiutato",
+   "pagamento_rate",
+   "fattura_richiesta",
+   "codice_sconto",
+   "accesso_account",
+   "privacy_cancellazione_dati",
+   "disiscrizione_marketing",
+   "info_prodotto_prevendita",
+   "disponibilita_riassortimento",
+   "supporto_uso_prodotto",
+   "ritiro_in_negozio",
+   "programma_fedelta",
+   "reclamo_servizio_clienti",
+   "fuori_tema"
+  ],
+  "prompt_sha256": "d5349465d4833bdb694c35835a6b75216c67101617c21807c5a1eb243192bed3",
+  "returned_models": [
+   "gpt-6-luna"
+  ]
+ },
+ "provenance": {
+  "git_commit": "ee66428576c816fcf67d7470e77c9bb41a481745-dirty",
+  "utc": "2026-10-24T13:13:01.582162+00:00",
+  "host": "PCAlessio",
+  "python": "3.13.5",
+  "data_sha256": {
+   "data/ottavo_adv/test.jsonl": "1fa3054ba7b7cf002323ea0d084a86d07955b4f4530185ca6667b49766ad52b0",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 299,
+  "coverage": 1.0,
+  "macro_f1": 0.9835315714034248,
+  "accuracy": 0.9866220735785953,
+  "refusals": 0,
+  "n_calibrated": 299,
+  "ece15": 0.020869565217391285,
+  "brier": 0.020740468227424754,
+  "mean_confidence": 0.9726421404682274,
+  "latency_p50_ms": 338.6139980138978,
+  "latency_p95_ms": 691.1374558534585,
+  "input_tokens_billed": 7212539,
+  "cost_usd": 0.7213,
+  "wall_s": 7.6,
+  "errors": 0,
+  "cached": 1
+ }
+}

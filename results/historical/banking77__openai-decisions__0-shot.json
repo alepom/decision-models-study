@@ -1,0 +1,16 @@
+{
+ "accuracy": 0.783,
+ "macro_f1": 0.7654,
+ "no_answer": 2,
+ "latency_p50_ms": 257.1,
+ "latency_p95_ms": 358.3,
+ "system": "openai-decisions",
+ "variant": "0-shot",
+ "task": "banking77",
+ "train_examples": 0,
+ "n": 1000,
+ "wall_s": 16.4,
+ "input_tokens": 987939,
+ "cost_usd": 0.0988,
+ "cost_per_1k_usd": 0.0988
+}

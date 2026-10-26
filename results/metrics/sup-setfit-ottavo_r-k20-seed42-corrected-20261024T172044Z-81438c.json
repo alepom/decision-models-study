@@ -1,0 +1,45 @@
+{
+ "run_id": "sup-setfit-ottavo_r-k20-seed42-corrected-20261024T172044Z-81438c",
+ "config": {
+  "kind": "supervised",
+  "task": "ottavo_r",
+  "trained_on_task": "ottavo",
+  "model": "setfit",
+  "budget": "20",
+  "seed": 42,
+  "recipe": "corrected",
+  "train_n": 480
+ },
+ "provenance": {
+  "git_commit": "91bcbc5f785edae6d577957e71ebf0e2766bd244",
+  "utc": "2026-10-24T17:20:44.180089+00:00",
+  "host": "9f6f52ec6793",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/ottavo_r/test.jsonl": "55902e5657c6f0c61069dd8d3f361aa8d675cee704383a2b8509425e979cd616",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 312,
+  "coverage": 1.0,
+  "macro_f1": 0.6209003304896604,
+  "accuracy": 0.5865384615384616,
+  "refusals": 0,
+  "n_calibrated": 238,
+  "ece15": 0.12856260035969636,
+  "brier": 0.37555159155503354,
+  "mean_confidence": 0.6412981570142657,
+  "latency_p50_ms": 11.415372000101343,
+  "latency_p95_ms": 17.088062250149946,
+  "train_s": 632.4,
+  "selection": {
+   "by": "frozen_recipe",
+   "encoder": "intfloat/multilingual-e5-base",
+   "num_iterations": 20,
+   "epochs": 1,
+   "max_steps": null,
+   "max_seq_length": 256
+  }
+ }
+}

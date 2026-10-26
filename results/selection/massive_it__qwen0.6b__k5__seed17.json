@@ -1,0 +1,26 @@
+{
+ "task": "massive_it",
+ "model": "qwen0.6b",
+ "model_id": "Qwen/Qwen3-0.6B",
+ "budget": "5",
+ "seed": 17,
+ "recipe": "corrected",
+ "max_len": 256,
+ "batch_size": 16,
+ "train_n": 299,
+ "torch": "2.11.0+cu130",
+ "gpu": "Tesla T4",
+ "kind": "cv_selection",
+ "folds": 3,
+ "grid": {
+  "5e-05|5": 0.06194003527336861,
+  "5e-05|10": 0.1370859387526054,
+  "5e-05|20": 0.1463011063011063,
+  "0.0002|5": 0.2632142857142857,
+  "0.0002|10": 0.2901631393298059,
+  "0.0002|20": 0.2940700657367324
+ },
+ "best_lr": 0.0002,
+ "best_epochs": 20,
+ "trainings": 6
+}

@@ -1,0 +1,86 @@
+{
+ "run_id": "sup-mmbert-banking77-kfull-seed17-corrected-20261025T121104Z-2ad9e5",
+ "config": {
+  "task": "banking77",
+  "model": "mmbert",
+  "model_id": "jhu-clsp/mmBERT-base",
+  "budget": "full",
+  "seed": 17,
+  "recipe": "corrected",
+  "max_len": 256,
+  "batch_size": 32,
+  "train_n": 9993,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "banking77",
+  "lr": 5e-05,
+  "epochs": 4,
+  "train_seed": 17,
+  "micro_batch": 32,
+  "grad_accumulation": 1,
+  "dtype": "torch.float32",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 1.1924039234679034,
+    "val_macro_f1": 0.8887845542581688
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.266491044077167,
+    "val_macro_f1": 0.9006317121041434
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.13870246721180016,
+    "val_macro_f1": 0.9095922215310366
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.10317957463874593,
+    "val_macro_f1": 0.9157667652280446
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 77.80434027686715,
+   "head_params": [
+    "classifier.weight",
+    "classifier.bias"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "8287db9b263ca6754500f33937ce8664a27e1f51",
+  "utc": "2026-10-25T12:11:04.244607+00:00",
+  "host": "d36c696de22f",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/banking77/test.jsonl": "b3aaf349ec393cff19b2e9eefaba91f7c13210006c09534a78ee95b10e5bcfab",
+   "data/banking77/train_full.jsonl": "a9eaff7d4f9bc00b3aa0a5c818bd6daa7f38468f1f22215bf996bfb102d80993"
+  }
+ },
+ "metrics": {
+  "n": 1000,
+  "coverage": 1.0,
+  "macro_f1": 0.9050354839821145,
+  "accuracy": 0.903,
+  "refusals": 0,
+  "n_calibrated": 1000,
+  "ece15": 0.06069735367596149,
+  "brier": 0.15428001615980236,
+  "mean_confidence": 0.9627721410542727,
+  "latency_p50_ms": 23.19013200030895,
+  "latency_p95_ms": 29.203474752102917,
+  "train_s": 289.0,
+  "selection": {
+   "by": "full_val",
+   "best_epoch": 4,
+   "val_macro_f1": 0.9157667652280446,
+   "trained_on": 8995
+  },
+  "peak_vram_gb": 6.26,
+  "load_s": 5.7
+ }
+}

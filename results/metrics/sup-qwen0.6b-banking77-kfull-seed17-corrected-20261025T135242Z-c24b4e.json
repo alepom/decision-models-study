@@ -1,0 +1,85 @@
+{
+ "run_id": "sup-qwen0.6b-banking77-kfull-seed17-corrected-20261025T135242Z-c24b4e",
+ "config": {
+  "task": "banking77",
+  "model": "qwen0.6b",
+  "model_id": "Qwen/Qwen3-0.6B",
+  "budget": "full",
+  "seed": 17,
+  "recipe": "corrected",
+  "max_len": 256,
+  "batch_size": 16,
+  "train_n": 9993,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "banking77",
+  "lr": 0.0002,
+  "epochs": 4,
+  "train_seed": 17,
+  "micro_batch": 16,
+  "grad_accumulation": 1,
+  "dtype": "torch.float32",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 1.0394222098524335,
+    "val_macro_f1": 0.8918463247931864
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.26151645064660417,
+    "val_macro_f1": 0.8864694187436938
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.157803766439571,
+    "val_macro_f1": 0.9072891790083079
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.11571376554958944,
+    "val_macro_f1": 0.9037860312002662
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 579.7130737304688,
+   "head_params": [
+    "base_model.model.score.modules_to_save.default.weight"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "8287db9b263ca6754500f33937ce8664a27e1f51",
+  "utc": "2026-10-25T13:52:43.110269+00:00",
+  "host": "d36c696de22f",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/banking77/test.jsonl": "b3aaf349ec393cff19b2e9eefaba91f7c13210006c09534a78ee95b10e5bcfab",
+   "data/banking77/train_full.jsonl": "a9eaff7d4f9bc00b3aa0a5c818bd6daa7f38468f1f22215bf996bfb102d80993"
+  }
+ },
+ "metrics": {
+  "n": 1000,
+  "coverage": 1.0,
+  "macro_f1": 0.907358665308635,
+  "accuracy": 0.907,
+  "refusals": 0,
+  "n_calibrated": 1000,
+  "ece15": 0.0565572136640549,
+  "brier": 0.1412980331239019,
+  "mean_confidence": 0.9635324791669846,
+  "latency_p50_ms": 105.37924699929135,
+  "latency_p95_ms": 122.00727139897936,
+  "train_s": 679.0,
+  "selection": {
+   "by": "full_val",
+   "best_epoch": 3,
+   "val_macro_f1": 0.9072891790083079,
+   "trained_on": 8995
+  },
+  "peak_vram_gb": 7.68,
+  "load_s": 6.0
+ }
+}

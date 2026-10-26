@@ -1,0 +1,26 @@
+{
+ "task": "ottavo",
+ "model": "mmbert",
+ "model_id": "jhu-clsp/mmBERT-base",
+ "budget": "5",
+ "seed": 17,
+ "recipe": "corrected",
+ "max_len": 256,
+ "batch_size": 32,
+ "train_n": 120,
+ "torch": "2.11.0+cu130",
+ "gpu": "Tesla T4",
+ "kind": "cv_selection",
+ "folds": 3,
+ "grid": {
+  "2e-05|5": 0.04393738977072311,
+  "2e-05|10": 0.2489868927368927,
+  "2e-05|20": 0.30482804232804234,
+  "5e-05|5": 0.2268097643097643,
+  "5e-05|10": 0.28487654320987654,
+  "5e-05|20": 0.3331666019166019
+ },
+ "best_lr": 5e-05,
+ "best_epochs": 20,
+ "trainings": 6
+}

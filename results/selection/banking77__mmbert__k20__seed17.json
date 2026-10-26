@@ -1,0 +1,26 @@
+{
+ "task": "banking77",
+ "model": "mmbert",
+ "model_id": "jhu-clsp/mmBERT-base",
+ "budget": "20",
+ "seed": 17,
+ "recipe": "corrected",
+ "max_len": 256,
+ "batch_size": 32,
+ "train_n": 1540,
+ "torch": "2.11.0+cu130",
+ "gpu": "Tesla T4",
+ "kind": "cv_selection",
+ "folds": 3,
+ "grid": {
+  "2e-05|3": 0.5929617524650066,
+  "2e-05|6": 0.6937729021782739,
+  "2e-05|12": 0.7301184154977554,
+  "5e-05|3": 0.7104706241776567,
+  "5e-05|6": 0.7307361482931919,
+  "5e-05|12": 0.7958004094779857
+ },
+ "best_lr": 5e-05,
+ "best_epochs": 12,
+ "trainings": 6
+}

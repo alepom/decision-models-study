@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+results/cache/
+logs/
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+checkpoints/

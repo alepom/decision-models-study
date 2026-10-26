@@ -1,0 +1,75 @@
+{
+ "run_id": "api-mammoth-ottavo-N-p0-s0-full-r0-20261024T130940Z-00bdd6",
+ "config": {
+  "kind": "decision_api",
+  "task": "ottavo",
+  "provider": "mammoth",
+  "requested_model": "decision-models/baseten-mammoth-27b-latest",
+  "labels": "N",
+  "perm": 0,
+  "shots": "0",
+  "shot_seed": null,
+  "subset": "full",
+  "repeat": 0,
+  "n": 960,
+  "instruction": "Classify the user's message into the single most appropriate intent.",
+  "label_order_presented": [
+   "ordine_stato_spedizione",
+   "ordine_ritardo_reclamo",
+   "ordine_modifica_indirizzo",
+   "ordine_annullamento",
+   "recesso_ripensamento",
+   "reso_garanzia_difetto",
+   "danno_alla_consegna",
+   "articolo_errato_mancante",
+   "rimborso_stato",
+   "addebito_doppio_errato",
+   "pagamento_rifiutato",
+   "pagamento_rate",
+   "fattura_richiesta",
+   "codice_sconto",
+   "accesso_account",
+   "privacy_cancellazione_dati",
+   "disiscrizione_marketing",
+   "info_prodotto_prevendita",
+   "disponibilita_riassortimento",
+   "supporto_uso_prodotto",
+   "ritiro_in_negozio",
+   "programma_fedelta",
+   "reclamo_servizio_clienti",
+   "fuori_tema"
+  ],
+  "prompt_sha256": "7a95637e6b1c09051f0037ab7e56bbd8ff90ba8470df241698af7e1992264007",
+  "returned_models": [
+   "decision-models/baseten-mammoth-27b-latest"
+  ]
+ },
+ "provenance": {
+  "git_commit": "ee66428576c816fcf67d7470e77c9bb41a481745-dirty",
+  "utc": "2026-10-24T13:09:40.131054+00:00",
+  "host": "PCAlessio",
+  "python": "3.13.5",
+  "data_sha256": {
+   "data/ottavo/test.jsonl": "f958582ee2e89f3d9f389bedf063e669f889e29a881cd1baa9823a53db0b125c",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 960,
+  "coverage": 1.0,
+  "macro_f1": 0.9747367743070269,
+  "accuracy": 0.975,
+  "refusals": 0,
+  "n_calibrated": 960,
+  "ece15": 0.02146059782537195,
+  "brier": 0.041166645263166254,
+  "mean_confidence": 0.9563474976882883,
+  "latency_p50_ms": 223.8083170086611,
+  "latency_p95_ms": 469.3741384835428,
+  "input_tokens_billed": 447661,
+  "cost_usd": 0.0,
+  "wall_s": 66.8,
+  "errors": 0,
+  "cached": 1
+ }
+}

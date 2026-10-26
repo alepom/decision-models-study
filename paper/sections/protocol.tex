@@ -1,0 +1,36 @@
+\section{Experimental Protocol}
+\label{sec:protocol}
+
+\paragraph{Freezing.} The protocol, split manifests, descriptions and the list of primary contrasts were committed before the new
+evaluations (git tag \texttt{protocol-frozen-v1}); Ottavo-R was added and frozen before it was evaluated. All historical test sets
+had already been observed in an earlier exploratory study by the same team, whose results are kept as a separate, unverified layer.
+
+\paragraph{Label budgets.} Budgets count every task label used: $k \in \{5, 20\}$ examples per class, or the full training set. For
+each seed in $\{17, 42, 123\}$ the per-class subsets are nested and identical across methods; the seed also controls training
+randomness, so seed variability combines both sources. Decision models with label names (N) use no labelled example of the task.
+With descriptions (D) this holds on Ottavo, but on Banking77 and MASSIVE-it the descriptions were written from labelled training
+examples (Section~\ref{sec:data}). An external review pointed out that this conflicts with counting every label used; we therefore
+added, after the main analysis, a post-hoc family P2N that compares the best decision model with label names against each compact
+classifier, and we use it as the zero-label comparison. The pre-declared family P2 (with D) is still reported.
+
+\paragraph{Recipe selection without test data.} For $k$-shot budgets, the learning rate and number of epochs of mmBERT and the LoRA/QLoRA
+decoders are selected by 3-fold stratified cross-validation inside the budget on seed 17 and then frozen for the other seeds. A constant
+learning rate after a 10-step warm-up makes evaluations at different epochs of one run equivalent to runs of different length. In the
+full regime the epoch is selected on a 10\% stratified split of the training set. TF-IDF selects $C$ by the same cross-validation.
+SetFit uses the default recipe of \citet{tunstall2022setfit} without tuning (contrastive fine-tuning capped at 2{,}000 steps in the full
+regime). The \emph{original recipe} of the exploratory study (one-cycle schedule, $\lceil 4000/n \rceil$ epochs clamped to $[3,40]$)
+is re-run unchanged as a reference.
+
+\paragraph{API protocol.} Every call is cached by provider, model, request body and repetition index, so identical requests are never
+re-billed and repeated requests are explicit. Refusals and failed calls remain in the denominator; we report coverage separately. The
+distribution over options returned by the API, renormalised over the valid options, is the probability used for calibration; the API
+\texttt{confidence} field is stored but not used. Expensive conditions (examples in the prompt, option-order permutations, repetitions)
+use a frozen stratified subset of 300 test messages (288 for Ottavo).
+
+\paragraph{Metrics and statistics.} The primary metric is macro-F1 over classes present in the gold labels. Differences between systems
+are paired differences on identical examples with 95\% percentile intervals from 2{,}000 bootstrap replicates of the test examples
+\citep{efron1993bootstrap}; for supervised systems the statistic is the mean over seeds. Holm's correction \citep{holm1979} is applied
+within each family of contrasts; confidence intervals are not adjusted for multiplicity. With 2{,}000 replicates the resolution of
+$p$ is $0.0005$, and $p$-values below $0.001$ are reported as such. We do not claim equivalence for non-significant differences: a
+difference whose interval includes zero is \emph{not resolved}, not a tie. Calibration uses ECE with 15
+equal-width bins on the maximum class probability and the multiclass Brier score.

@@ -1,0 +1,48 @@
+\begin{tabular}{lllrll}
+\toprule
+Data & A & B & $\Delta$ macro-F1 & 95\% CI & $p_{\mathrm{Holm}}$ \\
+\midrule
+\multicolumn{6}{l}{\textit{P1: descriptions, D $-$ N}} \\
+Banking77 & OpenAI D & OpenAI N & +0.071 & [+0.051, +0.093] & $<$0.001 \\
+Banking77 & Elephant-1 D & Elephant-1 N & -0.009 & [-0.019, +0.002] & 0.410 \\
+Banking77 & Mammoth-1 D & Mammoth-1 N & -0.010 & [-0.022, +0.001] & 0.410 \\
+MASSIVE-it & OpenAI D & OpenAI N & +0.022 & [-0.013, +0.060] & 0.654 \\
+MASSIVE-it & Elephant-1 D & Elephant-1 N & +0.037 & [+0.001, +0.060] & 0.308 \\
+MASSIVE-it & Mammoth-1 D & Mammoth-1 N & -0.009 & [-0.025, +0.015] & 0.736 \\
+Ottavo & OpenAI D & OpenAI N & +0.025 & [+0.015, +0.035] & $<$0.001 \\
+Ottavo & Elephant-1 D & Elephant-1 N & +0.032 & [+0.021, +0.046] & $<$0.001 \\
+Ottavo & Mammoth-1 D & Mammoth-1 N & +0.016 & [+0.007, +0.026] & $<$0.001 \\
+Banking77 (full test) & Elephant-1 D & Elephant-1 N & -0.007 & [-0.013, -0.001] & 0.224 \\
+Banking77 (full test) & Mammoth-1 D & Mammoth-1 N & -0.008 & [-0.014, -0.003] & 0.045 \\
+MASSIVE-it (full test) & Elephant-1 D & Elephant-1 N & +0.015 & [-0.000, +0.032] & 0.366 \\
+MASSIVE-it (full test) & Mammoth-1 D & Mammoth-1 N & -0.006 & [-0.018, +0.007] & 0.736 \\
+\midrule
+\multicolumn{6}{l}{\textit{P3: progenitor}} \\
+Ottavo & Elephant-1 D & Qwen3.5-9B D & +0.013 & [+0.003, +0.024] & 0.009 \\
+Ottavo & Qwen3.5-9B D & Qwen3-8B D & +0.032 & [+0.018, +0.047] & $<$0.001 \\
+Ottavo stress & Elephant-1 D & Qwen3.5-9B D & +0.030 & [+0.017, +0.046] & $<$0.001 \\
+Ottavo stress & Qwen3.5-9B D & Qwen3-8B D & +0.067 & [+0.046, +0.093] & $<$0.001 \\
+\midrule
+\multicolumn{6}{l}{\textit{P4: adaptation of Qwen3-8B}} \\
+Ottavo & Qwen3-8B QLoRA k=5 & Qwen3-8B D & -0.665 & [-0.688, -0.645] & $<$0.001 \\
+Ottavo & Qwen3-8B QLoRA k=20 & Qwen3-8B D & -0.048 & [-0.068, -0.030] & $<$0.001 \\
+Ottavo & Qwen3-8B QLoRA all data & Qwen3-8B D & +0.033 & [+0.019, +0.048] & $<$0.001 \\
+Ottavo stress & Qwen3-8B QLoRA k=5 & Qwen3-8B D & -0.590 & [-0.626, -0.557] & $<$0.001 \\
+Ottavo stress & Qwen3-8B QLoRA k=20 & Qwen3-8B D & +0.027 & [-0.002, +0.058] & 0.067 \\
+Ottavo stress & Qwen3-8B QLoRA all data & Qwen3-8B D & +0.058 & [+0.035, +0.086] & $<$0.001 \\
+\midrule
+\multicolumn{6}{l}{\textit{P5: recipe (prot.: protocol recipe; expl.: exploratory recipe)}} \\
+Ottavo & Qwen3-0.6B k=5 prot. & Qwen3-0.6B k=5 expl. & +0.000 & [-0.016, +0.018] & 1.000 \\
+Ottavo & Qwen3-0.6B k=20 prot. & Qwen3-0.6B k=20 expl. & +0.076 & [+0.057, +0.095] & $<$0.001 \\
+Ottavo & Qwen3-8B k=5 prot. & Qwen3-8B k=5 expl. & +0.004 & [-0.030, +0.036] & 1.000 \\
+Ottavo & Qwen3-8B k=20 prot. & Qwen3-8B k=20 expl. & +0.022 & [+0.003, +0.042] & 0.072 \\
+\midrule
+\multicolumn{6}{l}{\textit{S1: recipe sensitivity, all data}} \\
+Banking77 & Qwen3-0.6B expl. & Qwen3-0.6B prot. & +0.026 & [+0.018, +0.035] & $<$0.001 \\
+Banking77 & Mammoth-1 D & Qwen3-0.6B expl. & -0.011 & [-0.025, +0.002] & 0.312 \\
+Banking77 & Mammoth-1 N & Qwen3-0.6B expl. & -0.002 & [-0.014, +0.011] & 1.000 \\
+Banking77 (full test) & Qwen3-0.6B expl. & Qwen3-0.6B prot. & +0.028 & [+0.023, +0.033] & $<$0.001 \\
+Banking77 (full test) & Mammoth-1 D & Qwen3-0.6B expl. & -0.007 & [-0.014, +0.001] & 0.264 \\
+Banking77 (full test) & Mammoth-1 N & Qwen3-0.6B expl. & +0.001 & [-0.006, +0.008] & 1.000 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,17 @@
+id,task,a,b,n_all,n_without_near_dups,excluded,diff_all,diff,ci_lo,ci_hi
+P2,banking77,mammoth D zero-shot,tfidf k=full (3 seeds),1000,851,149,0.02416,0.0306,0.0103,0.0561
+P2,banking77,mammoth D zero-shot,setfit k=full (3 seeds),1000,851,149,0.06071,0.0621,0.0441,0.0855
+P2,banking77,mammoth D zero-shot,mmbert k=full (3 seeds),1000,851,149,0.0204,0.0241,0.0084,0.0424
+P2,banking77,mammoth D zero-shot,qwen0.6b k=full (3 seeds),1000,851,149,0.01422,0.0188,0.0022,0.0384
+P2N,banking77,mammoth N zero-shot,tfidf k=full (3 seeds),1000,851,149,0.03394,0.0399,0.0188,0.065
+P2N,banking77,mammoth N zero-shot,setfit k=full (3 seeds),1000,851,149,0.07048,0.0714,0.053,0.0967
+P2N,banking77,mammoth N zero-shot,mmbert k=full (3 seeds),1000,851,149,0.03018,0.0334,0.0182,0.051
+P2N,banking77,mammoth N zero-shot,qwen0.6b k=full (3 seeds),1000,851,149,0.02399,0.0281,0.0126,0.0452
+P2,massive_it,elephant D zero-shot,tfidf k=full (3 seeds),996,841,155,0.07786,0.0992,0.0482,0.1279
+P2,massive_it,elephant D zero-shot,setfit k=full (3 seeds),996,841,155,0.16788,0.1806,0.1265,0.2105
+P2,massive_it,elephant D zero-shot,mmbert k=full (3 seeds),996,841,155,0.06122,0.0719,0.0302,0.0962
+P2,massive_it,elephant D zero-shot,qwen0.6b k=full (3 seeds),996,841,155,0.06885,0.0723,0.0316,0.1034
+P2N,massive_it,mammoth N zero-shot,tfidf k=full (3 seeds),996,841,155,0.07111,0.093,0.0462,0.126
+P2N,massive_it,mammoth N zero-shot,setfit k=full (3 seeds),996,841,155,0.16113,0.1743,0.1274,0.2063
+P2N,massive_it,mammoth N zero-shot,mmbert k=full (3 seeds),996,841,155,0.05447,0.0657,0.0314,0.0923
+P2N,massive_it,mammoth N zero-shot,qwen0.6b k=full (3 seeds),996,841,155,0.0621,0.0661,0.0306,0.0994

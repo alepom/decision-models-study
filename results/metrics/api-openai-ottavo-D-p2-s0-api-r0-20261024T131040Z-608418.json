@@ -1,0 +1,75 @@
+{
+ "run_id": "api-openai-ottavo-D-p2-s0-api-r0-20261024T131040Z-608418",
+ "config": {
+  "kind": "decision_api",
+  "task": "ottavo",
+  "provider": "openai",
+  "requested_model": "gpt-6-luna",
+  "labels": "D",
+  "perm": 2,
+  "shots": "0",
+  "shot_seed": null,
+  "subset": "api",
+  "repeat": 0,
+  "n": 288,
+  "instruction": "Classify the user's message into the single most appropriate intent.",
+  "label_order_presented": [
+   "disiscrizione_marketing",
+   "supporto_uso_prodotto",
+   "codice_sconto",
+   "articolo_errato_mancante",
+   "recesso_ripensamento",
+   "reclamo_servizio_clienti",
+   "rimborso_stato",
+   "privacy_cancellazione_dati",
+   "disponibilita_riassortimento",
+   "pagamento_rifiutato",
+   "addebito_doppio_errato",
+   "programma_fedelta",
+   "ordine_ritardo_reclamo",
+   "danno_alla_consegna",
+   "info_prodotto_prevendita",
+   "ordine_stato_spedizione",
+   "ordine_annullamento",
+   "pagamento_rate",
+   "fattura_richiesta",
+   "ritiro_in_negozio",
+   "reso_garanzia_difetto",
+   "ordine_modifica_indirizzo",
+   "fuori_tema",
+   "accesso_account"
+  ],
+  "prompt_sha256": "0264952b7c26684af58c8acb251ba3e22aa2c6f8f4307e3786ac61ea2a520288",
+  "returned_models": [
+   "gpt-6-luna"
+  ]
+ },
+ "provenance": {
+  "git_commit": "ee66428576c816fcf67d7470e77c9bb41a481745-dirty",
+  "utc": "2026-10-24T13:10:40.296846+00:00",
+  "host": "PCAlessio",
+  "python": "3.13.5",
+  "data_sha256": {
+   "data/ottavo/test.jsonl": "f958582ee2e89f3d9f389bedf063e669f889e29a881cd1baa9823a53db0b125c",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 288,
+  "coverage": 1.0,
+  "macro_f1": 0.9965217391304347,
+  "accuracy": 0.9965277777777778,
+  "refusals": 0,
+  "n_calibrated": 288,
+  "ece15": 0.012847222222222093,
+  "brier": 0.008121527777777778,
+  "mean_confidence": 0.9874999999999999,
+  "latency_p50_ms": 245.2757490100339,
+  "latency_p95_ms": 339.08185821783263,
+  "input_tokens_billed": 261923,
+  "cost_usd": 0.0262,
+  "wall_s": 4.3,
+  "errors": 0,
+  "cached": 1
+ }
+}

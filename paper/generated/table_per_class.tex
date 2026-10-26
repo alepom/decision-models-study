@@ -1,0 +1,31 @@
+\begin{tabular}{llrrrr>{\raggedright\arraybackslash}p{4.9cm}}
+\toprule
+Data & System & Median & 10th pct. & Min & $<0.5$ & Three weakest classes \\
+\midrule
+Banking77 & Mammoth-1 & 0.929 & 0.815 & 0.692 & 0/77 & topping\_\allowbreak{}up\_\allowbreak{}by\_\allowbreak{}card, transfer\_\allowbreak{}not\_\allowbreak{}received\_\allowbreak{}by\_\allowbreak{}recipient, exchange\_\allowbreak{}via\_\allowbreak{}app \\
+Banking77 & Elephant-1 & 0.929 & 0.818 & 0.690 & 0/77 & topping\_\allowbreak{}up\_\allowbreak{}by\_\allowbreak{}card, card\_\allowbreak{}arrival, declined\_\allowbreak{}transfer \\
+Banking77 & OpenAI Decisions & 0.857 & 0.712 & 0.353 & 3/77 & top\_\allowbreak{}up\_\allowbreak{}by\_\allowbreak{}bank\_\allowbreak{}transfer\_\allowbreak{}charge, topping\_\allowbreak{}up\_\allowbreak{}by\_\allowbreak{}card, beneficiary\_\allowbreak{}not\_\allowbreak{}allowed \\
+Banking77 & TF-IDF + LR & 0.917 & 0.800 & 0.750 & 0/77 & top\_\allowbreak{}up\_\allowbreak{}failed, balance\_\allowbreak{}not\_\allowbreak{}updated\_\allowbreak{}after\_\allowbreak{}bank\_\allowbreak{}transfer, reverted\_\allowbreak{}card\_\allowbreak{}payment? \\
+Banking77 & SetFit (mE5-base) & 0.892 & 0.746 & 0.450 & 2/77 & get\_\allowbreak{}disposable\_\allowbreak{}virtual\_\allowbreak{}card, virtual\_\allowbreak{}card\_\allowbreak{}not\_\allowbreak{}working, disposable\_\allowbreak{}card\_\allowbreak{}limits \\
+Banking77 & mmBERT-base & 0.917 & 0.809 & 0.744 & 0/77 & lost\_\allowbreak{}or\_\allowbreak{}stolen\_\allowbreak{}card, top\_\allowbreak{}up\_\allowbreak{}by\_\allowbreak{}bank\_\allowbreak{}transfer\_\allowbreak{}charge, balance\_\allowbreak{}not\_\allowbreak{}updated\_\allowbreak{}after\_\allowbreak{}bank\_\allowbreak{}transfer \\
+Banking77 & Qwen3-0.6B LoRA & 0.913 & 0.826 & 0.788 & 0/77 & topping\_\allowbreak{}up\_\allowbreak{}by\_\allowbreak{}card, declined\_\allowbreak{}card\_\allowbreak{}payment, declined\_\allowbreak{}transfer \\
+\midrule
+MASSIVE-it & Mammoth-1 & 0.900 & 0.667 & 0.000 & 2/59 & iot\_\allowbreak{}hue\_\allowbreak{}lighton, music\_\allowbreak{}settings, general\_\allowbreak{}greet \\
+MASSIVE-it & Elephant-1 & 0.905 & 0.667 & 0.500 & 0/59 & datetime\_\allowbreak{}convert, iot\_\allowbreak{}wemo\_\allowbreak{}on, music\_\allowbreak{}settings \\
+MASSIVE-it & OpenAI Decisions & 0.827 & 0.557 & 0.000 & 5/59 & iot\_\allowbreak{}hue\_\allowbreak{}lighton, music\_\allowbreak{}dislikeness, general\_\allowbreak{}quirky \\
+MASSIVE-it & TF-IDF + LR & 0.866 & 0.511 & 0.000 & 3/59 & iot\_\allowbreak{}hue\_\allowbreak{}lighton, music\_\allowbreak{}dislikeness, iot\_\allowbreak{}wemo\_\allowbreak{}on \\
+MASSIVE-it & SetFit (mE5-base) & 0.787 & 0.000 & 0.000 & 9/59 & audio\_\allowbreak{}volume\_\allowbreak{}other, datetime\_\allowbreak{}convert, email\_\allowbreak{}addcontact \\
+MASSIVE-it & mmBERT-base & 0.872 & 0.557 & 0.000 & 5/59 & iot\_\allowbreak{}hue\_\allowbreak{}lighton, music\_\allowbreak{}dislikeness, iot\_\allowbreak{}wemo\_\allowbreak{}on \\
+MASSIVE-it & Qwen3-0.6B LoRA & 0.854 & 0.632 & 0.000 & 4/59 & iot\_\allowbreak{}hue\_\allowbreak{}lighton, music\_\allowbreak{}dislikeness, general\_\allowbreak{}greet \\
+\midrule
+Ottavo & Mammoth-1 & 1.000 & 0.978 & 0.947 & 0/24 & info\_\allowbreak{}prodotto\_\allowbreak{}prevendita, supporto\_\allowbreak{}uso\_\allowbreak{}prodotto, ritiro\_\allowbreak{}in\_\allowbreak{}negozio \\
+Ottavo & Elephant-1 & 0.994 & 0.963 & 0.929 & 0/24 & supporto\_\allowbreak{}uso\_\allowbreak{}prodotto, info\_\allowbreak{}prodotto\_\allowbreak{}prevendita, programma\_\allowbreak{}fedelta \\
+Ottavo & OpenAI Decisions & 1.000 & 0.964 & 0.947 & 0/24 & codice\_\allowbreak{}sconto, ritiro\_\allowbreak{}in\_\allowbreak{}negozio, fuori\_\allowbreak{}tema \\
+Ottavo & TF-IDF + LR & 0.916 & 0.880 & 0.805 & 0/24 & fuori\_\allowbreak{}tema, info\_\allowbreak{}prodotto\_\allowbreak{}prevendita, ordine\_\allowbreak{}stato\_\allowbreak{}spedizione \\
+Ottavo & SetFit (mE5-base) & 0.953 & 0.929 & 0.859 & 0/24 & fuori\_\allowbreak{}tema, rimborso\_\allowbreak{}stato, recesso\_\allowbreak{}ripensamento \\
+Ottavo & mmBERT-base & 0.923 & 0.859 & 0.833 & 0/24 & recesso\_\allowbreak{}ripensamento, supporto\_\allowbreak{}uso\_\allowbreak{}prodotto, ritiro\_\allowbreak{}in\_\allowbreak{}negozio \\
+Ottavo & Qwen3-0.6B LoRA & 0.918 & 0.854 & 0.824 & 0/24 & recesso\_\allowbreak{}ripensamento, articolo\_\allowbreak{}errato\_\allowbreak{}mancante, fuori\_\allowbreak{}tema \\
+Ottavo & Qwen3-1.7B LoRA & 0.953 & 0.918 & 0.884 & 0/24 & fuori\_\allowbreak{}tema, recesso\_\allowbreak{}ripensamento, ordine\_\allowbreak{}stato\_\allowbreak{}spedizione \\
+Ottavo & Qwen3-8B QLoRA & 0.980 & 0.951 & 0.941 & 0/24 & fuori\_\allowbreak{}tema, ritiro\_\allowbreak{}in\_\allowbreak{}negozio, supporto\_\allowbreak{}uso\_\allowbreak{}prodotto \\
+\bottomrule
+\end{tabular}

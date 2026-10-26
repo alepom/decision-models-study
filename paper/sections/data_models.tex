@@ -1,0 +1,65 @@
+\section{Models and Data}
+\label{sec:data}
+
+\subsection{Tasks}
+
+\paragraph{Banking77} \citep{casanueva2020banking77}: English banking queries, 77 intents, 9{,}993 training examples. The historical
+evaluation uses a stratified sample of 1{,}000 messages of the official test (seed 42); we also report the full official test
+(3{,}076 messages in the MTEB release) as a separate analysis.
+
+\paragraph{MASSIVE it-IT} \citep{fitzgerald2022massive}: Italian voice-assistant utterances, 60 intents, 11{,}514 training examples;
+historical stratified test sample of 996 messages and full official test of 2{,}974 messages (59 intents present).
+
+\paragraph{Ottavo Store} (synthetic, released with this paper): Italian customer-service messages for a fictional e-commerce shop,
+24 intents defined by one-line specifications, 2{,}629 messages written by six Claude Sonnet sub-agents (four classes each), split
+per class into 40 test and up to 70 training messages (1{,}669 train, 960 test). The same generators wrote train and test, so the two
+are not independent samples of real traffic.
+
+\paragraph{Ottavo lexical stress} (601 messages): same task and training set; messages written by three further sub-agents to sit on
+the boundary between 15 pairs of confusable classes, with lexical cues pointing to the wrong class. They were labelled blind by two
+validators (Claude Opus and Claude Sonnet); one of 602 messages was dropped for disagreement. We call it a \emph{lexical stress}
+condition of the same task, not a robustness benchmark.
+
+\paragraph{Ottavo-R} (312 messages, created for this study before any evaluation on it): eight phenomena---negation, intent correction,
+multi-intent (with a documented priority rule), clean/perturbed pairs, lexical distractors, very short colloquial messages, messages
+with insufficient information (gold \texttt{ambiguous}) and requests outside the taxonomy (gold \texttt{out\_of\_scope}). Each item
+is in a \emph{dev} half (used only to choose review thresholds) or a \emph{test} half.
+
+Train--test overlap is reported in the audit: 8 exact (normalised) duplicates between train and the historical test sample for
+Banking77, 71 for MASSIVE-it and none for Ottavo (\nolinkurl{reports/audit_initial.md}).
+
+\subsection{Systems}
+
+\begin{table}[t]
+\centering\small
+\caption{Systems. ``Task labels'' counts labelled examples of the target task used by the system. $^*$With label names (N); the
+descriptions (D) for Banking77 and MASSIVE-it were written from labelled training examples (Section~\ref{sec:data}).}
+\label{tab:systems}
+\resizebox{\linewidth}{!}{\begin{tabular}{lllll}
+\toprule
+System & Type & Size & Where & Task labels \\
+\midrule
+OpenAI Decisions (\texttt{gpt-6-luna}) & decision API & n/a & OpenAI, public beta & 0$^*$ \\
+Elephant-1 & decision API & 9B & Baseten System One & 0$^*$ \\
+Mammoth-1 & decision API & 27B & Baseten System One & 0$^*$ \\
+Qwen3-8B, Qwen3.5-9B & generalist LLM, option scoring & 8B, 9B & T4, 4-bit & 0 \\
+TF-IDF + logistic regression & linear & -- & CPU & 5, 20 per class, full \\
+SetFit (multilingual-E5-base) & contrastive encoder & 0.28B & RTX 4050 & 5, 20 per class, full \\
+mmBERT-base & encoder, full fine-tuning & 0.3B & RTX 4050 & 5, 20 per class, full \\
+Qwen3-0.6B / 1.7B + LoRA & decoder + class. head & 0.6B, 1.7B & RTX 4050 / T4 & 5, 20 per class, full \\
+Qwen3-8B + QLoRA & decoder + class. head & 8B & T4, 4-bit & 5, 20 per class, full \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+Decision APIs receive the label names (condition N) or the names with a short description including inclusion rules and boundaries
+with confusable classes (condition D), with an identical instruction and option order. For Banking77 and MASSIVE-it, D was written by
+sub-agents that could read only the labelled training file: they sampled 20--40 training messages per class, with their labels, and
+compared confusable classes (prompts in \texttt{data/ottavo/generation/}). On these datasets D therefore carries information from
+labelled training data and is not a zero-label condition; zero-label comparisons use N. For Ottavo, D is the specification written
+before the data and used to generate them, so it uses no labelled example, but it matches the data more closely than a real
+specification would. The generalist
+controls list the options as letters A--X and read the next-token distribution over the valid letters, renormalised; this
+requires single-token labels and is therefore applied only to the 24-class Ottavo task \citep{qwen3,qwen35card}.
+Supervised decoders use a linear classification head trained together with LoRA adapters; this head does not read the descriptions,
+so supervised and zero-shot systems have access to different information, which is intended in a comparison of practical systems.

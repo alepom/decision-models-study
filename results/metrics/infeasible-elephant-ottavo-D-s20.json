@@ -1,0 +1,48 @@
+{
+ "config": {
+  "kind": "decision_api",
+  "task": "ottavo",
+  "provider": "elephant",
+  "requested_model": "decision-models/baseten-elephant-9b-latest",
+  "labels": "D",
+  "perm": 0,
+  "shots": "20",
+  "shot_seed": 42,
+  "subset": "api",
+  "repeat": 0,
+  "n": 288,
+  "instruction": "Classify the user's message into the single most appropriate intent.",
+  "label_order_presented": [
+   "ordine_stato_spedizione",
+   "ordine_ritardo_reclamo",
+   "ordine_modifica_indirizzo",
+   "ordine_annullamento",
+   "recesso_ripensamento",
+   "reso_garanzia_difetto",
+   "danno_alla_consegna",
+   "articolo_errato_mancante",
+   "rimborso_stato",
+   "addebito_doppio_errato",
+   "pagamento_rifiutato",
+   "pagamento_rate",
+   "fattura_richiesta",
+   "codice_sconto",
+   "accesso_account",
+   "privacy_cancellazione_dati",
+   "disiscrizione_marketing",
+   "info_prodotto_prevendita",
+   "disponibilita_riassortimento",
+   "supporto_uso_prodotto",
+   "ritiro_in_negozio",
+   "programma_fedelta",
+   "reclamo_servizio_clienti",
+   "fuori_tema"
+  ],
+  "prompt_sha256": "dca783bc510207ade58d55df5a863bc5f2d71104d72129b33957b421c9dc1329"
+ },
+ "status": "infeasible",
+ "reason": {
+  "error": "OneJev prompt has 22693 tokens, exceeding max_len 16384; prompts are never truncated",
+  "error_type": "Validation"
+ }
+}

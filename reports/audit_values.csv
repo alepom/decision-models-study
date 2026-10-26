@@ -1,0 +1,15 @@
+claim,reported,historical_json,rerun_same_config,status
+Banking77 Qwen3-0.6B full,0.94,0.9398,,conferma JSON storico; predizioni non salvate: storico non verificabile per esempio
+Banking77 Mammoth zero-shot,0.935,0.9354,0.9343,"conferma JSON storico; riesecuzione identica entro 0,01"
+Banking77 Elephant zero-shot,0.927,0.9275,0.9265,"conferma JSON storico; riesecuzione identica entro 0,01"
+Banking77 OpenAI zero-shot (nomi),0.765,0.7654,0.7686,"conferma JSON storico; riesecuzione identica entro 0,01"
+MASSIVE-it Mammoth zero-shot,0.858,0.8582,0.8575,"conferma JSON storico; riesecuzione identica entro 0,01"
+MASSIVE-it OpenAI zero-shot (nomi),0.736,0.736,0.7484,conferma JSON storico; riesecuzione identica DIVERSA
+Ottavo OpenAI zero-shot (descrizioni),0.99,0.9895,0.9895,"conferma JSON storico; riesecuzione identica entro 0,01"
+Ottavo Elephant zero-shot,0.987,0.9865,0.9865,"conferma JSON storico; riesecuzione identica entro 0,01"
+Ottavo Qwen3-8B zero-shot,0.942,0.9416,,conferma JSON storico; predizioni non salvate: storico non verificabile per esempio
+Ottavo Qwen3-8B QLoRA full,0.978,0.9781,,conferma JSON storico; predizioni non salvate: storico non verificabile per esempio
+Stress Qwen3-8B zero-shot,0.905,0.9049,,conferma JSON storico; predizioni non salvate: storico non verificabile per esempio
+Stress Qwen3-8B QLoRA full,0.967,0.9674,,conferma JSON storico; predizioni non salvate: storico non verificabile per esempio
+Stress Elephant zero-shot,0.998,0.9978,0.9978,"conferma JSON storico; riesecuzione identica entro 0,01"
+Ottavo Qwen3-8B 5 per classe,0.217,0.2175,,conferma JSON storico; predizioni non salvate: storico non verificabile per esempio

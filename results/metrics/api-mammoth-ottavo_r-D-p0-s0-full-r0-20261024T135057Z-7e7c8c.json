@@ -1,0 +1,75 @@
+{
+ "run_id": "api-mammoth-ottavo_r-D-p0-s0-full-r0-20261024T135057Z-7e7c8c",
+ "config": {
+  "kind": "decision_api",
+  "task": "ottavo_r",
+  "provider": "mammoth",
+  "requested_model": "decision-models/baseten-mammoth-27b-latest",
+  "labels": "D",
+  "perm": 0,
+  "shots": "0",
+  "shot_seed": null,
+  "subset": "full",
+  "repeat": 0,
+  "n": 312,
+  "instruction": "Classify the user's message into the single most appropriate intent.",
+  "label_order_presented": [
+   "ordine_stato_spedizione",
+   "ordine_ritardo_reclamo",
+   "ordine_modifica_indirizzo",
+   "ordine_annullamento",
+   "recesso_ripensamento",
+   "reso_garanzia_difetto",
+   "danno_alla_consegna",
+   "articolo_errato_mancante",
+   "rimborso_stato",
+   "addebito_doppio_errato",
+   "pagamento_rifiutato",
+   "pagamento_rate",
+   "fattura_richiesta",
+   "codice_sconto",
+   "accesso_account",
+   "privacy_cancellazione_dati",
+   "disiscrizione_marketing",
+   "info_prodotto_prevendita",
+   "disponibilita_riassortimento",
+   "supporto_uso_prodotto",
+   "ritiro_in_negozio",
+   "programma_fedelta",
+   "reclamo_servizio_clienti",
+   "fuori_tema"
+  ],
+  "prompt_sha256": "35daf95bf214e3187d26e7d0620752a1f9df0344a9289717f4fbfaa9b70c56f6",
+  "returned_models": [
+   "decision-models/baseten-mammoth-27b-latest"
+  ]
+ },
+ "provenance": {
+  "git_commit": "7467a34bf0bdc0469cde1184de1d8c71485052f8-dirty",
+  "utc": "2026-10-24T13:50:57.813593+00:00",
+  "host": "PCAlessio",
+  "python": "3.13.5",
+  "data_sha256": {
+   "data/ottavo_r/test.jsonl": "55902e5657c6f0c61069dd8d3f361aa8d675cee704383a2b8509425e979cd616",
+   "data/ottavo/train_full.jsonl": "eceb9bd1ad2170e0a48e136ebe525cdb186b0372a01efa1e7e726d5025d98e62"
+  }
+ },
+ "metrics": {
+  "n": 312,
+  "coverage": 1.0,
+  "macro_f1": 0.7655335615823232,
+  "accuracy": 0.7275641025641025,
+  "refusals": 0,
+  "n_calibrated": 238,
+  "ece15": 0.0518428385565818,
+  "brier": 0.06909553384088062,
+  "mean_confidence": 0.9080906484218217,
+  "latency_p50_ms": 302.7101479819976,
+  "latency_p95_ms": 1454.5642180019058,
+  "input_tokens_billed": 271664,
+  "cost_usd": 0.0,
+  "wall_s": 242.5,
+  "errors": 0,
+  "cached": 1
+ }
+}

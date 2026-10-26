@@ -1,0 +1,109 @@
+{
+ "run_id": "sup-mmbert-massive_it-k20-seed42-corrected-20261025T172916Z-3bcd4e",
+ "config": {
+  "task": "massive_it",
+  "model": "mmbert",
+  "model_id": "jhu-clsp/mmBERT-base",
+  "budget": "20",
+  "seed": 42,
+  "recipe": "corrected",
+  "max_len": 256,
+  "batch_size": 32,
+  "train_n": 1176,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "massive_it",
+  "lr": 5e-05,
+  "epochs": 12,
+  "train_seed": 42,
+  "micro_batch": 32,
+  "grad_accumulation": 1,
+  "dtype": "torch.float32",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 3.5354517949681705
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.7067693806424433
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.19346426898727612
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.1240387124700003
+   },
+   {
+    "epoch": 5,
+    "train_loss": 0.06021566127053126
+   },
+   {
+    "epoch": 6,
+    "train_loss": 0.05293413701658866
+   },
+   {
+    "epoch": 7,
+    "train_loss": 0.03933948682871375
+   },
+   {
+    "epoch": 8,
+    "train_loss": 0.03614794112960523
+   },
+   {
+    "epoch": 9,
+    "train_loss": 0.03690022294651907
+   },
+   {
+    "epoch": 10,
+    "train_loss": 0.020771852755926225
+   },
+   {
+    "epoch": 11,
+    "train_loss": 0.017060544954195695
+   },
+   {
+    "epoch": 12,
+    "train_loss": 0.02544656710481021
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 33.536444468423724,
+   "head_params": [
+    "classifier.weight",
+    "classifier.bias"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "8287db9b263ca6754500f33937ce8664a27e1f51",
+  "utc": "2026-10-25T17:29:16.645606+00:00",
+  "host": "0b576d51f987",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/massive_it/test.jsonl": "b2adfa00cf4b7e502348ad97f660610b384094dd2c2520d30271041547ba8022",
+   "data/massive_it/train_full.jsonl": "6ae6a7107abed99d28485edc6472d702d9989498aaca3d130926ba5883b7e015"
+  }
+ },
+ "metrics": {
+  "n": 996,
+  "coverage": 1.0,
+  "macro_f1": 0.6606879601316927,
+  "accuracy": 0.677710843373494,
+  "refusals": 0,
+  "n_calibrated": 996,
+  "ece15": 0.18138698943288453,
+  "brier": 0.4879753588371261,
+  "mean_confidence": 0.8590978328063785,
+  "latency_p50_ms": 21.94411250002304,
+  "latency_p95_ms": 27.255283249957074,
+  "train_s": 93.7,
+  "selection": null,
+  "peak_vram_gb": 6.24,
+  "load_s": 29.9
+ }
+}

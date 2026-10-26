@@ -1,0 +1,141 @@
+{
+ "run_id": "sup-mmbert-massive_it_official-k5-seed42-corrected-20261025T171934Z-63a6b3",
+ "config": {
+  "task": "massive_it_official",
+  "model": "mmbert",
+  "model_id": "jhu-clsp/mmBERT-base",
+  "budget": "5",
+  "seed": 42,
+  "recipe": "corrected",
+  "max_len": 256,
+  "batch_size": 32,
+  "train_n": 299,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "massive_it",
+  "lr": 5e-05,
+  "epochs": 20,
+  "train_seed": 42,
+  "micro_batch": 32,
+  "grad_accumulation": 1,
+  "dtype": "torch.float32",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 5.14366670436285
+   },
+   {
+    "epoch": 2,
+    "train_loss": 3.19736104346438
+   },
+   {
+    "epoch": 3,
+    "train_loss": 1.4674152324231573
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.23482661537302776
+   },
+   {
+    "epoch": 5,
+    "train_loss": 0.05925635102806133
+   },
+   {
+    "epoch": 6,
+    "train_loss": 0.008471490086420723
+   },
+   {
+    "epoch": 7,
+    "train_loss": 0.0017023263374549092
+   },
+   {
+    "epoch": 8,
+    "train_loss": 0.025596157934230108
+   },
+   {
+    "epoch": 9,
+    "train_loss": 0.011991561264310493
+   },
+   {
+    "epoch": 10,
+    "train_loss": 0.0015025818366152437
+   },
+   {
+    "epoch": 11,
+    "train_loss": 0.0004932385451552834
+   },
+   {
+    "epoch": 12,
+    "train_loss": 0.0005688707988460417
+   },
+   {
+    "epoch": 13,
+    "train_loss": 8.76271902920521e-05
+   },
+   {
+    "epoch": 14,
+    "train_loss": 3.352369880498415e-05
+   },
+   {
+    "epoch": 15,
+    "train_loss": 2.7066652075767932e-05
+   },
+   {
+    "epoch": 16,
+    "train_loss": 2.016060969491145e-05
+   },
+   {
+    "epoch": 17,
+    "train_loss": 1.639156885039027e-05
+   },
+   {
+    "epoch": 18,
+    "train_loss": 1.3887476792703476e-05
+   },
+   {
+    "epoch": 19,
+    "train_loss": 1.21520212958049e-05
+   },
+   {
+    "epoch": 20,
+    "train_loss": 1.0869857812264115e-05
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 21.95365254767239,
+   "head_params": [
+    "classifier.weight",
+    "classifier.bias"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "8287db9b263ca6754500f33937ce8664a27e1f51",
+  "utc": "2026-10-25T17:19:34.762135+00:00",
+  "host": "d36c696de22f",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/massive_it_official/test.jsonl": "849daf5f47fc47eb12f706b2ea5cd9559d6bf371a315cd0a015be9e8c9c39061",
+   "data/massive_it/train_full.jsonl": "6ae6a7107abed99d28485edc6472d702d9989498aaca3d130926ba5883b7e015"
+  }
+ },
+ "metrics": {
+  "n": 2974,
+  "coverage": 1.0,
+  "macro_f1": 0.4686612644625936,
+  "accuracy": 0.495965030262273,
+  "refusals": 0,
+  "n_calibrated": 2974,
+  "ece15": 0.26468792205980823,
+  "brier": 0.7429300422000737,
+  "mean_confidence": 0.7604710598298986,
+  "latency_p50_ms": 22.406931999285007,
+  "latency_p95_ms": 28.04692795361916,
+  "train_s": 39.8,
+  "selection": null,
+  "peak_vram_gb": 6.27,
+  "load_s": 5.5
+ }
+}

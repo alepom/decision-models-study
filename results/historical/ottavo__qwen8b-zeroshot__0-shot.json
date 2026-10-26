@@ -1,0 +1,15 @@
+{
+ "accuracy": 0.9417,
+ "macro_f1": 0.9416,
+ "no_answer": 0,
+ "ece": 0.0555,
+ "latency_p50_ms": 1434.4,
+ "latency_p95_ms": 1458.5,
+ "system": "qwen8b-zeroshot",
+ "variant": "0-shot",
+ "task": "ottavo",
+ "train_examples": 0,
+ "n": 960,
+ "model": "Qwen/Qwen3-8B",
+ "hardware": "Tesla T4"
+}

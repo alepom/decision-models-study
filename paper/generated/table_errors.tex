@@ -1,0 +1,26 @@
+\begin{tabular}{ll>{\raggedright\arraybackslash}p{7.7cm}r}
+\toprule
+Data & System & Confusion (gold $\to$ predicted) & Count \\
+\midrule
+Banking77 & Mammoth-1 (zero-shot, D) & transfer\_\allowbreak{}not\_\allowbreak{}received\_\allowbreak{}by\_\allowbreak{}recipient $\to$ pending\_\allowbreak{}transfer & 4 \\
+ &  & topping\_\allowbreak{}up\_\allowbreak{}by\_\allowbreak{}card $\to$ top\_\allowbreak{}up\_\allowbreak{}reverted & 3 \\
+ &  & balance\_\allowbreak{}not\_\allowbreak{}updated\_\allowbreak{}after\_\allowbreak{}bank\_\allowbreak{}transfer $\to$ transfer\_\allowbreak{}timing & 3 \\
+ & Qwen3-0.6B LoRA (all data) & transfer\_\allowbreak{}fee\_\allowbreak{}charged $\to$ top\_\allowbreak{}up\_\allowbreak{}by\_\allowbreak{}bank\_\allowbreak{}transfer\_\allowbreak{}charge & 2.0 \\
+ &  & supported\_\allowbreak{}cards\_\allowbreak{}and\_\allowbreak{}currencies $\to$ fiat\_\allowbreak{}currency\_\allowbreak{}support & 2.0 \\
+ &  & top\_\allowbreak{}up\_\allowbreak{}failed $\to$ pending\_\allowbreak{}top\_\allowbreak{}up & 2.0 \\
+\midrule
+MASSIVE-it & Elephant-1 (zero-shot, D) & calendar\_\allowbreak{}set $\to$ calendar\_\allowbreak{}query & 5 \\
+ &  & calendar\_\allowbreak{}query $\to$ calendar\_\allowbreak{}set & 4 \\
+ &  & cooking\_\allowbreak{}recipe $\to$ cooking\_\allowbreak{}query & 4 \\
+ & mmBERT-base (all data) & general\_\allowbreak{}quirky $\to$ calendar\_\allowbreak{}query & 6.0 \\
+ &  & qa\_\allowbreak{}factoid $\to$ general\_\allowbreak{}quirky & 5.3 \\
+ &  & calendar\_\allowbreak{}set $\to$ calendar\_\allowbreak{}query & 4.3 \\
+\midrule
+Ottavo & Mammoth-1 (zero-shot, D) & info\_\allowbreak{}prodotto\_\allowbreak{}prevendita $\to$ supporto\_\allowbreak{}uso\_\allowbreak{}prodotto & 4 \\
+ &  & pagamento\_\allowbreak{}rifiutato $\to$ codice\_\allowbreak{}sconto & 1 \\
+ &  & ritiro\_\allowbreak{}in\_\allowbreak{}negozio $\to$ pagamento\_\allowbreak{}rate & 1 \\
+ & Qwen3-8B QLoRA (all data) & recesso\_\allowbreak{}ripensamento $\to$ rimborso\_\allowbreak{}stato & 1.7 \\
+ &  & ritiro\_\allowbreak{}in\_\allowbreak{}negozio $\to$ ordine\_\allowbreak{}stato\_\allowbreak{}spedizione & 1.3 \\
+ &  & recesso\_\allowbreak{}ripensamento $\to$ ordine\_\allowbreak{}annullamento & 1.3 \\
+\bottomrule
+\end{tabular}

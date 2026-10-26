@@ -1,0 +1,52 @@
+\section{Results}
+\label{sec:results}
+
+% Il testo dei risultati viene scritto solo a esperimenti completati; tabelle e figure sono generate da dmstudy.analysis.
+\input{generated/results_text.tex}
+
+\begin{table}[t]
+\centering\scriptsize
+\caption{Macro-F1 on the historical test samples. Decision models and generalists are zero-shot (N: label names; D: names and
+descriptions). $^\dagger$On Banking77 and MASSIVE-it the descriptions were written from labelled training examples, so D uses task labels there. Supervised rows are means over three seeds (superscript: number of seeds if different).}
+\label{tab:main}
+\resizebox{\linewidth}{!}{\input{generated/table_main.tex}}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{learning_curves.pdf}
+\caption{Macro-F1 against labelled examples per class (log scale). Dashed: decision models used zero-shot with label names only (condition N), which uses no labelled example of the task.}
+\label{fig:learning}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.62\linewidth]{descriptions_effect.pdf}
+\caption{Effect of category descriptions on the same messages (N $\to$ D), with paired 95\% bootstrap intervals.}
+\label{fig:descriptions}
+\end{figure}
+
+\begin{table}[t]
+\centering\scriptsize
+\caption{Paired contrasts other than the label-budget families (macro-F1 difference A$-$B; 95\% bootstrap interval, not adjusted for multiplicity; bootstrap $p$ Holm-adjusted within each family). P1--P5 were pre-declared; S1 was declared before its runs. Budget families P2 and P2N are in \texttt{reports/contrasts.csv}.}
+\label{tab:contrasts}
+\setlength{\tabcolsep}{4pt}
+\input{generated/table_contrasts.tex}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.48\linewidth]{stress.pdf}\hfill
+\includegraphics[width=0.48\linewidth]{progenitor.pdf}
+\caption{Left: Ottavo normal vs.\ lexical stress test for the same systems. Right: generalist controls, task-adapted Qwen3-8B and
+Elephant-1 on Ottavo (95\% bootstrap intervals; the axis starts at 0.85).}
+\label{fig:stress}
+\end{figure}
+
+\begin{table}[t]
+\centering\small
+\caption{Ottavo-R test half, by phenomenon: accuracy for closed-set phenomena, clean/perturbed consistency, multi-intent prediction
+among the two declared intents, and share routed to review with the threshold chosen on the dev half. Trained systems: all Ottavo training data, mean over three seeds; 5- and 20-shot rows are in \texttt{reports/robustness.csv}.}
+\label{tab:robust}
+\resizebox{\linewidth}{!}{\input{generated/table_robustness.tex}}
+\end{table}

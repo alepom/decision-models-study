@@ -1,0 +1,18 @@
+{
+ "accuracy": 0.9684,
+ "macro_f1": 0.9674,
+ "no_answer": 0,
+ "ece": 0.0277,
+ "latency_p50_ms": 165.1,
+ "latency_p95_ms": 204.9,
+ "system": "qwen8b",
+ "variant": "full-shot",
+ "task": "ottavo_adv",
+ "train_examples": 1669,
+ "n": 601,
+ "train_s": 1512.5,
+ "epochs": 3,
+ "hardware": "Tesla T4",
+ "throughput_per_s": 13.2,
+ "peak_vram_gb": 10.68
+}

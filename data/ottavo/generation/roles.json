@@ -1,0 +1,106 @@
+[
+ {
+  "role": "Adversarial set generator C",
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "messages": 2,
+  "file": "adversarial_set_generator_c.md"
+ },
+ {
+  "role": "Generate synthetic data group 0",
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "messages": 3,
+  "file": "generate_synthetic_data_group_0.md"
+ },
+ {
+  "role": "Generate synthetic data group 1",
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "messages": 2,
+  "file": "generate_synthetic_data_group_1.md"
+ },
+ {
+  "role": "Adversarial set generator A",
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "messages": 2,
+  "file": "adversarial_set_generator_a.md"
+ },
+ {
+  "role": "Blind validator 2 for adversarial set",
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "messages": 2,
+  "file": "blind_validator_2_for_adversarial_set.md"
+ },
+ {
+  "role": "Generate synthetic data group 3",
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "messages": 2,
+  "file": "generate_synthetic_data_group_3.md"
+ },
+ {
+  "role": "Adversarial set generator B",
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "messages": 2,
+  "file": "adversarial_set_generator_b.md"
+ },
+ {
+  "role": "Write Banking77 label descriptions",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "messages": 2,
+  "file": "write_banking77_label_descriptions.md"
+ },
+ {
+  "role": "Generate synthetic data group 5",
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "messages": 2,
+  "file": "generate_synthetic_data_group_5.md"
+ },
+ {
+  "role": "Generate synthetic data group 4",
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "messages": 2,
+  "file": "generate_synthetic_data_group_4.md"
+ },
+ {
+  "role": "Write MASSIVE-it label descriptions",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "messages": 2,
+  "file": "write_massive_it_label_descriptions.md"
+ },
+ {
+  "role": "Generate synthetic data group 2",
+  "models": [
+   "claude-sonnet-5-5"
+  ],
+  "messages": 2,
+  "file": "generate_synthetic_data_group_2.md"
+ },
+ {
+  "role": "Blind validator 1 for adversarial set",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "messages": 2,
+  "file": "blind_validator_1_for_adversarial_set.md"
+ }
+]

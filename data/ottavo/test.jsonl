@@ -1,0 +1,960 @@
+{"text": "Mi arriva il pacco oggi? Il tracking mi dice solo 'in distribuzione'.", "label": "ordine_stato_spedizione"}
+{"text": "Salve, per il reso OT-2026-41007 ho ricevuto il rimborso del prodotto ma non quello del contributo di spedizione. Era previsto? Chiedo se potete fare un controllo del rimborso.", "label": "rimborso_stato"}
+{"text": "Salve, ho scelto la rateizzazione in 24 mesi e sul riepilogo vedo una cifra totale più alta del prezzo di listino. È normale per via degli interessi? Vorrei capire il calcolo prima di confermare l'ordine.", "label": "pagamento_rate"}
+{"text": "quanto manca per diventare Gold, spendo 20 euro al mese", "label": "programma_fedelta"}
+{"text": "come resetto lo smartwatch per collegarlo a un altro telefono", "label": "supporto_uso_prodotto"}
+{"text": "ordine spedito stamattina e dato in consegna per domani secondo il sito, ma sul tracking di GLS non c'è ancora nulla. Normale? Solo per capire.", "label": "ordine_stato_spedizione"}
+{"text": "Ordine OT-2026-44120: voglio restituire il purificatore, non perché sia difettoso ma perché fa troppo rumore per i miei gusti ed è un uso normale del prodotto, non un guasto. Ho ancora 14 giorni, giusto? Chiedo di procedere con il recesso.", "label": "recesso_ripensamento"}
+{"text": "ma se vado a ritirare e il prodotto lo voglio controllare prima di portarlo via posso aprire la scatola in negozio?", "label": "ritiro_in_negozio"}
+{"text": "Salve, sono un artigiano e realizzo lampade in legno fatte a mano. Posso proporvi di venderle sul vostro sito come prodotti esclusivi? Foto e listino in allegato.", "label": "fuori_tema"}
+{"text": "Buongiorno, ho appena fatto un ordine come ospite per un tablet, ma volevo entrare col mio account della tessera Ottavo Club e non riesco ad accedere, dice password errata. Devo fare un nuovo ordine o posso solo recuperare l'accesso?", "label": "accesso_account"}
+{"text": "pagamento dilazionato per la cucina a induzione si può? quanti mesi massimo", "label": "pagamento_rate"}
+{"text": "Buonasera, ho pagato l'ordine con carta e Satispay, per errore, ma l'avrei voluto solo con carta. Il sistema ha preso i soldi da tutti e due. Posso riavere la parte di Satispay?", "label": "addebito_doppio_errato"}
+{"text": "a che ora chiude il negozio di Bergamo? devo ritirare un ordine oggi", "label": "ritiro_in_negozio"}
+{"text": "Se ritiro in negozio posso pagare lì in contanti invece che online?", "label": "ritiro_in_negozio"}
+{"text": "sono 5 giorni che scrivo e nessuno mi risponde. vergogna", "label": "reclamo_servizio_clienti"}
+{"text": "Sono davanti al negozio di Cremona e c'è scritto chiuso per ferie. Il mio ritiro è per oggi!! Cosa devo fare, quando riaprite?", "label": "ritiro_in_negozio"}
+{"text": "Per cortesia fermate le email: faccio il possibile per cliccare sul link ma la pagina dice errore 404. Cancellazione dalla lista a cura vostra, grazie.", "label": "disiscrizione_marketing"}
+{"text": "Buonasera, scusate il disturbo: mia suocera ha ordinato per sbaglio dal mio account una friggitrice senza avvisarmi. Vorrei cancellare l'ordine e basta.", "label": "ordine_annullamento"}
+{"text": "Buongiorno vorrei sapere se il monitor curvo da 32 pollici sarà ancora venduto o se è stato sostituito da un nuovo modello. Attualmente è non disponibile.", "label": "disponibilita_riassortimento"}
+{"text": "Salve! Appena preso il purificatore d'aria: come lo collego all'app e come leggo il valore PM2.5? Il led è rosso, significa che l'aria è cattiva o è solo l'avvio?", "label": "supporto_uso_prodotto"}
+{"text": "ritiro Brescia orari sabato?", "label": "ritiro_in_negozio"}
+{"text": "Vi scrivo per segnalare che l'ordine OT-2026-36007 è stato pagato con carta una volta e poi mi avete addebitato di nuovo con PayPal. Non ho fatto due acquisti! Servirebbe stornare uno dei due.", "label": "addebito_doppio_errato"}
+{"text": "il monitor è arrivato col vetro rotto, il corriere se n'è andato subito e non ho fatto in tempo a contestare. che faccio", "label": "danno_alla_consegna"}
+{"text": "codice promo XMAS2026 errore 'non valido per questo account'. che significa?", "label": "codice_sconto"}
+{"text": "SALVE: IL CELLULARE HA IL JACK PER LE CUFFIE??", "label": "info_prodotto_prevendita"}
+{"text": "non riesco a capire come si collega la stampante al wifi, uso il router di Fastweb", "label": "supporto_uso_prodotto"}
+{"text": "Il robot lavapavimenti comprato ad aprile non riesce più a erogare acqua, la pompa è morta, eppure il serbatoio è pieno. Preferirei riparazione, ma se non è possibile, sostituzione.", "label": "reso_garanzia_difetto"}
+{"text": "la password che ho scelto non ha funzionato, mi fa mettere sempre quella vecchia, anche dopo aver ricevuto la conferma di cambio", "label": "accesso_account"}
+{"text": "Buongiorno, mia moglie ha fatto un ordine usando il suo indirizzo da nubile. Dobbiamo cambiare presso la nostra casa nuova. Come si fa? Il numero ordine è 2026-61120.", "label": "ordine_modifica_indirizzo"}
+{"text": "Vi chiedo di cancellare la mia carta salvata e anche il mio nome dal sistema, ho già ordinato tutto quello che mi serviva e non intendo tornare.", "label": "privacy_cancellazione_dati"}
+{"text": "Domanda: i gatti possono mangiare i fagiolini?", "label": "fuori_tema"}
+{"text": "BUONGIORNO VOGLIO RESTITUIRE IL FRULLATORE NON MI SERVE PIU, COME SI FA??", "label": "recesso_ripensamento"}
+{"text": "Salve, il ferro da stiro con caldaia a pressione 2400W va bene con l'acqua del rubinetto o serve demineralizzata?", "label": "info_prodotto_prevendita"}
+{"text": "Sto cercando di acquistare un robot aspirapolvere dal mio cellulare, il pagamento con carta non va mai a buon fine; da PC ci sono riuscito. Che differenza c'è? Sarebbe comodo usare il telefono.", "label": "pagamento_rifiutato"}
+{"text": "come si cambia la gomma di un auto?", "label": "fuori_tema"}
+{"text": "dopo aver fatto l'aggiornamento della tv come rifaccio la ricerca dei canali?", "label": "supporto_uso_prodotto"}
+{"text": "ciao ma per ritirare in negozio devo avere con me la carta con cui ho pagato?", "label": "ritiro_in_negozio"}
+{"text": "Salve, il robot tagliaerba... no scusi, il robot aspirapolvere, ha perso la mappa di casa e non riesce più a tornare alla base, continua a girare. Ho resettato, non migliora. Anzi ha anche un cigolio alle ruote. Ha 4 mesi, garanzia?", "label": "reso_garanzia_difetto"}
+{"text": "Doveva arrivare entro sabato, siamo a martedì e niente. Esigo una risposta oggi stesso", "label": "ordine_ritardo_reclamo"}
+{"text": "Bloccato al checkout, 'carta non valida' anche con carta nuova arrivata ieri. Ho scritto il numero a mano e anche con copia-incolla", "label": "pagamento_rifiutato"}
+{"text": "Egregi signori, in qualità di libero professionista desidero acquistare 3 monitor per il mio studio per un totale di circa 1.100 euro. Esiste la possibilità di rateizzare l'importo e di intestare il finanziamento alla mia partita IVA? In caso positivo, quali sono le condizioni? Grazie.", "label": "pagamento_rate"}
+{"text": "ho 3 buoni sconto: 10, 20 e 15 euro. quale conviene usare per la lavatrice? o si possono sommare?", "label": "codice_sconto"}
+{"text": "Buon pomeriggio, ho fatto un reso la settimana scorsa e aspetto ancora il rimborso, ma nel frattempo vi chiedo anche di smettere di inviarmi promozioni: la mia iscrizione alla newsletter va annullata.", "label": "disiscrizione_marketing"}
+{"text": "operatore maleducato in chat, mi ha dato del tu e mi ha chiamato signora in tono ironico. Non si fa.", "label": "reclamo_servizio_clienti"}
+{"text": "Mi disiscrivo dalle offerte via email e anche da quelle via SMS. Confermate quando fatto.", "label": "disiscrizione_marketing"}
+{"text": "Buongiorno, ho ricevuto una telefonata promozionale da una società terza che conosceva il mio nome e il mio ordine presso di voi. Voglio sapere come hanno avuto i miei dati e pretendo che i miei vengano eliminati dai vostri sistemi.", "label": "privacy_cancellazione_dati"}
+{"text": "Per le rate c'è un tasso diverso a seconda del prodotto? Il phon costa poco e il forno tanto, volevo capire se il TAN cambia.", "label": "pagamento_rate"}
+{"text": "Spett. assistenza, riscontro da due giorni l'impossibilità di effettuare l'accesso al mio profilo cliente tramite l'app sull'iPhone, mentre dal computer l'accesso funziona. Ho già provato a reinstallare l'applicazione. Cordiali saluti.", "label": "accesso_account"}
+{"text": "Gentilissimi, sono un'insegnante e stavo provando ad ordinare una stampante con la carta della scuola. L'operazione viene respinta con errore generico 'KO'. Avete voi blocchi sulle carte aziendali o c'è qualcosa che posso fare?", "label": "pagamento_rifiutato"}
+{"text": "per un solo ordine mi son visto due addebiti sulla carta. uno in sospeso e uno confermato. l'importo è lo stesso 64,90", "label": "addebito_doppio_errato"}
+{"text": "Ciao! Ordine pronto per il ritiro da 3 giorni ma sul sito dice ancora in preparazione, posso andare comunque in negozio a Pescara?", "label": "ritiro_in_negozio"}
+{"text": "Mi è stato fatturato e addebitato un prodotto in più rispetto a quelli ordinati: ho preso 2 cavi HDMI e il totale è di 3 cavi. Il terzo non l'ho ricevuto né ordinato. Voglio lo storno della somma addebitata in eccesso.", "label": "addebito_doppio_errato"}
+{"text": "Buongiorno, non so se ho fatto bene a comprare l'aspirapolvere senza fili: costa tanto e ora ho dei dubbi. Posso restituirlo? È ancora nella confezione.", "label": "recesso_ripensamento"}
+{"text": "mi iscrivo e non mi arriva la mail di verifica", "label": "accesso_account"}
+{"text": "infoo sullo stato d'ordine?? aspetto cuffie", "label": "ordine_stato_spedizione"}
+{"text": "Ho appena acquistato il climatizzatore, lo installa un tecnico domani. Prima volevo capire come si imposta la modalità deumidificazione dal telecomando e cosa significano i simboli. Il telecomando è un po' complicato.", "label": "supporto_uso_prodotto"}
+{"text": "non mi è arrivato niente, la scadenza era il 7. sono molto arrabbiata", "label": "ordine_ritardo_reclamo"}
+{"text": "La smartwatch comprata 7 mesi fa ha il vetro che si è staccato dal bordo senza che sia caduta né urtata. Si può riparare in garanzia?", "label": "reso_garanzia_difetto"}
+{"text": "Buonasera, vi chiedo l'immediata cancellazione dei miei dati dai vostri server e dal CRM. Non ho mai autorizzato l'utilizzo per iniziative di marketing. Fino a ieri ho ricevuto tre sms promozionali. Attendo conferma scritta, in difetto mi rivolgerò al Garante.", "label": "privacy_cancellazione_dati"}
+{"text": "Entro con email e password e il sito si ricarica e mi rimanda al login, non entro mai. Ho provato su 2 browser diversi", "label": "accesso_account"}
+{"text": "non voglio piu l'ordine. fermate la spedizione prima che parta", "label": "ordine_annullamento"}
+{"text": "scusi chi ha vinto ieri la partita?", "label": "fuori_tema"}
+{"text": "Offriamo traduzioni certificate in 40 lingue a tariffe agevolate per aziende. Chiedeteci un preventivo senza impegno.", "label": "fuori_tema"}
+{"text": "come si collega il portatile al monitor con usb-c? devo attivare qualcosa nelle impostazioni?", "label": "supporto_uso_prodotto"}
+{"text": "risposte automatiche inutili, vi prego fatemi parlare con un essere umano competente", "label": "reclamo_servizio_clienti"}
+{"text": "sono arrivate le casse bluetooth e una ha il cono rotto, si vede dal buco", "label": "danno_alla_consegna"}
+{"text": "Smettete di mandare email a mio figlio minorenne con promozioni di videogiochi! Cancellate il suo indirizzo dalla newsletter immediatamente.", "label": "disiscrizione_marketing"}
+{"text": "Salve, devo comprare un portatile per mio figlio all'università, 950 euro. Avete un finanziamento? Mi serve sapere TAN, TAEG e durata massima. Ho 52 anni e sono lavoratore autonomo, va bene lo stesso?", "label": "pagamento_rate"}
+{"text": "Buongiorno, desidero esprimere la mia insoddisfazione per la gestione della mia richiesta da parte dell'assistenza. Nessun operatore ha mai risposto alle mie domande specifiche e mi sono state date informazioni contrastanti da due diversi colleghi. Chiedo un contatto da parte di un responsabile del servizio clienti.", "label": "reclamo_servizio_clienti"}
+{"text": "Ho il vostro documento ma non è una fattura, è solo un riepilogo ordine. Mi serve quella fiscale con numero e data, dove la scarico?", "label": "fattura_richiesta"}
+{"text": "chiudete il mio profilo e cancellate indirizzo e numero di telefono, nn voglio più niente da voi", "label": "privacy_cancellazione_dati"}
+{"text": "Posso usare il robot aspirapolvere in casa su due piani? Memorizza più mappe?", "label": "info_prodotto_prevendita"}
+{"text": "Ordine in ritardo!", "label": "ordine_ritardo_reclamo"}
+{"text": "Ordinato smartwatch ieri. Quando passa al corriere? Grazie", "label": "ordine_stato_spedizione"}
+{"text": "dimenticatemi!! cancellazione totale dati, ordine ritirato e tutto ok ma non voglio restare nel database", "label": "privacy_cancellazione_dati"}
+{"text": "Buonasera, vorrei lamentarmi per la consegna del forno a microonde: arrivata con sette giorni di ritardo rispetto alla data garantita, e nessuno mi ha avvisato. Ora mi aspetto un gesto commerciale.", "label": "ordine_ritardo_reclamo"}
+{"text": "nulla da fare, rifiuta la mia carta, vorrei solo ordinare 1 paio di cuffie", "label": "pagamento_rifiutato"}
+{"text": "Ho appena ordinato un robot aspirapolvere ma ho scelto l'indirizzo sbagliato dal menù a tendina del sito. Voglio mandarlo all'indirizzo di mia madre a Bari invece che a Roma. Potete aiutarmi in fretta?", "label": "ordine_modifica_indirizzo"}
+{"text": "ordine annullato dal sito 4 giorni fa, i soldi sono ancora bloccati sulla carta. quando li liberate?", "label": "rimborso_stato"}
+{"text": "Gentilissimi, cerco un traduttore madrelingua inglese per documenti tecnici? Se può farlo qualcuno di voi, vi prego rispondermi.", "label": "fuori_tema"}
+{"text": "Salve, ho comprato un set di tre pentole e ne ho trovate solo due nel pacco. Il numero d'ordine è OT-2026-38821. Come risolvere?", "label": "articolo_errato_mancante"}
+{"text": "Salve sono una pensionata di Torino, mi è arrivata la lampada da tavolo e quando l'ho tirata fuori il paralume era tutto rotto, i cocci dentro la scatola. Che devo fare? Ho anche le foto che mi ha fatto il mio vicino.", "label": "danno_alla_consegna"}
+{"text": "Ho letto in una recensione che il frullatore ha il bicchiere in plastica con BPA. È vero? Voglio sapere prima di acquistarlo.", "label": "info_prodotto_prevendita"}
+{"text": "Ho ordinato il tostapane in due colori per vedere quale stava meglio in cucina, quello grigio resta, il rosso lo restituisco. Dove trovo il modulo reso?", "label": "recesso_ripensamento"}
+{"text": "Buongiorno, dovrei annullare un ordine perché ho sbagliato il modello di cuffie bluetooth. Il numero d'ordine è 2026-93321, stato 'confermato'. Mi serve conferma scritta della cancellazione.", "label": "ordine_annullamento"}
+{"text": "Il codice OTP via sms non mi arriva, uso Vodafone, sono in Sardegna", "label": "accesso_account"}
+{"text": "la lavatrice è arrivata ma senza i tubi di carico e scarico. dovevano esserci. ordine di giovedì", "label": "articolo_errato_mancante"}
+{"text": "Per cortesia, potreste confermarmi se la fattura la emettete in automatico o devo richiederla io? Non vorrei ritrovarmi senza al momento della consegna.", "label": "fattura_richiesta"}
+{"text": "ciao ho ricevuto i due pacchi ma quello del forno era sfondato e il forno è rotto, l'altro pacco è ok. mi aiutate?", "label": "danno_alla_consegna"}
+{"text": "sono entrata ma dopo pochi secondi mi disconnette da sola, ogni volta. non riesco a completare niente", "label": "accesso_account"}
+{"text": "la soundbar si trova in versione con subwoofer? qui c'è solo la versione senza e dice non disponibile", "label": "disponibilita_riassortimento"}
+{"text": "Il mio livello fedeltà è Silver ma nella mail promozionale di ieri mi chiamavano cliente Gold. Quale è il mio livello vero?", "label": "programma_fedelta"}
+{"text": "Salve, ho ordinato dall'Italia ma vivo in Germania: voglio che il pacco venga spedito dai miei genitori a Udine e non qui. Ordine OT-2026-71830. Dovreste far partire con il nuovo indirizzo.", "label": "ordine_modifica_indirizzo"}
+{"text": "Buongiorno vi scrivo perché ho comprato un trapano per mio marito, un trapano a batteria, e nella valigetta c'era solo una batteria invece di due. Sul sito la scheda dice \"2 batterie incluse\". Dai, me la mandate?", "label": "articolo_errato_mancante"}
+{"text": "buongiorno, ordine fatto il 2/10, vedo scritto 'evaso'. significa che è partito?", "label": "ordine_stato_spedizione"}
+{"text": "la macchina del caffè ha smesso di scaldare e il display è nero. dopo solo 3 settimane! Vi chiedo di cambiarla. (Non voglio restituirla per ripensamento, è proprio guasta)", "label": "reso_garanzia_difetto"}
+{"text": "Egregio servizio, in merito alla tessera fedeltà: nei termini e condizioni leggo che i punti non maturano sugli elettrodomestici di grandi dimensioni. Vorrei sapere se la regola vale anche per i frigoriferi e per le lavastoviglie, e quali categorie sono escluse. Distinti saluti.", "label": "programma_fedelta"}
+{"text": "Ciao, la macchina del caffè con macinatore è esaurita ovunque. Sapete se Ottavo la rifornirà prima di Natale?", "label": "disponibilita_riassortimento"}
+{"text": "Egregi signori, scrivo per conoscere i tempi di riassortimento del condizionatore portatile 9000 BTU, attualmente non disponibile. Avrei bisogno di installarlo prima dell'estate prossima, quindi se mi dite che arriva a marzo mi organizzo.", "label": "disponibilita_riassortimento"}
+{"text": "Ciao ragazzi, sono una startup che sviluppa chatbot AI. Vorremmo mostrarvi come automatizzare tutto il vostro customer care, vi interessa una demo di 15 minuti?", "label": "fuori_tema"}
+{"text": "Dovrei modificare l'indirizzo: sono andato a vivere con la mia fidanzata e il vecchio posto è disabitato. Mi basta una conferma che lo aggiornate prima che il pacco parta.", "label": "ordine_modifica_indirizzo"}
+{"text": "mi hanno addebitato due volte la tv, 2 x 549. ho contattato la banca e dicono che sono entrambi autorizzati da voi", "label": "addebito_doppio_errato"}
+{"text": "Mi servirebbe annullare l'ordine OT-2026-88245: sono morto di... no scherzo, ho cambiato idea. Costa troppo.", "label": "ordine_annullamento"}
+{"text": "Buongiorno, ho ricevuto un frullatore ma io avevo ordinato un estrattore di succo. Non mi serve il frullatore: andrebbe ritirato e sostituito con quello che ho ordinato. Quando passate?", "label": "articolo_errato_mancante"}
+{"text": "Dove posso vedere quante rate mi restano da pagare per il mio finanziamento? Nell'area personale vedo solo gli ordini.", "label": "pagamento_rate"}
+{"text": "CORRIERE HA BUTTATO IL PACCO IN GIARDINO, DENTRO IL TABLET E' ROTTO. VOGLIO UNA SOLUZIONE", "label": "danno_alla_consegna"}
+{"text": "Perché l'ordine non va a buon fine? Pago con Postepay, dice 'dati carta non validi'. Ho copiato i numeri dalla carta, quindi sono giusti.", "label": "pagamento_rifiutato"}
+{"text": "Ho comprato un deumidificatore a marzo, ora il serbatoio non rileva il pieno e perde acqua dal fondo. Il compressore parte e si ferma ogni 30 secondi. Chiedo assistenza.", "label": "reso_garanzia_difetto"}
+{"text": "Buonasera, ho fatto un ordine combinato di cuffie e speaker ma voglio tenere solo le cuffie. Annullo tutto l'ordine e rifaccio quello giusto: potete cancellare OT-2026-52331 prima che esca dal magazzino?", "label": "ordine_annullamento"}
+{"text": "Salve, il pacco potrebbe arrivare nel mio condominio quando non ci sono. Posso cambiare l'indirizzo con quello di mio padre, che è in pensione? Via Crispi 8, stessa città.", "label": "ordine_modifica_indirizzo"}
+{"text": "Salve, ho acquistato come ospite senza accedere al mio profilo e adesso vorrei associare quell'ordine alla tessera per avere i punti. È possibile farlo dopo?", "label": "programma_fedelta"}
+{"text": "Dalle vostre pagine non si capisce bene se per le rate bisogna avere la carta del circuito Visa o possono andare bene anche le Postepay. Che mi dite?", "label": "pagamento_rate"}
+{"text": "Buongiorno, come da vs mail del 2/10 il reso è stato 'preso in carico'. Vorrei sapere se il rimborso è stato effettuato e con quale metodo, poiché sul conto corrente non è visibile.", "label": "rimborso_stato"}
+{"text": "la tv oled c'è in 77 pollici? o ne arriverà una?", "label": "disponibilita_riassortimento"}
+{"text": "Salve, ho collegato la TV al wifi ma Netflix mi chiede di accedere con il codice: dove lo trovo? Siamo in due e non ci capiamo!", "label": "supporto_uso_prodotto"}
+{"text": "Avevate scritto consegna entro 5 giorni. Ne sono passati 8. Ciao, volevo capire come mai.", "label": "ordine_ritardo_reclamo"}
+{"text": "Per il pagamento rateale c'è un massimale di prodotti nel carrello? Ho visto solo 'finanziamento da 200 a 5.000 euro' ma volevo conferma", "label": "pagamento_rate"}
+{"text": "il rimborso del reso lo accreditate sulla carta o devo aspettare un bonifico? aspetto da una settimana", "label": "rimborso_stato"}
+{"text": "Ho un finanziamento attivo con voi e la banca mi segnala la quarta rata 'insoluta' ma io ho il saldo sufficiente. Mi serve sapere come funzionano i solleciti e se potete dirmi quando la finanziaria riproverà l'addebito.", "label": "pagamento_rate"}
+{"text": "voglio cambiare indirizzo, la lavatrice deve andare alla seconda casa a Rimini", "label": "ordine_modifica_indirizzo"}
+{"text": "Ho comprato un regalo e avrei bisogno di cambiare l'indirizzo con quello della persona che lo riceverà, e che non sia indicato il mio nome sul pacco. Come si fa?", "label": "ordine_modifica_indirizzo"}
+{"text": "Sono residente in Svizzera e voglio ordinare con carta svizzera ma il sito la rifiuta. Accettate solo carte italiane o europee?", "label": "pagamento_rifiutato"}
+{"text": "La friggitrice da 3,5 litri ha il timer con spegnimento? I cestelli vanno in lavastoviglie?", "label": "info_prodotto_prevendita"}
+{"text": "Buonasera, vi chiedo gentilmente di inviarmi le fatture di tutti gli ordini effettuati nel 2025 in un unico file, se possibile. Sono per la contabilità dello studio. Resto in attesa, distinti saluti, Avv. Marco Pellegrini.", "label": "fattura_richiesta"}
+{"text": "La mia casa è in fase di ristrutturazione quindi non posso ricevere il pacco. Posso farlo consegnare altrove? L'ordine non è ancora partito, la mail dice 'in elaborazione'.", "label": "ordine_modifica_indirizzo"}
+{"text": "Salve, il mio codice sconto per il primo acquisto vale ancora? L'avevo ricevuto a giugno quando mi sono iscritto e non l'ho mai utilizzato", "label": "codice_sconto"}
+{"text": "Salve, scrivo perché vorrei regalare delle cuffie a mio padre che ha 70 anni e vuole sentire bene la tv senza disturbare mia madre. Meglio over-ear o in-ear? Grazie per la gentilezza.", "label": "info_prodotto_prevendita"}
+{"text": "Il pacco è in ritardo di tre giorni rispetto a quanto scritto sul sito al momento dell'ordine. Spiegatemi cosa è successo.", "label": "ordine_ritardo_reclamo"}
+{"text": "Ho provato a pagare ma mi dice che la carta è scaduta; la carta scade a fine 2028! Ho scritto bene la data: 12/28. Continua a rifiutare.", "label": "pagamento_rifiutato"}
+{"text": "Il corriere ha consegnato la lavatrice sotto la pioggia, ora scopro che l'imballo era zuppo e il cestello ha una botta. Non so se funziona ma è sicuramente danneggiata, c'è un'ammaccatura visibile sul retro. Ordine di ottobre.", "label": "danno_alla_consegna"}
+{"text": "Il purificatore d'aria copre 40 metri quadri? Serve cambiare il filtro ogni quanto e quanto costa il ricambio?", "label": "info_prodotto_prevendita"}
+{"text": "Salve, vorrei sapere se i punti Ottavo Club maturano anche sugli acquisti dei prodotti in offerta o solo su quelli a prezzo pieno. Lunedì ho comprato un frullatore scontato del 30% e non ho visto accrediti. Resto in attesa, buona giornata.", "label": "programma_fedelta"}
+{"text": "Il pacco è arrivato, la macchina del caffè funziona, grazie. Una cosa: sulla fattura c'è il codice fiscale di mia madre perché l'account è suo. Mi serve il mio. Possibile?", "label": "fattura_richiesta"}
+{"text": "Annullate tutto, ho cambiato idea. Ordine di sabato scorso.", "label": "ordine_annullamento"}
+{"text": "Ottavo Store non mi mandate più offerte per favore, ho il frigo pieno di cose che nn serve", "label": "disiscrizione_marketing"}
+{"text": "Non capisco se ci sono costi nascosti nelle rate: ho visto 'spese di gestione pratica 3 euro' al mese? Mi chiarite l'importo totale dovuto per il phon + 6 rate?", "label": "pagamento_rate"}
+{"text": "Buongiorno, ho lo smartphone nuovo e vorrei configurare la doppia SIM: la seconda è una eSIM, come si attiva? Ho letto di un codice QR.", "label": "supporto_uso_prodotto"}
+{"text": "Buongiorno, mi sono accorta che il buono regalo che ho ricevuto è stato usato ma non da me. Il codice era GC-30219-OT, saldo ora a zero. Come è possibile? Vorrei capire e recuperare il valore.", "label": "codice_sconto"}
+{"text": "Ho comprato 2 prodotti in promo 2x1 ma l'addebito è per entrambi a prezzo pieno (2 x 45 = 90 invece di 45). Perciò mi sono stati addebitati 45 euro in più rispetto al dovuto.", "label": "addebito_doppio_errato"}
+{"text": "Gentile Ottavo Store, non riesco a capire il significato dei livelli sul mio profilo: ho una stella e una barretta. A cosa corrispondono? Grazie", "label": "programma_fedelta"}
+{"text": "Salve, scrivo perché dell'ordine di sabato (una tastiera e un mouse) è arrivata solo la tastiera. Il pacco era chiuso bene, sembra che il mouse non sia stato spedito. Mi dite se arriva a parte?", "label": "articolo_errato_mancante"}
+{"text": "Buongiorno, io ho comprato una smart TV 50 pollici che avrei voluto ritirare ma ho scelto consegna a domicilio per errore. Meglio ancora, non possiamo cambiare la destinazione alla casa di mio fratello? Dice che può ricevere lui.", "label": "ordine_modifica_indirizzo"}
+{"text": "ho annullato l'ordine del tostapane e della bilancia, ma i soldi non tornano. che tempi avete?", "label": "rimborso_stato"}
+{"text": "Posso cambiare il codice usato su un ordine già pagato con un altro più conveniente? Ho visto che c'è un 20% e avevo messo il 10%", "label": "codice_sconto"}
+{"text": "Ennesima chiamata persa, ennesimo messaggio ignorato. Ma lavorate o no?", "label": "reclamo_servizio_clienti"}
+{"text": "Sono una cliente soddisfatta in realtà, ma per motivi personali devo scomparire dal web. Elimino tutti gli account, il vostro compreso: chiedo cancellazione dati e account.", "label": "privacy_cancellazione_dati"}
+{"text": "Salve, volevo segnalare che il mio frigo acquistato lo scorso anno ha il display del pannello comandi completamente spento e non riesco a regolare la temperatura. Il frigo funziona ma non riesco più a impostare. Cerco una riparazione.", "label": "reso_garanzia_difetto"}
+{"text": "Il robot da cucina era esaurito a settembre e lo è ancora. Posso sapere se arriverà o se è stato tolto?", "label": "disponibilita_riassortimento"}
+{"text": "L'ordine è stato fatto ieri notte. Questa mattina mi sono svegliato e ho cambiato idea. Si può annullare?", "label": "ordine_annullamento"}
+{"text": "ho appena ordinato una macchina da cucire elettrica... no scusate un robot lavapavimenti. posso sapere quando parte?", "label": "ordine_stato_spedizione"}
+{"text": "Si può avere il pagamento in rate anche per ordini da ritirare nei 12 negozi? oppure solo per le consegne a domicilio?", "label": "pagamento_rate"}
+{"text": "Il pacco conteneva una lampada da tavolo ma non quella che avevo ordinato io, che era la lampada a led con base di ricarica. Questa non ha niente. Voglio la mia.", "label": "articolo_errato_mancante"}
+{"text": "Salve, il regalo per mio marito doveva arrivare prima del suo compleanno, che era sabato. Siamo a lunedì e il pacco non c'è. Non so se vi rendete conto del disagio.", "label": "ordine_ritardo_reclamo"}
+{"text": "quanto ci mettete a cancellare un account? lo chiedo per un amico che ha fretta", "label": "privacy_cancellazione_dati"}
+{"text": "Buongiorno, potete dirmi se in futuro sarà disponibile anche la versione bianca dello smartphone in memoria da 512 GB? Per ora vedo solo nera.", "label": "disponibilita_riassortimento"}
+{"text": "Posso pagare la lavatrice a rate? Con che finanziaria?", "label": "pagamento_rate"}
+{"text": "Spett. Ottavo Store, in qualità di interessato, chiedo di conoscere l'origine dei dati personali che mi riguardano, poiché non ricordo di aver mai effettuato acquisti o registrazioni presso di voi.", "label": "privacy_cancellazione_dati"}
+{"text": "MI AVETE FATTO PAGARE DUE VOLTE. VOGLIO INDIETRO I SOLDI IN PIÙ", "label": "addebito_doppio_errato"}
+{"text": "Il bollitore elettrico è arrivato col manico spezzato e la plastica incrinata. Mio figlio dice che è un danno di trasporto e dobbiamo segnalarlo qui. Cosa dobbiamo fare esattamente?", "label": "danno_alla_consegna"}
+{"text": "vorrei sapere se posso cancellare un ordine non ancora spedito, e come", "label": "ordine_annullamento"}
+{"text": "Ho aspettato fino ad oggi ma la consegna era di una settimana fa. Pretendo almeno una spiegazione scritta.", "label": "ordine_ritardo_reclamo"}
+{"text": "Buongiorno, sto cercando di acquistare una smart TV ma al momento del pagamento compare 'transazione non autorizzata'. La carta funziona regolarmente altrove e ha il plafond. Cosa posso fare?", "label": "pagamento_rifiutato"}
+{"text": "Salve, sono Mauro, il tecnico delle caldaie. Se ha bisogno di manutenzione la mia ditta è disponibile in tutta la provincia di Brescia a prezzi bassi", "label": "fuori_tema"}
+{"text": "Buongiorno, ordine annullato senza problemi. Il rimborso però è stato fatto con bonifico? Mi serve sapere perché attendo una notifica dalla banca che non arriva.", "label": "rimborso_stato"}
+{"text": "Il codice sconto vale anche per i prodotti già in offerta?", "label": "codice_sconto"}
+{"text": "Buonasera, vorrei esercitare il diritto di opposizione al trattamento dei miei dati per finalità statistiche e di profilazione e, già che ci sono, chiedere quali dati vengono inviati a Google e Meta dal vostro sito.", "label": "privacy_cancellazione_dati"}
+{"text": "che cavolo di assistenza è, 3 mail e zero risposte, mi serve un responsabile", "label": "reclamo_servizio_clienti"}
+{"text": "cuffie arrivate bene e funzionate benissimo per 2 mesi poi han smesso di caricarsi. Che passi per la garanzia?", "label": "reso_garanzia_difetto"}
+{"text": "a chi posso donare vecchi vestiti usati? cerco una onlus", "label": "fuori_tema"}
+{"text": "fate partire il pacco verso un altro indirizzo? ho appena ordinato", "label": "ordine_modifica_indirizzo"}
+{"text": "Ciao, ho collegato il kit di sorveglianza ma in app vedo solo 2 telecamere su 4, penso di aver sbagliato la procedura di associazione. Come si aggiungono le altre due?", "label": "supporto_uso_prodotto"}
+{"text": "Gentile Ottavo Store, in riferimento al mio reso della scorsa settimana (cuffie, ordine OT-2026-52004) vorrei sapere il termine entro cui il rimborso sarà effettivo, perché devo fare un pagamento e mi servono quei soldi.", "label": "rimborso_stato"}
+{"text": "pagamento duplicato per ordine con ritiro in negozio, ho pagato online e poi mi hanno fatto pagare di nuovo alla cassa", "label": "addebito_doppio_errato"}
+{"text": "come collego le cuffie bluetooth al telefono? è la prima volta", "label": "supporto_uso_prodotto"}
+{"text": "Sono Giovanna e scrivo da Treviso. Allora, io ordino da voi da anni con la tessera Ottavo Club e non ho mai avuto problemi, ma stavolta il frullatore che doveva arrivare lunedì non si è visto. Siamo a giovedì e mi pare giusto segnalarlo. Aspetto notizie.", "label": "ordine_ritardo_reclamo"}
+{"text": "come faccio a sapere se un prodotto dà più punti degli altri", "label": "programma_fedelta"}
+{"text": "posso usare le capsule di altre marche con la macchina? e come regolo la quantità di acqua", "label": "supporto_uso_prodotto"}
+{"text": "Ciao, il mio nuovo telefono: come trasferisco foto e contatti dal vecchio? Ho il vecchio che è un altro marchio", "label": "supporto_uso_prodotto"}
+{"text": "ciao nn vedo il rimborso della lavastoviglie compatta, mi hanno ritirato il pacco il 5. sono già passati i 14 giorni cmq", "label": "rimborso_stato"}
+{"text": "cambio indirizzo consegna ordine 51233 si può?", "label": "ordine_modifica_indirizzo"}
+{"text": "puoi controllare il pacco? ordine di Chiara Venturi, Torino", "label": "ordine_stato_spedizione"}
+{"text": "Buongiorno, ho reso un robot aspirapolvere che era arrivato con la scatola schiacciata e voi avete già accettato il reso. Ora aspetto solo il rimborso: la mail dice 7 giorni, ma ne sono passati 12.", "label": "rimborso_stato"}
+{"text": "mi hanno detto in negozio che la fattura la devo chiedere online, come?", "label": "fattura_richiesta"}
+{"text": "Buongiorno, vorrei sapere se la smart TV 55 pollici della vostra linea Ottavo Home ha il decoder DVB-T2 integrato, perché ho una TV vecchia che non prende i nuovi canali e non vorrei comprare un altro apparecchio.", "label": "info_prodotto_prevendita"}
+{"text": "Buongiorno, la data promessa per la consegna del frigorifero era il 5 ottobre. Siamo al 13. Ho già scritto due volte via chat ma senza risposta. Vorrei sapere la ragione di questo ritardo.", "label": "ordine_ritardo_reclamo"}
+{"text": "dovevate consegnare entro il 14!!! sono le 19 del 17 e niente", "label": "ordine_ritardo_reclamo"}
+{"text": "Buongiorno, mi serve aiuto con la configurazione del router: ho cambiato il nome della rete wifi e ora non riesco più a ricollegare i dispositivi smart plug. Come li riconfiguro?", "label": "supporto_uso_prodotto"}
+{"text": "Gentile Ottavo Store, sono interessata all'acquisto di un frigorifero combinato del costo di 649 euro. Vorrei sapere come funziona il pagamento dilazionato: quali documenti servono, in quanto tempo viene data la risposta della finanziaria e quale sarebbe l'importo della rata minima. Cordiali saluti, Rita Fumagalli", "label": "pagamento_rate"}
+{"text": "Buongiorno, volevo chiedere se, avendo già un finanziamento in corso con voi per un frigorifero, posso richiederne un secondo per una TV. Non so se ci sia un limite al numero di finanziamenti attivi.", "label": "pagamento_rate"}
+{"text": "Ma voi pensate che io non guardi l'estratto conto? 2 addebiti per lo stesso ordine, e sono già in attesa di un vostro rimborso per un altro ordine. Ora mi servono indietro tutti e due: il vecchio e il doppio addebito.", "label": "addebito_doppio_errato"}
+{"text": "Ho ordinato un robot aspirapolvere il mese scorso, tutto perfetto, ma adesso le mail con le offerte sulle cuffie bluetooth e sulle tv mi stancano. Disiscrivetemi per cortesia.", "label": "disiscrizione_marketing"}
+{"text": "è fuori stock il bollitore rosso, ne arriveranno?", "label": "disponibilita_riassortimento"}
+{"text": "Scusate se disturbo, io sono anziana e non capisco bene il sito: il frullatore a mano dice che non è disponibile, vuol dire che non c'è più? Quando lo avranno?", "label": "disponibilita_riassortimento"}
+{"text": "Mi trovo a Cagliari per lavoro ma ho ordinato col ritiro a Sassari. Posso ritirare in un altro vostro negozio in Sardegna o devo per forza andare a Sassari? Fatemi sapere, grazie.", "label": "ritiro_in_negozio"}
+{"text": "Scrivo da Lecce: vorrei sapere come funziona il sistema di cottura del forno a vapore combinato, se serve allaccio idrico, e che differenza c'è con un forno ventilato normale. Sto ristrutturando la cucina e devo ordinare i mobili prima.", "label": "info_prodotto_prevendita"}
+{"text": "Buongiorno, l'aria condizionata portatile acquistata a luglio ha il tubo di scarico che si è deformato col caldo e il compressore si ferma dopo 2 minuti. Nessuna manomissione. Chiedo riparazione o sostituzione.", "label": "reso_garanzia_difetto"}
+{"text": "puoi mandarmi la fattura del mio ordine su whatsapp?", "label": "fattura_richiesta"}
+{"text": "Buongiorno, ho ricevuto il robot aspirapolvere ma nella scatola non c'è la base di ricarica. Senza quella non posso usarlo. Potete spedirmela?", "label": "articolo_errato_mancante"}
+{"text": "ciao, mi serve capire perché mi rifiuta il pagamento, sempre lo stesso messaggio: 'riprova con un altro metodo'. ho solo questa carta", "label": "pagamento_rifiutato"}
+{"text": "Per cortesia correggete l'indirizzo: Via della Libertà 17, 90143 Palermo. Quello sul sito è sbagliato.", "label": "ordine_modifica_indirizzo"}
+{"text": "Sono in rosso per colpa vostra, avete addebitato 2 volte 300 euro!!", "label": "addebito_doppio_errato"}
+{"text": "Buonasera, ho creato l'account con la mia email ma il sito mi dice che esiste già un utente con questo indirizzo, anche se non ricordo di essermi mai registrata. E non riesco a recuperare la password perché dice errore generico.", "label": "accesso_account"}
+{"text": "tv arrivata senza viti per piedini. il resto ok.", "label": "articolo_errato_mancante"}
+{"text": "mail promozionali di nuovo oggi, è la quinta cancellazione che chiedo", "label": "disiscrizione_marketing"}
+{"text": "Buongiorno, volevo usare il codice amico che mi ha dato mio cognato per avere i 10 euro di sconto sul primo ordine, ma nel carrello mi dice che sono già cliente. Io però avevo ordinato solo una volta nel 2023 come ospite!", "label": "codice_sconto"}
+{"text": "è passata una settimana dal reso del mouse wireless, c'è scritto nel sito 'rimborso in corso'. Ma 'in corso' fino a quando?", "label": "rimborso_stato"}
+{"text": "Che differenza c'è tra friggitrice ad aria con cestello e quella con due cassetti? Mi serve per 2 persone, ma cucino spesso due cose diverse.", "label": "info_prodotto_prevendita"}
+{"text": "Avevo ordinato un forno a microonde ma mi hanno regalato lo stesso modello, quindi basta, annullatelo. Per fortuna lo stato è ancora 'in lavorazione'.", "label": "ordine_annullamento"}
+{"text": "Buongiorno, sto usando per la prima volta la piastra a induzione. Le pentole che ho vanno bene, ma non capisco come si blocca il pannello per i bambini e come si imposta il timer di spegnimento.", "label": "supporto_uso_prodotto"}
+{"text": "la data di consegna era il 4 e oggi siamo al 9, sul sito c'è ancora scritto che arriverà entro il 4. perché?", "label": "ordine_ritardo_reclamo"}
+{"text": "Ho scritto su WhatsApp, via mail, su Instagram: in nessun canale mi hanno dato una risposta. Possibile che nessuno sia raggiungibile?", "label": "reclamo_servizio_clienti"}
+{"text": "ordine OT-2026-83310: dove si trova ora? grazie mille", "label": "ordine_stato_spedizione"}
+{"text": "sconto rifiutato, scrive 'codice già utilizzato su questo indirizzo email'. ma io ho cambiato account", "label": "codice_sconto"}
+{"text": "Scrivo perché ho comprato un buono regalo online per mia sorella e non le è mai arrivata la mail con il codice. Ho pagato 75 euro, ordine OT-2026-46231. Potete rimandarlo?", "label": "codice_sconto"}
+{"text": "Carta di debito, ho provato più volte, nessun addebito ma l'ordine non viene concluso: 'pagamento non accettato dall'emittente'. Cosa vuol dire e come procedo?", "label": "pagamento_rifiutato"}
+{"text": "Salve scusate, ho ordinato una friggitrice ad aria ma al checkout sono andato di fretta e ho lasciato i dati normali. Posso ancora mettere la partita iva?? Ordine non ancora spedito", "label": "fattura_richiesta"}
+{"text": "Ho inserito il codice della carta regalo del negozio come metodo di pagamento, ma continua a dirmi che il metodo di pagamento non è valido per questo ordine. L'ordine è di 60 euro e la carta ne ha 100.", "label": "pagamento_rifiutato"}
+{"text": "Sbagliato indirizzo, ordinato una piastra per capelli, mandatela a Via Verdi 9, Cuneo. Dove devo scrivere per cambiarlo?", "label": "ordine_modifica_indirizzo"}
+{"text": "Ennesima risposta copia incolla dall'assistenza, evidentemente non leggete nemmeno quello che scrivo. Io ho chiesto una cosa precisa e mi avete mandato il link alle FAQ per la terza volta.", "label": "reclamo_servizio_clienti"}
+{"text": "Salve, mi è arrivato un messaggio di rimborso parziale di 45 euro dopo il reso di 2 articoli. Il secondo rimborso quando arriva? Entrambi sono stati restituiti insieme.", "label": "rimborso_stato"}
+{"text": "Buonasera, l'aspirapolvere con filtro HEPA è adatto per chi soffre di asma? Mia figlia è allergica agli acari e il medico ha detto di fare attenzione. Che modello va meglio?", "label": "info_prodotto_prevendita"}
+{"text": "Mi serve il modulo di recesso per un ordine consegnato il 3 ottobre. Ho cambiato idea sulla cuffia gaming.", "label": "recesso_ripensamento"}
+{"text": "Il robot da cucina cuoce anche a vapore? c'è il cestello? Quante persone ci mangiano?", "label": "info_prodotto_prevendita"}
+{"text": "Buongiorno, ho un matrimonio sabato e avevo ordinato un asciugacapelli professionale con consegna entro mercoledì. Oggi è venerdì e non è arrivato nulla. Con la presente chiedo spiegazioni formali sul mancato rispetto dei tempi.", "label": "ordine_ritardo_reclamo"}
+{"text": "Il coupon del 12% che avevo in carrello da ieri sera adesso non c'è più, il banner promo però è ancora sul sito. Quando lo rimettete?", "label": "codice_sconto"}
+{"text": "Salve, quando premo 'password dimenticata' mi dice di inserire il numero di telefono, ma io non l'ho mai dato. Come recupero l'accesso?", "label": "accesso_account"}
+{"text": "Buongiorno. Una domanda: ho ricevuto il purificatore ma con un filtro non compatibile (il codice sul filtro non corrisponde a quello del purificatore). Sarebbe l'articolo sbagliato. Come lo cambio?", "label": "articolo_errato_mancante"}
+{"text": "L'aspirapolvere era danneggiato appena aperto il pacco: il tubo ha una frattura netta. Ancora entro i 14 giorni, quindi vorrei fare il reso ma è per il danno subìto in consegna, non per ripensamento. Come procedo?", "label": "danno_alla_consegna"}
+{"text": "Ho comprato la macchina per la pasta, poi dopo averla restituita mi è arrivata una mail 'reso concluso' ma senza dire quando restituite l'importo. Potete dirmelo?", "label": "rimborso_stato"}
+{"text": "Vi scrivo da Napoli. Il mio ordine di un monitor era in offerta a 159, ma mi hanno addebitato 189, prezzo pieno. Controllate che la promo fosse ancora valida quando ho ordinato (il 12 ottobre alle 21).", "label": "addebito_doppio_errato"}
+{"text": "ho comprato un forno e doveva darmi il triplo dei punti per la promo, mi hanno dato il normale", "label": "programma_fedelta"}
+{"text": "Salve, vorrei sapere se il codice sconto del Black Friday è valido anche per ordini con ritiro in negozio", "label": "codice_sconto"}
+{"text": "Una domanda: il pacco è arrivato con la scatola lacerata e segni di rottura. Ho paura che dentro ci sia qualcosa di rotto, ma non l'ho ancora aperto. Meglio aprirlo davanti a qualcuno o rifiutarlo?", "label": "danno_alla_consegna"}
+{"text": "Buongiorno, volevo sapere se il diritto di recesso vale anche per i prodotti in promozione. Ho un ventilatore da restituire, scelto male.", "label": "recesso_ripensamento"}
+{"text": "Spett.le Ottavo Store, desideriamo sapere se un'associazione sportiva (ASD) può acquistare attrezzatura elettronica con pagamento dilazionato in 6 mensilità e quali garanzie vi servono.", "label": "pagamento_rate"}
+{"text": "Cara assistenza, con affetto, vi scrivo da parte di una nonnina: mi sono impantanata con la password e non vedo come farne una nuova. Ho il numero di tessera e la ricevuta di un televisore. Mi potreste aiutare? Grazie di cuore, Maria.", "label": "accesso_account"}
+{"text": "Il frullatore a immersione è finito. Esiste una versione equivalente più recente o devo aspettare che rientri quello?", "label": "disponibilita_riassortimento"}
+{"text": "Salve, ho acquistato un ferro da stiro a vapore ma ho cambiato idea perché ne ho trovato uno in offerta al supermercato. Si può restituire? Non l'ho mai acceso, scatola integra.", "label": "recesso_ripensamento"}
+{"text": "Mi era stato promesso uno sconto di scuse dall'operatore ma ora dicono che nessuno ha traccia della chiamata. Ora non conta tanto lo sconto: mi lamento del fatto che nessuno si assume responsabilità e che mi trattano da bugiardo.", "label": "reclamo_servizio_clienti"}
+{"text": "La stampante che ho comprato a giugno stampa tutto con strisce e ho già cambiato le cartucce. Ci sarà un guasto interno. Come funziona la garanzia?", "label": "reso_garanzia_difetto"}
+{"text": "Mi servirebbe annullare l'ordine delle due lampade smart perché ne ho trovata una sola nel negozio sotto casa. Fermate la spedizione.", "label": "ordine_annullamento"}
+{"text": "Salve, quando sarà di nuovo ordinabile la ciabatta con USB? Non è che la scheda è stata tolta?", "label": "disponibilita_riassortimento"}
+{"text": "si può cambiare il paese dove spedire? ordine OT-2026-18075", "label": "ordine_modifica_indirizzo"}
+{"text": "Buonasera, non so più cosa fare, è la terza volta che scrivo. La mia lavatrice di 8 mesi ha la pompa guasta e perde acqua in cucina. Qualcuno mi può dire se mandate un tecnico? Lo stesso problema c'era anche sulla mia vecchia, ma questa è nuova e dovrebbe essere coperta.", "label": "reso_garanzia_difetto"}
+{"text": "Vorrei ritirare la lavatrice al negozio di Mestre, voi la caricate in furgone o devo portarmi io qualcuno? Ho solo una utilitaria.", "label": "ritiro_in_negozio"}
+{"text": "Ordinato una smart tv col ritiro a Lecce. è troppo grande per la mia auto, vi chiedo se in negozio fanno servizio di aiuto al carico o se c'è un modo per fare consegna a casa dal negozio.", "label": "ritiro_in_negozio"}
+{"text": "vi ho scritto qui sul sito e non è arrivato niente, la chat dà errore, la mail rimbalza, il numero non risponde. Come si fa a contattarvi?", "label": "reclamo_servizio_clienti"}
+{"text": "Ciao, mi cancellate dalla vostra lista clienti? Ho fatto un reso e basta, non voglio che restino i miei dati", "label": "privacy_cancellazione_dati"}
+{"text": "come si fa il reset di fabbrica al robot aspirapolvere per riassociarlo all'app? l'ho preso di seconda mano dal cugino, quindi ora lo voglio mio", "label": "supporto_uso_prodotto"}
+{"text": "Dopo 3 solleciti ancora nessuna risposta sul perché il mio ordine OT-2026-62907 sia arrivato con quasi due settimane di ritardo rispetto alla data indicata... anzi, non è ancora arrivato.", "label": "ordine_ritardo_reclamo"}
+{"text": "Salve, l'orologio fitness si è rotto: non si accende più nonostante l'abbia caricato per ore. Preso a Pasqua. Immagino sia da riparare in garanzia?", "label": "reso_garanzia_difetto"}
+{"text": "hola, scatola della cuffie tutta bagnata e le cuffie dentro hanno il padiglione rotto, nn funzionano nemmeno", "label": "danno_alla_consegna"}
+{"text": "Mi serve sapere se il pacco sta viaggiando verso Cagliari o è ancora fermo da voi, ho prenotato un traghetto e devo tornare a casa per riceverlo.", "label": "ordine_stato_spedizione"}
+{"text": "Posso fare un'unica richiesta di finanziamento per due ordini diversi o ne serve una per ogni ordine?", "label": "pagamento_rate"}
+{"text": "Gentile assistenza, ho effettuato l'ordine il 14 ottobre per un robot aspirapolvere. Nella mia area personale compare 'in preparazione'. Quanto ci vuole di solito prima che passi al corriere? Grazie mille, cordiali saluti, Mario Bellini", "label": "ordine_stato_spedizione"}
+{"text": "Ho ordinato una smart TV ma ho scoperto che la mia parete non regge il peso: annullate l'ordine, ancora non è partita. Nessuna fretta nel rimborso.", "label": "ordine_annullamento"}
+{"text": "Gentile assistenza, scrivo in merito alla tessera fedeltà. Mi sono trasferito da Milano a Lecce e vorrei sapere se i punti rimangono validi anche se compro nei negozi del sud, o se la tessera è legata al punto vendita dove l'ho fatta. Resto in attesa.", "label": "programma_fedelta"}
+{"text": "Le cuffie bluetooth nere ci sono ancora? Sul sito vedo solo bianco e verde.", "label": "disponibilita_riassortimento"}
+{"text": "Egregi signori, con la presente richiedo la cancellazione dell'ordine in oggetto per sopravvenute esigenze familiari. Se l'ordine non fosse ancora stato consegnato al corriere sarei grato di ricevere conferma di annullamento e relativo storno. Distinti saluti, Ing. Pellegrini.", "label": "ordine_annullamento"}
+{"text": "Ciao! Sto per regalare una console a mio nipote di 8 anni, ha giochi adatti alla sua età nei bundle? E il parental control c'è?", "label": "info_prodotto_prevendita"}
+{"text": "Ho scelto il ritiro a Vicenza perché mi avete detto che la spedizione costava di più. Ora però la mail dice pronto ma il negozio risulta chiuso per inventario, riaprite domani? Voglio solo sapere quando posso ritirare.", "label": "ritiro_in_negozio"}
+{"text": "test test 123", "label": "fuori_tema"}
+{"text": "Gentile servizio clienti, scrivo per segnalare il mancato rispetto dei termini di consegna indicati al momento dell'acquisto (entro il 20 ottobre) per l'ordine OT-2026-70555. Ad oggi, 24 ottobre, non ho ricevuto nulla. Chiedo che venga data una soluzione immediata. Distinti saluti.", "label": "ordine_ritardo_reclamo"}
+{"text": "Mi interesserebbe sapere se i vostri sistemi registrano la mia posizione quando uso l'app e se posso chiedere di cancellare questi dati.", "label": "privacy_cancellazione_dati"}
+{"text": "mi dite lo stato dell ordine 48820??", "label": "ordine_stato_spedizione"}
+{"text": "Buonasera, quando l'ordine è pronto, ricevo sia mail che sms? Ho l'abitudine di non controllare la posta e mi interessa sapere il canale per andare al ritiro a Alessandria.", "label": "ritiro_in_negozio"}
+{"text": "mi sono sentito preso in giro dal servizio assistenza, risposte vaghe e promesse mai mantenute", "label": "reclamo_servizio_clienti"}
+{"text": "per quanto tempo conservate i miei dati dopo che chiudo l'account?", "label": "privacy_cancellazione_dati"}
+{"text": "Mi serve la stampante entro il weekend, risulta non disponibile online. Qualcuno in negozio a Roma Eur ce l'ha? Altrimenti quando la rifornite?", "label": "disponibilita_riassortimento"}
+{"text": "Ho un problema con i punti: dopo il recesso di un ordine di 250 euro, mi hanno sottratto 250 punti ma ne avevo accumulati solo 125 per quell'ordine. Perché?", "label": "programma_fedelta"}
+{"text": "Pacco arrivato con il frontale del climatizzatore ammaccato, e il corriere dice che è tutto ok perché l'imballo era integro. Voglio un cambio perché il frontale è rotto.", "label": "danno_alla_consegna"}
+{"text": "Scusate, ho acquistato un set di bilance da cucina ma è un doppione di quella che già ho. Come le restituisco? Sono ancora imballate.", "label": "recesso_ripensamento"}
+{"text": "non volevo iscrivermi, la casella era già spuntata al checkout. togliete la newsletter", "label": "disiscrizione_marketing"}
+{"text": "ciao! ho preso le cuffie per la palestra ma mi cadono dalle orecchie... si possono rendere? grazie", "label": "recesso_ripensamento"}
+{"text": "ho aperto il pacco della lavatrice: oblò crepato e una botta evidente sul tamburo. nn mi sembra normale. il corriere dov'è?", "label": "danno_alla_consegna"}
+{"text": "Gent.mo servizio, vorrei accedere al mio account creato con il numero di tessera Ottavo Club, ma il sistema non accetta il numero come login. Credo servisse la mail ma non l'ho mai impostata. Come posso fare?", "label": "accesso_account"}
+{"text": "dove si mette la capsula nella macchina del caffè?? non capisco", "label": "supporto_uso_prodotto"}
+{"text": "potete dirmi che tempo farà domani a Napoli?", "label": "fuori_tema"}
+{"text": "Gentilmente, annullate l'ordine delle due casse bluetooth: non sono quelle che pensavo. Non è ancora partito niente.", "label": "ordine_annullamento"}
+{"text": "Buongiorno, siamo un'azienda e ci servirebbero 6 stampanti multifunzione ma ne vedo disponibili solo 2. Il resto delle unità può essere rifornito in tempi brevi? Grazie.", "label": "disponibilita_riassortimento"}
+{"text": "Ho ricevuto una mail che dice che qualcuno ha provato ad accedere al mio account da un altro dispositivo. Non sono stato io! Mi avete bloccato l'account? Adesso non riesco più ad entrare nemmeno io.", "label": "accesso_account"}
+{"text": "Gentile Ottavo Store, ho commesso un errore nell'inserimento dell'indirizzo di consegna: ho scritto 'Corso Italia, 4' mentre doveva essere 'Corso Italia, 40'. Ho letto che il pacco non è ancora partito, quindi mi sembra sia ancora possibile rimediare. Vi sarei grata se poteste procedere.", "label": "ordine_modifica_indirizzo"}
+{"text": "Cerco lavoro come magazziniere, ho esperienza con carrello elevatore e patentino. Assumete a Napoli?", "label": "fuori_tema"}
+{"text": "L'ho detto già a un'operatrice per telefono ma voglio farlo anche per iscritto: cancellate il mio profilo e tutti i dati. Grazie", "label": "privacy_cancellazione_dati"}
+{"text": "Gentile direzione, sono cliente da dieci anni e mai ho ricevuto un trattamento così distratto dal vostro supporto. Mi hanno promesso una richiamata entro 48 ore, sono passate due settimane. Resto in attesa di essere ricontattata da qualcuno che si assuma la responsabilità.", "label": "reclamo_servizio_clienti"}
+{"text": "Mi spiegate come si usano i buoni acquisto Ottavo? Sono arrivato al pagamento ma non c'è nessuna opzione", "label": "codice_sconto"}
+{"text": "Nel carrello avevo messo una TV a 480 e un supporto a 25. Mi hanno addebitato 505 più 40 di non so cosa. Dove trovo il dettaglio dell'addebito di 545?", "label": "addebito_doppio_errato"}
+{"text": "due settimane di ritardo e nessuna mail di scuse", "label": "ordine_ritardo_reclamo"}
+{"text": "Per una cantina umida: deumidificatore da 20 litri al giorno o 12? Ambiente di circa 25 mq.", "label": "info_prodotto_prevendita"}
+{"text": "Gentili signori, mi chiamo Chiara Moretti, ho 27 anni e una laurea in economia. Vorrei candidarmi per una posizione nel vostro team commerciale. In allegato il mio CV.", "label": "fuori_tema"}
+{"text": "Posso annullare il mio ordine? Non ho ancora ricevuto nessuna comunicazione di spedizione e vorrei evitare resi.", "label": "ordine_annullamento"}
+{"text": "Gentile Ottavo Store, vi contatto per restituire un ordine consegnato due giorni fa: una macchina per il caffè a capsule. Non ho riscontrato alcun problema, è solo che mi sono reso conto di preferire la moka tradizionale. Resto in attesa delle istruzioni per il reso. Distinti saluti.", "label": "recesso_ripensamento"}
+{"text": "Quando esce il nuovo catalogo premi? L'ultimo era in primavera e non vedo nulla di nuovo.", "label": "programma_fedelta"}
+{"text": "Mi avete mandato la mail per attivare l'account ma io non ho mai chiesto di registrarmi. Chiedo come mai e se qualcuno ha usato la mia mail. Adesso non riesco a fare accesso nemmeno cercando di impostare la password.", "label": "accesso_account"}
+{"text": "Dalla scorsa settimana l'app mi dice 'accesso non autorizzato' ogni volta che apro il mio profilo. Ho il tessera Ottavo Club attiva, spero di non averla persa. Non riesco a vedere neanche i miei punti.", "label": "accesso_account"}
+{"text": "Egregio Servizio Clienti, ho installato la lavastoviglie ma il manuale non spiega quanto sale e brillantante occorre mettere con l'acqua dura della mia zona (Brianza). Potete darmi indicazioni sulle impostazioni?", "label": "supporto_uso_prodotto"}
+{"text": "Salve, volevo restituire il caricatore wireless perché ho cambiato telefono e non è più compatibile col nuovo. Funziona bene, mai difettoso. Rientro nei 14 giorni?", "label": "recesso_ripensamento"}
+{"text": "La smart TV è arrivata ma manca la staffa per il muro, che avevo preso insieme come opzione e pagato. Nel pacco niente.", "label": "articolo_errato_mancante"}
+{"text": "Quanto vale un punto in euro?", "label": "programma_fedelta"}
+{"text": "Voglio restituire la macchina fotografica istantanea, mi sono pentito della spesa", "label": "recesso_ripensamento"}
+{"text": "Buongiorno, sono un giornalista di una testata locale e sto preparando un articolo sui cambiamenti del commercio elettronico in Italia. Potrei intervistare il vostro direttore marketing? Grazie.", "label": "fuori_tema"}
+{"text": "Scusi, la macchina da caffè automatica dà l'avviso 'acqua' ma il serbatoio è pieno, penso di aver sbagliato io qualcosa nell'inserimento; come si posiziona correttamente il serbatoio? Funziona, ha fatto il caffè ieri benissimo.", "label": "supporto_uso_prodotto"}
+{"text": "Salve, posso cambiare il punto di consegna? Ho scelto indirizzo di casa ma la mia vicina mi dice che è meglio farlo recapitare da lei perché è sempre presente. Ordine di mercoledì.", "label": "ordine_modifica_indirizzo"}
+{"text": "Il monitor che ho ricevuto è da 24 pollici ma ne avevo ordinato uno da 27. Lo vedete anche voi dal numero d'ordine. Non voglio tenerlo, rivoglio quello giusto.", "label": "articolo_errato_mancante"}
+{"text": "mi scrivete 4 volte a settimana, è troppo. voglio togliermi dalla lista", "label": "disiscrizione_marketing"}
+{"text": "Salve! Sono un'impresa edile, abbiamo bisogno di fattura anticipata (proforma) per un ordine di 8 tablet, per l'approvazione del nostro responsabile. È possibile averla?", "label": "fattura_richiesta"}
+{"text": "pagamento con Klarna? Paypal in 3 rate? Quale accettate", "label": "pagamento_rate"}
+{"text": "Buonasera, nel pacco della macchina del caffè mancano le cialde omaggio e il portafiltro, che ho visto nella descrizione dell'offerta. Mi spedite quello che manca?", "label": "articolo_errato_mancante"}
+{"text": "Gentile servizio clienti, mio padre di 84 anni dovrebbe ritirare un forno a microonde da voi a Foggia, ma non usa lo smartphone e non può mostrare il QR. Che documento deve portare per ritirare senza telefono?", "label": "ritiro_in_negozio"}
+{"text": "Il phon ha tre tasti: serve a qualcosa il pulsante con il fiocco di neve? Non lo so usare bene!", "label": "supporto_uso_prodotto"}
+{"text": "Il mio pacco è dato come 'consegnato' ma è la prima volta che mi succede, volevo capire da voi dove risulta lasciato.", "label": "ordine_stato_spedizione"}
+{"text": "La soundbar è arrivata col telaio storto e un angolo scheggiato. La scatola era mezza sfondata, probabile sia caduta. Ordine del 14 ottobre. Chiedo una sostituzione in tempi rapidi.", "label": "danno_alla_consegna"}
+{"text": "Spett.le Ottavo Store, abbiamo ricevuto un codice sconto in convenzione per i dipendenti del nostro ente, ma risulta valido solo per il primo ordine e noi dobbiamo ordinare 3 forni ventilati in momenti diversi. Potete chiarire le condizioni d'uso?", "label": "codice_sconto"}
+{"text": "Dalla banca mi risulta che avete prelevato due volte, il 3/10 e il 4/10. Mia figlia che mi ha aiutato con il sito dice di aver cliccato solo una volta. Come si fa a riavere indietro la seconda?", "label": "addebito_doppio_errato"}
+{"text": "Ma dov'è finita la consegna che mi avevate promesso per giovedì? Siamo a lunedì sera.", "label": "ordine_ritardo_reclamo"}
+{"text": "Cara Ottavo, ti scrivo con un po' di sarcasmo: complimenti per il customer care, tre giorni per un 'grazie per averci contattato'.", "label": "reclamo_servizio_clienti"}
+{"text": "Vi scrivo perché al telefono mi hanno trattato come se fossi stupido solo perché non so usare bene lo smartphone. Ho 81 anni e merito rispetto. Vorrei le scuse e parlare con chi comanda.", "label": "reclamo_servizio_clienti"}
+{"text": "buongiorno, sul mio estratto conto vedo due movimenti identici da 219 euro del 14 ottobre a nome Ottavo Store, ma ho fatto un solo ordine (OT-2026-47731). Potete verificare?", "label": "addebito_doppio_errato"}
+{"text": "Per ritirare in negozio un ordine da 1.200 euro serve altro oltre al documento, tipo la carta di pagamento utilizzata?", "label": "ritiro_in_negozio"}
+{"text": "Buongiorno, la consegna era stimata per il 3 ottobre. Siamo al 9 e il pacco risulta ancora 'in transito' senza movimenti. Volevo segnalare il disservizio e sapere quando verrà recapitato.", "label": "ordine_ritardo_reclamo"}
+{"text": "Il grill elettrico lo avete in magazzino? Qui dice 'disponibile tra 10-15 giorni', ma sono passati 20 giorni e non cambia nulla. Si sa quando arriva davvero?", "label": "disponibilita_riassortimento"}
+{"text": "Buongiorno, ho comprato una smart TV con il buono sconto ricevuto dal vostro negozio di Firenze, ma il sito non riconosce il barcode stampato. Ho dovuto pagare il prezzo pieno e adesso vorrei che mi venisse applicato lo sconto che mi spettava. Ordine OT-2026-49320.", "label": "codice_sconto"}
+{"text": "codice sconto per studenti, come si ottiene?", "label": "codice_sconto"}
+{"text": "Salve, la telecamera di sorveglianza wifi registra anche di notte? Serve per forza l'abbonamento cloud o c'è la scheda SD?", "label": "info_prodotto_prevendita"}
+{"text": "ciao, avete il pagamento a rate per l'acquisto di cuffie da 79 euro? tipo 4 volte", "label": "pagamento_rate"}
+{"text": "Gentile servizio clienti, la settimana scorsa ho acquistato una macchina per il caffè usando un codice promozionale del 10%. Dopo aver letto le condizioni mi sono accorto che il codice era riservato a chi si iscriveva alla newsletter, cosa che ho fatto. Il sistema lo ha comunque accettato. Volevo solo sapere se c'è un problema, perché ho paura mi annullino l'ordine.", "label": "codice_sconto"}
+{"text": "Ci tengo a dire che sono cliente da anni e mai un problema. Ora però il robot aspirapolvere comprato a dicembre ha smesso di funzionare: non si connette più all'app (ho provato a reinstallarla, a resettare il wifi) e la spazzola non gira. Ho paura sia la scheda madre. Mi interessa sapere se avete un laboratorio per la riparazione o se preferite sostituirlo direttamente. Grazie mille, Anna Maria, Pescara.", "label": "reso_garanzia_difetto"}
+{"text": "Ho provato a registrarmi più volte e ora risulta che ho 3 account in attesa di conferma. Nessuno si attiva. Non ho ricevuto nessuna verifica.", "label": "accesso_account"}
+{"text": "Ciao, la soundbar comprata a settembre ha il subwoofer che non va più, si sente solo un ronzio. Fate la riparazione?", "label": "reso_garanzia_difetto"}
+{"text": "Il pacco con il bollitore elettrico avrebbe dovuto essere da me il 21 e siamo al 27. Zero comunicazioni, zero scuse. Bel servizio.", "label": "ordine_ritardo_reclamo"}
+{"text": "Per favore non spedite a Pescara ma a L'Aquila, ho cambiato idea su dove farmelo arrivare. Ordine OT-2026-93110.", "label": "ordine_modifica_indirizzo"}
+{"text": "prezzo del bitcoin oggi?", "label": "fuori_tema"}
+{"text": "pago a rate con paypal: ma i soldi me li addebita tutti subito o a rate?", "label": "pagamento_rate"}
+{"text": "Mia moglie mi ha costretto ad annullare. Annullate l'ordine di sabato (cuffie di marca) prima che le spediate, per piacere!", "label": "ordine_annullamento"}
+{"text": "Salve, io stavo cercando il monitor 27 pollici ma risulta esaurito. Quando ne arrivano altri?", "label": "disponibilita_riassortimento"}
+{"text": "Salve, l'ho comprato alla fine dell'anno scorso, un dispositivo per il sottovuoto che ora non chiude più la busta e la pompa sembra bruciata. Non rientra nell'uso improprio, l'ho usato 5 volte in tutto. Garanzia?", "label": "reso_garanzia_difetto"}
+{"text": "sto ancora aspettando l'aspirapolvere ordinato il mese scorso, la data era il 28 settembre", "label": "ordine_ritardo_reclamo"}
+{"text": "Salve. Vi segnalo che il televisore consegnato oggi presenta un pannello con una crepa evidente da un angolo. Il corriere ha firmato \"con riserva\" ma non so cosa significhi. Aspetto notizie, grazie. N. ordine OT-2026-65210.", "label": "danno_alla_consegna"}
+{"text": "Vorrei esercitare il diritto di accesso previsto dal regolamento europeo: mi inviate una copia dei dati personali che conservate su di me, con indicazione delle finalità e dei soggetti a cui li avete comunicati?", "label": "privacy_cancellazione_dati"}
+{"text": "ho visto 'rate da 29 euro al mese' sotto la tv in offerta, ma non capisco se i 29 euro sono il totale della rata o una cosa diversa, e per quanti mesi. mi spiegate?", "label": "pagamento_rate"}
+{"text": "Posso ritirare a nome di mio capo in azienda con la sua delega? Il nome sulla fattura è la società.", "label": "ritiro_in_negozio"}
+{"text": "Buongiorno, ho letto che ho 14 giorni per ripensarci: vorrei usare questa possibilità per il set di lampade smart che ho ordinato. Non mi convincono più.", "label": "recesso_ripensamento"}
+{"text": "buongiorno, vorrei fare un ordine ma la carta da me inserita mi viene respinta ogni volta che provo: 'transazione rifiutata dalla banca'. Gli altri negozi online funzionano benissimo con la stessa carta. Cos'ha di diverso il vostro sito?", "label": "pagamento_rifiutato"}
+{"text": "disiscrivimi", "label": "disiscrizione_marketing"}
+{"text": "Gentile Ottavo Store, vorrei sapere se è possibile annullare l'ordine di ieri, perché ho scoperto che il prodotto ha una garanzia diversa da quella che pensavo. Preferisco non averlo piuttosto che riceverlo.", "label": "ordine_annullamento"}
+{"text": "Dopo l'annullamento del mio ordine di ieri vorrei capire in quanti giorni la somma torna disponibile. Ho pagato con carta prepagata.", "label": "rimborso_stato"}
+{"text": "Buonasera, vi scrivo da Palermo. Premetto che ho avuto un problema con un pacco che poi è stato risolto, ma ora le vostre e-mail commerciali sono diventate insistenti. Per favore, interrompete l'invio.", "label": "disiscrizione_marketing"}
+{"text": "nn capisco xké mi avete scalato 134 euro se l'ordine era di 114...", "label": "addebito_doppio_errato"}
+{"text": "ordine OT-2026-51190, risulta spedito? se sì datemi il numero di spedizione", "label": "ordine_stato_spedizione"}
+{"text": "Vorrei che il mio indirizzo email non fosse più utilizzato per inviare offerte, preferisco comprare di mia iniziativa senza essere sollecitato. Vi ringrazio.", "label": "disiscrizione_marketing"}
+{"text": "Ordine di agosto, reso di settembre, mail di conferma di ottobre, rimborso zero. Mi sa che qualcosa si è inceppato. Potete verificare per favore? Ordine OT-2026-29005.", "label": "rimborso_stato"}
+{"text": "unsubscribe", "label": "disiscrizione_marketing"}
+{"text": "Buongiorno, vi ho inviato due mail (12 e 19 ottobre) sul mio ordine OT-2026-36420 e non ho ricevuto neppure una risposta automatica. Vi pregherei almeno di confermare che le leggete.", "label": "reclamo_servizio_clienti"}
+{"text": "Mi consigliate il microonde da 20 o 25 litri? Siamo in due, lo uso solo per riscaldare e scongelare, però vorrei anche poter cuocere qualche piatto veloce.", "label": "info_prodotto_prevendita"}
+{"text": "Mi è stato prelevato l'importo dell'ordine appena effettuato e poi anche un altro prelievo identico due ore dopo. Penso che il sistema abbia fatto doppia richiesta alla banca. Ordine OT-2026-54012.", "label": "addebito_doppio_errato"}
+{"text": "Ciao, ho preso il router nuovo: come entro nel pannello di configurazione? Che indirizzo e che password predefinita ci sono?", "label": "supporto_uso_prodotto"}
+{"text": "Il monitor da 32 pollici è arrivato con un graffio lungo e profondo sullo schermo e una scheggiatura sul lato. L'ho ricevuto 2 ore fa. Ho scattato foto. Vorrei un cambio urgente.", "label": "danno_alla_consegna"}
+{"text": "Vorrei il condizionatore 9000 BTU, so che finirà presto in estate, ma ora è fuori stock. A che mese si prevede il prossimo arrivo?", "label": "disponibilita_riassortimento"}
+{"text": "Il corriere ha portato un pacco con dentro un ventilatore, ma io avevo ordinato un deumidificatore. Probabilmente c'è stato uno scambio di pacchi. Come procedo?", "label": "articolo_errato_mancante"}
+{"text": "Mi è arrivata una friggitrice diversa da quella che ho ordinato, con una capacità più piccola (3 litri contro i 5 dichiarati). L'etichetta dice altro modello. Mi dispiace ma vorrei quella giusta.", "label": "articolo_errato_mancante"}
+{"text": "Sul sito in fase di pagamento mi compare 'Il pagamento non può essere elaborato' senza altre spiegazioni, e il carrello si svuota. Faccio fatica a capire se riprovare o aspettare.", "label": "pagamento_rifiutato"}
+{"text": "Il cestello della lavatrice è arrugginito dopo 10 mesi, da nuova. Ho scattato le foto. Credo ci sia un difetto di fabbrica, voglio una soluzione in garanzia.", "label": "reso_garanzia_difetto"}
+{"text": "Stavo comprando il robot aspirapolvere con le rate della finanziaria, ma prima ho provato con la carta e ha dato errore, ora il sistema non mi fa più nemmeno scegliere la carta, dice 'tentativi esauriti'. Come si sblocca?", "label": "pagamento_rifiutato"}
+{"text": "buonasera, c'è un problema con il pagamento con Satispay: mi manda alla app ma poi torna al sito con 'pagamento fallito'. Succede da ieri", "label": "pagamento_rifiutato"}
+{"text": "Posso rimandare indietro le lampadine smart? Ne avevo prese 6 ma ne servono solo 3, le altre 3 sono sigillate.", "label": "recesso_ripensamento"}
+{"text": "Ciao, il codice sconto lo vedo scaduto da 2 giorni, ma l'ho ricevuto solo ieri per mail. Si può prorogare?", "label": "codice_sconto"}
+{"text": "FATTURA NON RICEVUTA!! ordine OT-2026-47761 pagato 10 giorni fa", "label": "fattura_richiesta"}
+{"text": "smartwatch resiste al nuoto in piscina?", "label": "info_prodotto_prevendita"}
+{"text": "Ciao! Chiedo per un amico: se compro una playstation a rate e salto una rata che succede? Ci sono more?", "label": "pagamento_rate"}
+{"text": "elimina i miei dati grazie", "label": "privacy_cancellazione_dati"}
+{"text": "volevo candidarmi come autista corriere, avete bisogno di personale per le consegne? ho la patente C", "label": "fuori_tema"}
+{"text": "Mi è arrivato il pc portatile con lo schermo scheggiato e la scocca piegata. Arrabbiatissimo, costava 900 euro e arriva così!", "label": "danno_alla_consegna"}
+{"text": "Salve, a causa di un imprevisto di salute devo rinunciare all'acquisto effettuato ieri (frullatore + set coltelli). Ancora non è partito niente. Grazie per la comprensione.", "label": "ordine_annullamento"}
+{"text": "Quando mi arriva il rimborso? Reso fatto in negozio a Bologna sabato scorso.", "label": "rimborso_stato"}
+{"text": "La mia azienda ha cambiato sede legale. Possiamo aggiornare l'indirizzo sulle fatture già emesse e su quelle future? Via dell'Industria 5, Padova.", "label": "fattura_richiesta"}
+{"text": "Mi servirebbe una mano: come si fa a collegare più speaker bluetooth in modo da suonare insieme (party mode)? Ne ho due uguali.", "label": "supporto_uso_prodotto"}
+{"text": "Il tostapane in versione acciaio c'è? Sul sito vedo solo la versione nera e dice che l'acciaio è esaurito. Sperare in un arrivo a breve?", "label": "disponibilita_riassortimento"}
+{"text": "Scusi se disturbo, sono un po' anziano e non capisco bene la mail del corriere. C'è scritto 'preso in carico dal depot'. Vuol dire che il frigorifero sta arrivando?", "label": "ordine_stato_spedizione"}
+{"text": "Ho il problema che non riesco a pagare con la nuova carta (cambiata a settembre). Con la vecchia andava bene. Nel profilo ho aggiornato i dati ma dà sempre errore al checkout.", "label": "pagamento_rifiutato"}
+{"text": "Gentile assistenza, vorrei concludere l'ordine di un robot aspirapolvere, ma ogni volta che inserisco i dati della Postepay il sito mi riporta alla pagina del carrello senza alcun messaggio. Ho provato con Chrome e con Firefox. Distinti saluti, Antonio Greco", "label": "pagamento_rifiutato"}
+{"text": "come ci metto le batterie nel mouse? è un mouse ricaricabile?? non vedo lo sportellino", "label": "supporto_uso_prodotto"}
+{"text": "Ciao, ho completato l'ordine ora, il sito dice ritiro disponibile a Bologna da domani. A che ora circa dalle 9 in poi è pronto?", "label": "ritiro_in_negozio"}
+{"text": "Ho annullato l'ordine ma mi avete comunque addebitato l'intero importo e poi anche un secondo addebito di 12 euro che non so cosa sia", "label": "addebito_doppio_errato"}
+{"text": "Sono tornato dalle ferie ieri e il pacco che doveva arrivare prima della mia partenza, quindi entro il 2 agosto, ancora non c'è. Un mese di ritardo. Roba da matti.", "label": "ordine_ritardo_reclamo"}
+{"text": "dove si mette il coupon?", "label": "codice_sconto"}
+{"text": "Spero possiate aiutarmi, ho restituito la lavatrice (ritiro a domicilio il 15/10, la vostra ditta di trasporti era puntuale) ma non ho idea di quando riavrò i 449 euro. Avete confermato il ritiro?", "label": "rimborso_stato"}
+{"text": "Salve, vorrei che la fattura venisse mandata anche al mio commercialista oltre che a me. Si può aggiungere un secondo indirizzo email?", "label": "fattura_richiesta"}
+{"text": "Buongiorno, vorrei sapere se avete i miei dati biometrici o le immagini delle telecamere dei vostri negozi fisici. Sono stato nel punto vendita di Milano a marzo e voglio che vengano cancellate.", "label": "privacy_cancellazione_dati"}
+{"text": "E' una settimana che aspetto sto pacco, mi avevate detto 3 giorni lavorativi. Così non si fa.", "label": "ordine_ritardo_reclamo"}
+{"text": "sveglia smart arrivata, brutta dal vivo. la rendo, come?", "label": "recesso_ripensamento"}
+{"text": "Il frigorifero con dispenser acqua ha bisogno dell'allaccio alla rete idrica o ha il serbatoio?", "label": "info_prodotto_prevendita"}
+{"text": "Alla cassa di Perugia mi hanno detto che la mia tessera non risultava attiva, ma ho 2300 punti. Come faccio a riattivarla? Mi sono iscritto nel 2023.", "label": "programma_fedelta"}
+{"text": "Il mio ordine sul sito dice 'consegna prevista il 2 ottobre' e oggi è il 9. Nessuno mi ha scritto. Dove sta il pacco e perché è in ritardo?", "label": "ordine_ritardo_reclamo"}
+{"text": "voglio cancellare il mio account", "label": "privacy_cancellazione_dati"}
+{"text": "Buongiorno, ho ricevuto il televisore ma il cavo HDMI incluso nella promozione non c'era. Mi pare una cosa da poco ma vorrei riceverlo, o un rimborso della parte. Ordine OT-2026-48755.", "label": "articolo_errato_mancante"}
+{"text": "Salve, vorrei un consiglio: devo scegliere tra un purificatore d'aria e un deumidificatore per una camera dove si forma muffa. Qual è più adatto?", "label": "info_prodotto_prevendita"}
+{"text": "Buonasera, la lavastoviglie dopo 11 mesi non scarica più l'acqua. Ho già controllato il filtro, pulito tutto. Il problema persiste. Chiedo assistenza in garanzia.", "label": "reso_garanzia_difetto"}
+{"text": "Il codice ha funzionato sul tablet ma poi ho pagato con PayPal e al pagamento finale il sito ha tolto lo sconto. Problema vostro?", "label": "codice_sconto"}
+{"text": "Buongiorno, ho cambiato cognome dopo il matrimonio e il sistema non mi fa più accedere con le vecchie credenziali, mi chiede dati di verifica che non ho. Mi aiutate a rientrare?", "label": "accesso_account"}
+{"text": "il link per cambiare password dice scaduto appena lo clicco", "label": "accesso_account"}
+{"text": "Buongiorno, ho ricevuto ieri la friggitrice ad aria ma è troppo grande per la mia cucina. Posso rimandarla indietro? Non l'ho mai accesa.", "label": "recesso_ripensamento"}
+{"text": "Uso Apple Pay su iPhone, la verifica col Face ID va bene, poi 'pagamento non completato'. Con la carta normale idem. Ho aggiornato l'app, nulla.", "label": "pagamento_rifiutato"}
+{"text": "Per il ritiro in negozio c'è un limite di dimensione o peso? Vorrei ordinare una lavastoviglie e mi interessa se posso ritirarla da voi con un furgoncino.", "label": "ritiro_in_negozio"}
+{"text": "A che ora/giorno vengono addebitate le rate sul conto? Ho una carta con saldo basso a inizio mese, vorrei evitare problemi.", "label": "pagamento_rate"}
+{"text": "Non so se è il caso di scrivere, perché la scatola del bollitore è solo ammaccata ma il prodotto sembra a posto. È un problema? Vorrei farlo presente, nel caso dovesse dare problemi.", "label": "danno_alla_consegna"}
+{"text": "Salve, dove posso vedere se il mio tablet è già stato imballato? Ho letto 'pronto per la spedizione'.", "label": "ordine_stato_spedizione"}
+{"text": "cancellazione ordine n 44190 grazie", "label": "ordine_annullamento"}
+{"text": "Vorrei fare reso per ripensamento: aspirabriciole, non mi serve", "label": "recesso_ripensamento"}
+{"text": "Ho trovato lo stesso robot aspirapolvere a meno altrove, quindi cancellate pure il mio ordine di ieri sera, nn è ancora stato spedito vero?", "label": "ordine_annullamento"}
+{"text": "Ho un buono sconto di 25 € stampato sullo scontrino del negozio di Padova, si può usare anche online?", "label": "codice_sconto"}
+{"text": "URGENTE: ho ordinato un regalo per mio nipote, una console, e il pacco è arrivato sfondato con la console con lo schermo del controller incrinato. Domani è il suo compleanno! Cosa potete fare?", "label": "danno_alla_consegna"}
+{"text": "Buonasera, sono un po' ignorante di queste cose. Mia nipote mi ha detto di prendere un'aspirapolvere senza fili, ma non so quale scegliere. Ne ho bisogno per una casa piccola con le scale. Cosa mi consigliate?", "label": "info_prodotto_prevendita"}
+{"text": "come si imposta il timer sulla friggitrice ad aria", "label": "supporto_uso_prodotto"}
+{"text": "Posso indicare un altro destinatario? L'ordine è per una cuffia che regalo a mio nipote, abita in un altro comune.", "label": "ordine_modifica_indirizzo"}
+{"text": "Egregio servizio clienti, il frigo-congelatore consegnato il 19 ottobre ha un'ammaccatura sulla fiancata sinistra e la maniglia piegata. Ho firmato col timbro del corriere \"con riserva di verifica\". Vi allego le foto. Resto in attesa di istruzioni per il ritiro e la sostituzione. Distinti saluti.", "label": "danno_alla_consegna"}
+{"text": "Buonasera, vi segnalo che dopo aver inserito il codice sconto il checkout mostra errore 500 e non riesco a procedere. Senza codice il pagamento va. Nessun messaggio di carta rifiutata, proprio errore sul codice.", "label": "codice_sconto"}
+{"text": "come si fa a far partire il programma rapido 30 minuti", "label": "supporto_uso_prodotto"}
+{"text": "Buonasera, avendo scelto per distrazione l'indirizzo sbagliato dall'elenco salvato nel mio account, chiedo gentilmente di poter modificare l'indirizzo di consegna per l'ordine di ieri. Quello giusto è Via Salaria 280, Roma.", "label": "ordine_modifica_indirizzo"}
+{"text": "basta newsletter per favore", "label": "disiscrizione_marketing"}
+{"text": "Ho ricevuto l'sms di GLS con il link ma mi dà errore, potete controllare voi a che punto è l'ordine 2026-44872?", "label": "ordine_stato_spedizione"}
+{"text": "Buonasera, mio figlio mi ha fatto ordinare una smart TV 55 pollici dal vostro sito ma io non so usare il computer. Mi può dire se è stata spedita? Il mio nome è Giuseppina Rota, abito a Cremona.", "label": "ordine_stato_spedizione"}
+{"text": "buongiorno, con il vostro finanziamento posso comprare anche i servizi tipo installazione e smaltimento del vecchio elettrodomestico a rate? o solo il prodotto?", "label": "pagamento_rate"}
+{"text": "ho ordinato un frigorifero argento, ho ricevuto nero. Mio marito è fuori di sé. Mi dite come cambiare?", "label": "articolo_errato_mancante"}
+{"text": "Buonasera, vorrei sapere se il buono regalo ha una scadenza e se può essere usato anche nei negozi fisici, grazie", "label": "codice_sconto"}
+{"text": "Potete aggiungere il codice univoco SDI alla fattura 2026/00871? Me lo hanno chiesto adesso dall'ufficio", "label": "fattura_richiesta"}
+{"text": "Voglio parlare con un responsabile. Subito.", "label": "reclamo_servizio_clienti"}
+{"text": "salve ho reso il pc portatile il 7/10 consegnato a voi il 10/10. oggi è il 23, sono 13 giorni. il rimborso arriva entro 14 gg giusto? giusto per capire se devo preoccuparmi", "label": "rimborso_stato"}
+{"text": "volevo sapere se l'aspirapolvere robot riconosce i tappeti e non ci sale sopra", "label": "info_prodotto_prevendita"}
+{"text": "salve, per il ritiro in negozio il corriere ci mette di più rispetto alla consegna a domicilio? voglio capire se conviene", "label": "ritiro_in_negozio"}
+{"text": "la bici elettrica pieghevole sarà disponibile in primavera? ne avete in programma altre?", "label": "disponibilita_riassortimento"}
+{"text": "Ciao, ho fatto un ordine con la carta di credito aziendale per errore, devo annullarlo e rifarlo con la carta personale. Si può?", "label": "ordine_annullamento"}
+{"text": "Spett.le Ottavo Store, siamo lo studio commerciale Bianchi & Associati e offriamo servizi di consulenza fiscale per aziende in crescita. Saremmo lieti di fissare una chiamata con il vostro amministratore.", "label": "fuori_tema"}
+{"text": "Buongiorno, nella mail che ho ricevuto c'è scritto che avrei diritto al 25% con il codice RISPARMIA25 ma dopo aver inserito il codice il prezzo dello smartphone non cambia. Se è esclusa la categoria telefonia ditelo chiaramente per favore.", "label": "codice_sconto"}
+{"text": "Il forno a microonde ha smesso di scaldare ma gira il piatto, 7 mesi di vita. Grazie per la riparazione.", "label": "reso_garanzia_difetto"}
+{"text": "Gentile Ottavo Store, l'ordine per un set di pentole doveva essere consegnato il 29 settembre. Ad oggi, 7 ottobre, non ho ricevuto niente e non ho ricevuto neanche una comunicazione sul ritardo. Mi sembra una mancanza di rispetto verso il cliente. Chiedo cortesemente soluzione.", "label": "ordine_ritardo_reclamo"}
+{"text": "nel pacco c'era la friggitrice ma non il cestello in più e nemmeno il libretto delle ricette che era in offerta", "label": "articolo_errato_mancante"}
+{"text": "ma il programma fedeltà vale anche se compro con ritiro in negozio?", "label": "programma_fedelta"}
+{"text": "Non ho capito dove devo andare per eliminare l'account: ho cercato nelle impostazioni ma c'è solo 'modifica dati'.", "label": "privacy_cancellazione_dati"}
+{"text": "Come faccio a impostare la sveglia sull'altoparlante smart? Non trovo il comando vocale giusto", "label": "supporto_uso_prodotto"}
+{"text": "buongiorno, ancora nessun riscontro sulla mia mail del 3. Alla terza volta che chiedo è normale che nessuno mi dia una risposta decente?", "label": "reclamo_servizio_clienti"}
+{"text": "Salve, vorrei sapere se per esercitare i diritti sui miei dati devo pagare qualcosa e quanto tempo avete per rispondere.", "label": "privacy_cancellazione_dati"}
+{"text": "Il rimborso che mi spetta per il reso dell'altra settimana è stato elaborato? Non ho ricevuto nessuna comunicazione.", "label": "rimborso_stato"}
+{"text": "Gentilissimi, per un mio disguido ho indicato un indirizzo non completo (manca il numero civico, che è il 56) e nelle note ho scritto una cosa sbagliata. Vi chiedo se potete integrare l'indirizzo dell'ordine appena fatto.", "label": "ordine_modifica_indirizzo"}
+{"text": "ciao nn riesco a loggarmi dal tel però dal pc si. è un bug?", "label": "accesso_account"}
+{"text": "Buongiorno, ieri ho fatto un acquisto. Stamattina l'app della banca mi segnala due addebiti dello stesso ordine. Premetto che non sono molto esperto, ma credo ci sia un errore da parte vostra, giusto?", "label": "addebito_doppio_errato"}
+{"text": "Gentile assistenza, ordinato frullatore con 2 bicchieri, ne è arrivato uno solo. Secondo la descrizione sul sito dovevano essere due. Grazie", "label": "articolo_errato_mancante"}
+{"text": "Salve, vorrei ritirare un ordine a Catania ma il ritiro è a nome di mia madre che è in ospedale. Posso presentarmi io con la sua tessera sanitaria e un messaggio da parte sua?", "label": "ritiro_in_negozio"}
+{"text": "Mia figlia ha ordinato da voi usando i dati miei e di mio marito. Vorremmo sapere quali dati sono stati registrati su di noi, e farli eliminare.", "label": "privacy_cancellazione_dati"}
+{"text": "Aspirapolvere arrivato con il manico spezzato a metà. La scatola era mezza aperta. Non è colpa mia.", "label": "danno_alla_consegna"}
+{"text": "Il mio ordine è stato approvato a rate, la prima rata dovrebbe essere di 45 euro. Posso scegliere di pagarla con una carta diversa dalle altre?", "label": "pagamento_rate"}
+{"text": "Buongiorno, come posso rettificare e poi cancellare tutti i dati inseriti per errore durante la registrazione? Ho messo il codice fiscale di un'altra persona.", "label": "privacy_cancellazione_dati"}
+{"text": "Segnalo: addebito ripetuto sul conto relativo all'ordine OT-2026-52881. Importo 134,00 euro ripetuto due volte in data 21/10.", "label": "addebito_doppio_errato"}
+{"text": "Salve, ho comprato un set di valigie... no, scusate, un tostapane e due prese smart. Vedo che le prese sono state spedite ieri. Il tostapane dov'è?", "label": "ordine_stato_spedizione"}
+{"text": "Vorrei fare il reso dell'ordine OT-2026-51007, ho trovato lo stesso a meno altrove e preferisco tenere quello. Nel caso, rimborsate sulla carta con cui ho pagato?", "label": "recesso_ripensamento"}
+{"text": "Vi scrivo dall'estero (Svizzera, ma ho un conto italiano). Ho fatto reso del monitor a metà settembre, il corriere ha consegnato il 24. Rimborso mai ricevuto, potete controllare lo stato?", "label": "rimborso_stato"}
+{"text": "Buonasera, vorrei annullare l'ordine in quanto ho notato un errore nell'importo: l'IVA mi sembra sbagliata e preferisco non procedere. Non è stato ancora spedito.", "label": "ordine_annullamento"}
+{"text": "Salve! Avevo ordinato un tablet e ho ricevuto la mail di conferma ma nessun'altra comunicazione. Vorrei sapere se è stato spedito oppure è ancora in magazzino.", "label": "ordine_stato_spedizione"}
+{"text": "Buongiorno, il tracking del corriere mostra 'consegna rinviata su richiesta del destinatario' ma io non ho chiesto niente. Mi aiutate a capire cosa sta succedendo con il pacco? Aspettavo consegna per oggi comunque ancora in tempo.", "label": "ordine_stato_spedizione"}
+{"text": "nn funziona piu il touchpad del portatile preso a febbraio, e un difetto di fabbrica?? voglio riparazione", "label": "reso_garanzia_difetto"}
+{"text": "il sito mi dice 'sessione scaduta' appena faccio il login", "label": "accesso_account"}
+{"text": "Buonasera, avendo ordinato una lavatrice a settembre non riesco a vedere lo stato nel mio profilo perché il sito non mi fa accedere: scrive email o password errati. Ho anche provato a creare nuovo account con la stessa email ma mi dice che c'è già. Cosa devo fare?", "label": "accesso_account"}
+{"text": "nn trovo la fattura nella mail, controllato anche spam", "label": "fattura_richiesta"}
+{"text": "Ho ritirato in negozio a Verona l'aspirapolvere e solo a casa ho visto che aveva una crepa sul serbatoio. Il pacco era integro. Non l'ho acceso. Posso cambiarlo?", "label": "danno_alla_consegna"}
+{"text": "Rimando la richiesta di ieri: vorrei il documento fiscale dell'ordine, con intestazione alla mia associazione sportiva. Non ho capito se serve il codice fiscale o la partita iva, ho entrambi", "label": "fattura_richiesta"}
+{"text": "Buongiorno, ho letto la vostra informativa ma non ho capito per quanto tempo conservate le fatture e i dati dell'ordine. Se chiedo la cancellazione, cosa viene davvero eliminato e cosa tenete per obblighi di legge?", "label": "privacy_cancellazione_dati"}
+{"text": "Buongiorno, mi sono iscritto ad Ottavo Club ieri in negozio a Cagliari ma non ho ricevuto la mail con il numero della tessera. Come faccio ad accedere ai miei punti? Non ho capito se devo registrarmi sul sito.", "label": "programma_fedelta"}
+{"text": "doppia trattenuta sul mio conto. stesso giorno, stessa ora. xké??", "label": "addebito_doppio_errato"}
+{"text": "Nulla, non riesco a completare l'acquisto. Cambiare carta, cambiare browser, niente. Non è che c'è un problema col vostro POS virtuale oggi?", "label": "pagamento_rifiutato"}
+{"text": "Mi hanno consigliato di chiedere a voi il pagamento a rate perché con la carta di credito ho un tetto di spesa. Per un tablet da 650 euro, come devo fare esattamente per attivare le rate?", "label": "pagamento_rate"}
+{"text": "Salve, ho fatto un reso della cuffia e adesso mi serve la nota di credito per il mio commercialista. Dove la trovo? La fattura originale l'ho già.", "label": "fattura_richiesta"}
+{"text": "Se pago a rate e poi faccio il reso entro 14 giorni, il finanziamento viene annullato automaticamente? Lo chiedo prima di comprare il tablet.", "label": "pagamento_rate"}
+{"text": "Ogni giorno mi arriva una vostra mail con offerte. Potete smettere? Ho provato a cliccare sul link in fondo ma mi dà errore e non riesco a completare la cancellazione.", "label": "disiscrizione_marketing"}
+{"text": "Per cortesia vorrei sapere se i miei dati compaiono in qualche elenco ceduto a terzi per finalità di marketing. Se sì, chiedo la cancellazione immediata dai medesimi. Non sono interessato alle vostre newsletter, voglio i miei dati fuori dai vostri sistemi.", "label": "privacy_cancellazione_dati"}
+{"text": "Buonasera, vorrei restituire il frullatore a immersione. Premetto che funziona benissimo, anche se ho visto che sul sito c'era una recensione negativa che mi ha fatto riflettere e adesso non mi fido. Mi avvalgo dei 14 giorni.", "label": "recesso_ripensamento"}
+{"text": "mi son arrivati due sms dalla banca per 35,00 ciascuno da Ottavo Store. Un solo acquisto. Avete addebitato due volte?", "label": "addebito_doppio_errato"}
+{"text": "Vorrei capire se gli auricolari che ho visto in negozio ieri a Padova, ora risultano esauriti online, sono ancora in vendita o no. Se li hanno finiti ne arriveranno altri?", "label": "disponibilita_riassortimento"}
+{"text": "posso mandare mio marito a ritirare al posto mio?", "label": "ritiro_in_negozio"}
+{"text": "potete smettere di inviarmi il magazine mensile? non lo leggo", "label": "disiscrizione_marketing"}
+{"text": "Buongiorno, ho acquistato un robot aspirapolvere nel novembre 2025. Da due settimane la spazzola laterale non gira e il sensore del vuoto dà errore. Cosa devo fare per attivare la garanzia? Cordialmente", "label": "reso_garanzia_difetto"}
+{"text": "reso accettato, rimborso ancora no. Ordine OT-2026-35502. Potete dirmi la data prevista?", "label": "rimborso_stato"}
+{"text": "Buongiorno, volevo ritirare ma ho perso il documento e ho solo la denuncia di smarrimento. Posso ritirare comunque in negozio a Imperia con quella?", "label": "ritiro_in_negozio"}
+{"text": "Ho provato a effettuare l'acquisto del condizionatore portatile ma mi viene detto che la carta è stata rifiutata per importo troppo elevato. Posso suddividere il pagamento tra due carte?", "label": "pagamento_rifiutato"}
+{"text": "I premi del catalogo fedeltà li spedite a casa o devo ritirarli in negozio?", "label": "programma_fedelta"}
+{"text": "Vorrei lamentarmi: il codice che avete mandato a tutti per il San Valentino non funziona a nessuno, lo dicono pure su Facebook. Rimediate!!", "label": "codice_sconto"}
+{"text": "elimina account, fatto un ordine solo e non voglio newsletter né niente. cancellate tutto", "label": "privacy_cancellazione_dati"}
+{"text": "la tv si è spenta con un botto e adesso non da più segni di vita. 14 mesi. che si fa?", "label": "reso_garanzia_difetto"}
+{"text": "ma siete seri? 12 giorni per consegnare un bollitore", "label": "ordine_ritardo_reclamo"}
+{"text": "Il mio ordine di un tostapane è ancora in attesa. Mi sono dimenticato di dire che la consegna va fatta in Via Foria 90, Napoli, e non a Caserta.", "label": "ordine_modifica_indirizzo"}
+{"text": "nn riesco a pagare, mi esce errore e basta", "label": "pagamento_rifiutato"}
+{"text": "Salve, ho visto sul sito la scritta temporaneamente esaurito per il robot aspirapolvere. Avete una data prevista di rientro? Ho tempo fino a Natale.", "label": "disponibilita_riassortimento"}
+{"text": "Mi dite se la consegna del mio ordine OT-2026-77012 avviene in mattinata o nel pomeriggio?", "label": "ordine_stato_spedizione"}
+{"text": "Buongiorno, il mio ordine di 3 giorni fa è stato pagato a rate ma la prima rata è stata addebitata due volte. Il contratto prevede solo un addebito mensile. Servirebbe correggere.", "label": "addebito_doppio_errato"}
+{"text": "Salve, ho effettuato il reso di un trapano avvitatore ordinato per errore. Ho fatto il tutto tramite il portale resi, etichetta stampata, spedito il 14. Rimborso?", "label": "rimborso_stato"}
+{"text": "Ho aspettato la risposta alla mia email per quasi un mese. Un mese. Poi mi hanno scritto 'abbiamo preso in carico la sua richiesta'. Complimenti per la velocità.", "label": "reclamo_servizio_clienti"}
+{"text": "vi ho lasciato 2 messaggi in segreteria e nessuno ha mai richiamato. Complimenti", "label": "reclamo_servizio_clienti"}
+{"text": "Mio padre ha appena ordinato una TV a mio nome e a mio indirizzo, ma poi ha cambiato idea: la TV deve andare a casa sua. Via Cesare Battisti 33, Latina. Si può modificare l'indirizzo?", "label": "ordine_modifica_indirizzo"}
+{"text": "Gentile cliente, ho un problema con il pagamento contrassegno: dopo averlo selezionato il sito mi dice che non è disponibile. Posso usare il bonifico? Ma anche con il bonifico mi dà errore.", "label": "pagamento_rifiutato"}
+{"text": "Scrivo per segnalare il comportamento scortese di un vostro addetto, Luca, in chat ieri sera alle 21: mi ha risposto con monosillabi e poi ha chiuso la conversazione senza risolvere nulla. Non è accettabile per un'azienda come la vostra.", "label": "reclamo_servizio_clienti"}
+{"text": "come si fa a collegare due cuffie alla stessa tv?", "label": "supporto_uso_prodotto"}
+{"text": "salve sono un signore di 80 anni, il mio televisore si è spento e non riparte piu, lo avevo comprato da voi lo scorso inverno. mia figlia mi ha detto di scrivere qui per la garanzia. cosa devo fare, grazie mille", "label": "reso_garanzia_difetto"}
+{"text": "il bonifico istantaneo non è tra i metodi che posso scegliere, vedo solo carta. Perché non compare nel checkout?", "label": "pagamento_rifiutato"}
+{"text": "Gentile servizio, mi è stato consegnato il frigorifero ma la porta è deformata e non si chiude. L'imballo era strappato. Il trasportatore ha detto di scrivere a voi. Ho paura che sia stato urtato col muletto. Cosa mi consigliate di fare?", "label": "danno_alla_consegna"}
+{"text": "Dopo l'inserimento del numero di carta il form si blocca e non riesco a scrivere la scadenza, quindi non posso pagare. Succede su Safari.", "label": "pagamento_rifiutato"}
+{"text": "ma il rimborso per le cuffie??", "label": "rimborso_stato"}
+{"text": "la mia tessera digitale non mostra più il QR in negozio, i punti però ci sono", "label": "programma_fedelta"}
+{"text": "esce sempre 'impossibile elaborare il pagamento'. è un bug?", "label": "pagamento_rifiutato"}
+{"text": "Gentile assistenza, desidero cancellare l'ordine n. OT-2026-81733 effettuato in data odierna, poiché non necessito più dell'articolo. Resto in attesa di conferma dell'avvenuta cancellazione. Cordiali saluti.", "label": "ordine_annullamento"}
+{"text": "voglio solo sapere dove sono salvati i miei dati e chi li vede", "label": "privacy_cancellazione_dati"}
+{"text": "Mi hanno detto in negozio che avrei avuto 5 euro di buono sul prossimo acquisto, ma non ho ricevuto nessun codice via mail. Dove lo trovo?", "label": "codice_sconto"}
+{"text": "accesso negato", "label": "accesso_account"}
+{"text": "Il robot aspirapolvere: è abbastanza basso da passare sotto il divano? Altezza del divano 9 cm.", "label": "info_prodotto_prevendita"}
+{"text": "Buongiorno, ho aperto un account due settimane fa ma non ho mai confermato la mail, ora il link è scaduto e il sistema non permette di richiederne un altro perché 'email già registrata'.", "label": "accesso_account"}
+{"text": "Mi serve una TV piccola per la cucina, max 24 pollici: avete modelli con DVB-T2 e che si possano anche collegare al wifi?", "label": "info_prodotto_prevendita"}
+{"text": "Ho letto che la lavatrice a carica dall'alto non si trova più. Ne arriveranno altre oppure è fuori catalogo? Ho bisogno di una risposta per decidere.", "label": "disponibilita_riassortimento"}
+{"text": "Salve, per la promozione punti doppi di ottobre vale anche per gli acquisti pagati a rate? Ho ordinato un tablet a 12 rate e mi interesserebbe sapere se matureranno i doppi punti", "label": "programma_fedelta"}
+{"text": "Salve, devo cambiare la scala e l'interno: Scala B interno 7, non Scala A. Altrimenti il corriere non mi trova. Ordine pagato ieri.", "label": "ordine_modifica_indirizzo"}
+{"text": "Il frigorifero è arrivato con un'ammaccatura enorme sulla porta e il corriere dice che non è colpa sua. Io non l'ho nemmeno acceso. Voglio un altro frigo.", "label": "danno_alla_consegna"}
+{"text": "Scusate l'ignoranza ma 'TAEG 12,9%' cosa significa per me in euro? Se compro il forno a 400 euro quanto restituisco in tutto a 12 rate?", "label": "pagamento_rate"}
+{"text": "come funziona il codice 'porta un amico'?", "label": "codice_sconto"}
+{"text": "ordine annullato, rimborso non arrivato, ho già cercato nelle faq ma non dice i tempi per il bonifico", "label": "rimborso_stato"}
+{"text": "Ho letto che si può ritirare anche l'ordine di un altro negozio. Cioè ordino online su Bologna e ritiro a Modena? Mi hanno consigliato di chiedere a voi.", "label": "ritiro_in_negozio"}
+{"text": "Buongiorno, ho ordinato la macchina del caffè ma ho appena saputo che sono in arrivo nuovi modelli. Vorrei cancellare l'ordine: lo stato è 'in elaborazione'.", "label": "ordine_annullamento"}
+{"text": "Buonasera, ho bisogno di aiuto per entrare. Nell'app si apre la schermata di accesso, scrivo la mia mail, tocco continua e si blocca tutto. Sul telefono ho Android 11.", "label": "accesso_account"}
+{"text": "Buongiorno, ai sensi dell'art. 17 del GDPR chiedo la cancellazione di tutti i miei dati personali in vostro possesso. Allego copia del documento d'identità. Resto in attesa di conferma entro i termini di legge.", "label": "privacy_cancellazione_dati"}
+{"text": "Buonasera, vi chiedo di modificare l'indirizzo di spedizione in quanto il condominio dove abito ha cambiato numerazione civica da 14 a 14/B. Ordine OT-2026-75532.", "label": "ordine_modifica_indirizzo"}
+{"text": "non riesco ad accedere e nel frattempo mi servirebbe anche cambiare l'indirizzo di consegna dell'ordine in corso. prima però devo riuscire ad entrare. aiuto", "label": "accesso_account"}
+{"text": "la transazione viene rifiutata solo quando c'è la spedizione in un'altra città (regalo per mia zia). se metto il mio indirizzo passa. perché?", "label": "pagamento_rifiutato"}
+{"text": "Annullare iscrizione newsletter: mi basta sapere dove devo cliccare", "label": "disiscrizione_marketing"}
+{"text": "addebito sbagliato, ho pagato 20 euro più del carrello", "label": "addebito_doppio_errato"}
+{"text": "ma il ritiro in negozio è gratis o si paga qualcosa??", "label": "ritiro_in_negozio"}
+{"text": "cmq il codice nn va, xké?? scade oggi!!", "label": "codice_sconto"}
+{"text": "Salve, scrivo a nome di mio padre che ha ordinato una poltrona massaggiante: ora che l'ha provata dice che non la vuole. Funziona. Come si fa il recesso? Il numero è OT-2026-52879.", "label": "recesso_ripensamento"}
+{"text": "è possibile far consegnare a un ufficio postale con casella?", "label": "ordine_modifica_indirizzo"}
+{"text": "Con i punti posso comprare anche i prodotti di altri venditori sul marketplace?", "label": "programma_fedelta"}
+{"text": "si possono accumulare punti pagando con bonifico?", "label": "programma_fedelta"}
+{"text": "Ordine OT-2026-73410: friggitrice consegnata con la manopola spezzata e la ciotola rotta. Il pacco aveva un lato completamente schiacciato. Foto allegate. Chiedo la sostituzione.", "label": "danno_alla_consegna"}
+{"text": "Hanno consegnato il condizionatore con il telecomando ma senza il tubo di scarico e la finestra per l'aria. Senza quelli non posso installarlo. Mi servono subito, fa caldo!!", "label": "articolo_errato_mancante"}
+{"text": "ho speso 90 euro ma il sito dice 0 punti perché ho usato un codice sconto, giusto? Domando solo per capire la regola dei punti", "label": "programma_fedelta"}
+{"text": "Mi sono accorto che l'aspirapolvere ha la batteria gonfia dopo poco tempo, non lo uso più per sicurezza. Ordine di luglio. Voglio il cambio.", "label": "reso_garanzia_difetto"}
+{"text": "Il frullatore a immersione è arrivato con il coltello piegato, e la confezione tutta schiacciata. Sì, il corriere era di fretta.", "label": "danno_alla_consegna"}
+{"text": "Ciao, ho cambiato la mail aziendale e non posso più accedere al vecchio indirizzo, ma l'account è registrato lì. Come entro senza poter fare il recupero password?", "label": "accesso_account"}
+{"text": "consegna promessa 24 ore. sono 5 giorni.", "label": "ordine_ritardo_reclamo"}
+{"text": "verifica email: mi arriva in ritardo di ore e il codice scade dopo 10 minuti, non riesco mai ad inserirlo", "label": "accesso_account"}
+{"text": "Qual è la capitale dell'Australia?", "label": "fuori_tema"}
+{"text": "annullare ordine = ? ho sbagliato a prenderlo, nn lo voglio", "label": "ordine_annullamento"}
+{"text": "Buongiorno, ho ricevuto la fattura n. 2026/003912 ma è intestata a me come privato mentre l'acquisto era per la società Bianchi & Figli srl. Vi allego i dati: P.IVA 01987650123, SDI M5UXCR1. Potete emettere nota di credito e nuova fattura? Grazie.", "label": "fattura_richiesta"}
+{"text": "Salve! Ho fatto uno sbaglio gigantesco: ho inserito l'indirizzo di mia ex. Meglio sistemare prima che parta il pacco, per favore. Via dei Platani 6, Monza.", "label": "ordine_modifica_indirizzo"}
+{"text": "Vorrei prenotare un tavolo per 4 persone per sabato sera alle 20, nome Esposito.", "label": "fuori_tema"}
+{"text": "Salve, sul sito il mio ordine ha stato 'parzialmente spedito'. Che significa? Cosa è partito e cosa no?", "label": "ordine_stato_spedizione"}
+{"text": "Buongiorno, ho ordinato una friggitrice ad aria lunedì scorso, numero OT-2026-48213. Potete dirmi se è già partita dal magazzino?", "label": "ordine_stato_spedizione"}
+{"text": "sono molto arrabbiato, mi arriva una tv da 800 euro con lo schermo spaccato e la scatola mezza distrutta. fate subito qualcosa o vado dal consumatore", "label": "danno_alla_consegna"}
+{"text": "rimborso reso occhiali VR: ancora nulla dopo 3 settimane, ho il tracking del corriere con consegna avvenuta", "label": "rimborso_stato"}
+{"text": "Rispondo alla vostra mail: ecco i dati richiesti per la fattura. Ragione sociale: Panificio Il Forno di Mario Sas. P.IVA 03321450272. PEC: ilforno@pec.example. Attendo il documento.", "label": "fattura_richiesta"}
+{"text": "la friggitrice nn si accende piu dopo 3 mesi, cosa devo fare", "label": "reso_garanzia_difetto"}
+{"text": "Gentile servizio clienti, scrivo in merito all'ordine di una macchina del caffè effettuato il 12 settembre. Nonostante la macchina funzioni benissimo, il mio ufficio amministrativo non ha mai ricevuto alcun documento fiscale. Vi prego di inviare la fattura all'indirizzo amministrazione@brunettisrl.example. Grazie.", "label": "fattura_richiesta"}
+{"text": "non mi è arrivato il pacco nei tempi indicati, vorrei un risarcimento", "label": "ordine_ritardo_reclamo"}
+{"text": "buongiorno, ho comprato un set di coltelli ma ho cambiato idea. li ho ancora nella confezione. come li rimando?", "label": "recesso_ripensamento"}
+{"text": "Salve, la lavatrice slim ha esaurito il colore antracite. Si trova ancora in qualche punto vendita o è proprio finita?", "label": "disponibilita_riassortimento"}
+{"text": "Dove si trova l'opzione per non ricevere più le promozioni? Sul sito non la trovo.", "label": "disiscrizione_marketing"}
+{"text": "pagato 2 volte la stessa cosa. ordine 45120", "label": "addebito_doppio_errato"}
+{"text": "È la seconda volta che il robot aspirapolvere si blocca: la prima volta l'avete riparato, ora di nuovo lo stesso difetto al motore delle ruote. Non è accettabile, voglio sostituzione definitiva. Ordine OT-2026-02731.", "label": "reso_garanzia_difetto"}
+{"text": "codice non funziona ho il carrello a 230 euro con una lavatrice", "label": "codice_sconto"}
+{"text": "Aprendo la scatola del piccolo frigorifero ho notato il tubo del gas piegato e una grossa botta sul retro. Il pacco era storto e bucato. Non l'ho collegato. Voglio la sostituzione, non lo voglio così.", "label": "danno_alla_consegna"}
+{"text": "non sono interessata alle vostre promozioni, depennatemi", "label": "disiscrizione_marketing"}
+{"text": "Buongiorno vorrei proporre i miei servizi di fotografia professionale per i vostri prodotti: shooting still life a prezzi concorrenziali, portfolio su richiesta.", "label": "fuori_tema"}
+{"text": "Buongiorno, la smart TV 55 pollici che volevo comprare risulta non disponibile. Sapete dirmi se verrà rifornita e più o meno quando?", "label": "disponibilita_riassortimento"}
+{"text": "Buongiorno vorrei aggiornare il campo 'presso' dell'indirizzo: dovrebbe esserci scritto 'presso Studio Ferretti' altrimenti il pacco non viene accettato dalla reception.", "label": "ordine_modifica_indirizzo"}
+{"text": "Salve, nell'ordine ho scritto 'Via Toscana 12' ma è 'Via Toscanini 12'. Sì, ho fatto un errore di battitura. Potete correggere prima che parta?", "label": "ordine_modifica_indirizzo"}
+{"text": "come si usa la funzione picture in picture sulla tv?", "label": "supporto_uso_prodotto"}
+{"text": "non mi ricordo come si cambia la lampadina del forno... ho il modello da incasso", "label": "supporto_uso_prodotto"}
+{"text": "Buonasera, avrei bisogno di sapere l'indirizzo preciso del punto di ritiro di Brescia e se c'è parcheggio vicino, devo caricare una lavatrice in macchina e vorrei capire se posso fermarmi davanti.", "label": "ritiro_in_negozio"}
+{"text": "Gentile staff, nell'ordine OT-2026-27104 ho indicato come destinataria mia madre, ma il pacco deve essere intestato a me, Elena Conti, stesso indirizzo. Potete correggere? Grazie.", "label": "ordine_modifica_indirizzo"}
+{"text": "Ottavo store ma il caricatore wireless è finito? mi serve per giovedì", "label": "disponibilita_riassortimento"}
+{"text": "Ciao, volevo chiedere: il frullatore a immersione si può usare con pentole antiaderenti senza rovinarle?", "label": "info_prodotto_prevendita"}
+{"text": "Ordine consegnato ieri, la confezione della macchina del caffè era aperta e un lato sfondato; la macchina ha il serbatoio crepato e acqua dappertutto. Voglio che sia sostituita!", "label": "danno_alla_consegna"}
+{"text": "Ho chiesto la cancellazione dei dati un mese fa e mi hanno risposto che era in corso. Ora ricevo ancora le vostre mail. Mi dite se i dati sono stati cancellati o no? Altrimenti mi rivolgo al Garante.", "label": "privacy_cancellazione_dati"}
+{"text": "Mi sono accorto adesso che la spedizione è verso la casa vecchia. Posso cambiarla? Ordine di ieri sera.", "label": "ordine_modifica_indirizzo"}
+{"text": "mia nonna dice di salutarvi", "label": "fuori_tema"}
+{"text": "nn mi hanno messo il manuale e il carica batterie della cuffia", "label": "articolo_errato_mancante"}
+{"text": "nn trovo l'opzione ritiro in negozio nel carrello per il mio cap, abitate solo in certe città?", "label": "ritiro_in_negozio"}
+{"text": "la stufa a pellet.. no scusi, stufetta elettrica, si spegne dopo 5 minuti. presa a novembre. garanzia?", "label": "reso_garanzia_difetto"}
+{"text": "Ho cliccato due volte e mi ritrovo con due ordini identici (OT-2026-12096 e OT-2026-12097). Annullate il secondo per favore, nessuno dei due è stato spedito.", "label": "ordine_annullamento"}
+{"text": "Salve, avete un negozio dalle parti di Aosta dove ritirare? Altrimenti dovrei farmi 100 km fino a Torino, e vorrei sapere se almeno il ritiro lì è comodo.", "label": "ritiro_in_negozio"}
+{"text": "non riesco a connettere l'altoparlante ad alexa, ho scaricato l'app ma non mi trova il dispositivo.. cosa devo fare di preciso", "label": "supporto_uso_prodotto"}
+{"text": "Ciao ho il vecchio account con la tessera e uno nuovo, col nuovo nn riesco ad entrare dopo la verifica. mail verifica ricevuta e cliccata ma niente", "label": "accesso_account"}
+{"text": "Salve, volevo chiedervi di sponsorizzare la nostra squadra di pallavolo giovanile di Cesena. Ci servirebbero le magliette. Siamo disponibili a mettere il vostro logo sulla divisa.", "label": "fuori_tema"}
+{"text": "Buongiorno. Ci tengo a precisare che la merce è arrivata ed è tutto a posto. Il mio solo problema è che sul mio conto vedo due addebiti per l'ordine OT-2026-44333. Grazie per il vostro aiuto.", "label": "addebito_doppio_errato"}
+{"text": "Per il finanziamento serve avere un contratto a tempo indeterminato? sono una studentessa lavoratrice e vorrei pagare un tablet a rate", "label": "pagamento_rate"}
+{"text": "Ottavo Store: attese infinite, nessuna risposta alle mail, operatori che non sanno nulla. Oggi ho avuto la conferma di tutto questo.", "label": "reclamo_servizio_clienti"}
+{"text": "Posso far consegnare il pacco in ufficio invece che a casa? Ordinato stamattina.", "label": "ordine_modifica_indirizzo"}
+{"text": "Ho provato a registrarmi con un indirizzo @libero.it e nessuna mail mi arriva, con gmail invece sì. Come mai?", "label": "accesso_account"}
+{"text": "Buongiorno, avrei bisogno di ritirare un ordine al negozio di Asti ma sono in carrozzina e non so se l'ingresso è accessibile e se ci sono rampe o parcheggi riservati. Potete aiutarmi?", "label": "ritiro_in_negozio"}
+{"text": "La cappa ha la modalità ricircolo: come si cambia il filtro ai carboni e come si imposta l'avviso?", "label": "supporto_uso_prodotto"}
+{"text": "che frigo mi consigliate x una famiglia di 4 persone? doppia porta o combinato?", "label": "info_prodotto_prevendita"}
+{"text": "Gentile servizio clienti, premetto che la spedizione è tracciata e vedo che il pacco si muove, ma la data indicata nel mio ordine era il 10 e siamo al 16. Desidero fare reclamo per il ritardo.", "label": "ordine_ritardo_reclamo"}
+{"text": "il televisore in offerta è finito, ne arrivano altri o la promozione chiude cosi", "label": "disponibilita_riassortimento"}
+{"text": "Gentile team, la lavastoviglie consegnata sabato presenta un vistoso graffio sul pannello e il cestello inferiore è deformato. Era già così al momento dell'arrivo, ma non me ne sono accorto subito perché i corrieri l'hanno lasciata in garage. Ho scattato foto. Posso richiedere intervento?", "label": "danno_alla_consegna"}
+{"text": "Mi hanno addebitato 3 volte la stessa somma. TRE. Ordine unico per una macchina per il caffè. Vergogna.", "label": "addebito_doppio_errato"}
+{"text": "la smart tv ha il bluetooth per le cuffie? o solo telecomando", "label": "info_prodotto_prevendita"}
+{"text": "Il pagamento mi era stato rifiutato al primo tentativo, poi con un'altra carta è passato. Però adesso scopro che anche la prima carta è stata addebitata. Voglio che mi restituiate quella somma, ho pagato due volte l'ordine.", "label": "addebito_doppio_errato"}
+{"text": "posso usare tutti i punti in un colpo solo o solo multipli di 500?", "label": "programma_fedelta"}
+{"text": "Il bollitore funziona benissimo, nessun difetto, voglio solo restituirlo perché mi hanno regalato lo stesso. Rimborso sulla stessa carta?", "label": "recesso_ripensamento"}
+{"text": "ma la fattura quando me la mandate, l ho chiesta al checkout", "label": "fattura_richiesta"}
+{"text": "Mi interessa sapere lo stato di avanzamento dell'ordine 37-1190, non ho ricevuto altre email dopo la conferma.", "label": "ordine_stato_spedizione"}
+{"text": "Buongiorno, insegno informatica in un istituto tecnico e vorrei organizzare una visita didattica con i miei studenti presso la vostra sede logistica. È possibile? Grazie", "label": "fuori_tema"}
+{"text": "Salve, vorrei cancellare l'ordine di una smart TV, se ancora in magazzino. Ho trovato un modello migliore sul vostro sito e riordino quello. Cercate di essere veloci per favore, altrimenti parte.", "label": "ordine_annullamento"}
+{"text": "Dove si trova il punto di ritiro dentro il negozio di Bari? Alla prima visita non ho trovato nessun cartello.", "label": "ritiro_in_negozio"}
+{"text": "il ragazzo della chat mi ha fatto aspettare 20 minuti per ogni singola risposta, cioè io ho finito la giornata e non avevo ancora una risposta alla prima domanda", "label": "reclamo_servizio_clienti"}
+{"text": "Pacco in viaggio o no? Pagato 2 giorni fa", "label": "ordine_stato_spedizione"}
+{"text": "Ho appena fatto un acquisto di un frullatore e già mi sono arrivate due mail di offerte. Se è così non voglio ricevere altro: disiscrivetemi.", "label": "disiscrizione_marketing"}
+{"text": "ciao sono Marco, ho comprato un set di pentole antiaderenti ma non ci stanno nel mobile. posso renderle? mai usate", "label": "recesso_ripensamento"}
+{"text": "Ordine OT-2026-31877 arrivato ieri, tutto perfetto, grazie. Ora però devo capire come si installa la mensola per la soundbar e quali tasselli usare sul muro in cartongesso.", "label": "supporto_uso_prodotto"}
+{"text": "Perdonate, ma il mio nome sull'ordine è sbagliato (ho scritto Mario Rosi invece di Rossi). Al ritiro in negozio a Lucca mi faranno problemi con il documento?", "label": "ritiro_in_negozio"}
+{"text": "Vorrei sapere se per ritirare in negozio il pacco bastano i ritiri con il QR code sul telefono, oppure serve stampare la mail. Il telefono mi si scarica sempre.", "label": "ritiro_in_negozio"}
+{"text": "le ciabatte con interruttore sono con protezione dalle sovratensioni? la presa è da 16A?", "label": "info_prodotto_prevendita"}
+{"text": "Ma nessuno controlla la casella servizioclienti? mi rimbalza tutto come non consegnato oppure non risponde nessuno", "label": "reclamo_servizio_clienti"}
+{"text": "mamma mia quante mail!!! levatemi da sta lista", "label": "disiscrizione_marketing"}
+{"text": "mi piacerebbe fare un colloquio come addetta vendite al negozio di Parma, c'è una selezione aperta?", "label": "fuori_tema"}
+{"text": "Buongiorno, sono la responsabile acquisti di un'azienda di arredamento e vorrei sapere se siete interessati a un accordo di rivendita dei nostri prodotti da incasso sul vostro e-commerce.", "label": "fuori_tema"}
+{"text": "Mi chiedo come mai nella vostra informativa si dice che i dati vengono conservati per 10 anni. Mi sembra troppo. Posso chiedere che vengano cancellati prima?", "label": "privacy_cancellazione_dati"}
+{"text": "il codice BENVENUTO10 non funziona", "label": "codice_sconto"}
+{"text": "si può dividere il pagamento in 3 volte senza interessi?", "label": "pagamento_rate"}
+{"text": "Mi è arrivato un phon che non ho mai ordinato! Io avevo preso una piastra per capelli. Come facciamo?", "label": "articolo_errato_mancante"}
+{"text": "Buonasera, vi scrivo prima dell'acquisto di un notebook da 15,6 pollici. Mi serve per lavorare con Excel e qualche videochiamata, non per giocare. 8 GB di RAM bastano o è meglio 16? Grazie in anticipo.", "label": "info_prodotto_prevendita"}
+{"text": "Ho ordinato le cuffie per un regalo urgente, indicavano consegna in 24h con l'opzione prime-time. Sono passati quattro giorni. Fatemi sapere come intendete risolvere.", "label": "ordine_ritardo_reclamo"}
+{"text": "pacco in ritardo di una settimana!! vergogna", "label": "ordine_ritardo_reclamo"}
+{"text": "ciaooo ho comprato la friggitrice ma l odore di plastica nuova nn mi piace e nn la voglio, rendo?", "label": "recesso_ripensamento"}
+{"text": "ma io avevo preso la friggitrice! questo è un tostapane! chi controlla i pacchi lì?", "label": "articolo_errato_mancante"}
+{"text": "Vorrei sapere se i miei dati vengono venduti. Rispondetemi sì o no.", "label": "privacy_cancellazione_dati"}
+{"text": "Salve, la fattura dell'ordine di settembre è arrivata con l'importo giusto ma intestata alla vecchia società, che abbiamo chiuso a luglio. Allego i dati della nuova: Tecnoservice Italia srl, P.IVA 12345670017, SDI 0000000. Grazie.", "label": "fattura_richiesta"}
+{"text": "Buonasera, vorrei sapere se la macchina da caffè a capsule verrà rifornita nei prossimi giorni, perché la cercavo per un regalo di compleanno il 15 novembre.", "label": "disponibilita_riassortimento"}
+{"text": "Posso indicare un altro nome sul citofono? Il pacco è per mia suocera che abita da mia cognata.", "label": "ordine_modifica_indirizzo"}
+{"text": "Vorrei limitare le email: ne mandate troppe. Se non si può ridurre la frequenza allora cancellatemi proprio dalla newsletter.", "label": "disiscrizione_marketing"}
+{"text": "Ho ordinato il frigo da incasso 60 cm. È arrivato quello da 55 cm. La scatola riporta chiaramente 55. Non va bene per il vano che ho. Chiedo che mi mandiate quello da 60.", "label": "articolo_errato_mancante"}
+{"text": "Salve, esiste un limite massimo di punti utilizzabili per ogni ordine? Volevo coprire metà di un ordine da 300 euro coi punti.", "label": "programma_fedelta"}
+{"text": "Scrivo per la lavatrice presa 18 mesi fa: il cestello fa un rumore forte e perde olio dal fondo. Il tecnico che ho chiamato ha detto che è il cuscinetto. Vorrei che la garanzia coprisse la riparazione, mi dite come procedere?", "label": "reso_garanzia_difetto"}
+{"text": "il robot lavapavimenti è arrivato con la scatola rotta e il serbatoio spaccato. foto inviate via mail", "label": "danno_alla_consegna"}
+{"text": "sono già due settimane che chiedo di togliermi dalla newsletter, e voi niente!! cosa devo fare, venire in negozio?", "label": "disiscrizione_marketing"}
+{"text": "Ciao, ordine in arrivo domani? Il tracking mi dice 'in consegna' ma vorrei conferma", "label": "ordine_stato_spedizione"}
+{"text": "nn vojo piu la lavastoviglie, ho cambiato idea, c'è tempo x restituirla??", "label": "recesso_ripensamento"}
+{"text": "Buongiorno, ho ricevuto via email un codice sconto del 15% ma quando lo inserisco nel carrello compare scritto codice non valido. Ho controllato di averlo copiato bene. Potete aiutarmi? Grazie.", "label": "codice_sconto"}
+{"text": "Salve. Ho restituito il frullatore ad ottobre, mi avete mandato la mail di conferma del reso ma da allora silenzio. Il rimborso è stato disposto? Se sì, con che tempi arriva sulla carta?", "label": "rimborso_stato"}
+{"text": "Vorrei sapere se l'ordine che ho fatto stanotte alle 2 è stato lavorato, non vedo ancora nessun cambiamento di stato.", "label": "ordine_stato_spedizione"}
+{"text": "Gentilissimi, la mail che mi avete inviato per rispondere alla mia segnalazione era chiaramente destinata a un altro cliente (mi chiama Giorgio e io mi chiamo Paola). Questo mi fa pensare che nessuno legga davvero i messaggi. Vorrei un riscontro personale da parte di un responsabile.", "label": "reclamo_servizio_clienti"}
+{"text": "Salve, vorrei aprire una pratica di garanzia per un asciugatrice. Dopo 6 mesi la porta non chiude bene e il ciclo si ferma sempre. La macchina è stata usata solo da noi due, nessun danno.", "label": "reso_garanzia_difetto"}
+{"text": "Egregio Ottavo Store, vorrei segnalare che il codice sconto riportato sul volantino cartaceo, WINTER25, non viene riconosciuto dal vostro sito. Ne ho parlato con un vicino che ha lo stesso problema. Può trattarsi di un errore di stampa?", "label": "codice_sconto"}
+{"text": "x favore chi è il presidente del consiglio ora?", "label": "fuori_tema"}
+{"text": "Buongiorno, ho ricevuto un SMS con scritto di rispondere STOP per non ricevere altro, ma risponde che il numero non è valido. Potete cancellarmi voi dagli avvisi pubblicitari?", "label": "disiscrizione_marketing"}
+{"text": "Sono Antonio e ho 72 anni, volevo solo fare due chiacchiere con qualcuno, mia moglie è in ospedale. Scusatemi se disturbo.", "label": "fuori_tema"}
+{"text": "La fattura che mi avete mandato è illeggibile, il PDF si apre vuoto. Me la rimandate?", "label": "fattura_richiesta"}
+{"text": "Buongiorno, sto per partire per un lungo viaggio e vorrei evitare di ricevere offerte nel frattempo, ma più in generale non desidero più la newsletter. Potete cancellarmi dalla lista? Il mio indirizzo è g.ferrante@example.com. Distinti saluti.", "label": "disiscrizione_marketing"}
+{"text": "il frullatore rosso quando c'è di nuovo", "label": "disponibilita_riassortimento"}
+{"text": "mi dice che il cvv non è valido ma l'ho controllato 10 volte. riprovato su telefono e pc stesso errore", "label": "pagamento_rifiutato"}
+{"text": "no grazie alle promozioni, stop a tutto", "label": "disiscrizione_marketing"}
+{"text": "le rate partono dal mese dopo la consegna o dal mese dopo l'ordine?", "label": "pagamento_rate"}
+{"text": "disattivate definitivamente il mio account e rimuovete i miei dati personali, vi scrivo per la terza volta", "label": "privacy_cancellazione_dati"}
+{"text": "voglio cancellare ordine perché la consegna indicata è troppo lontana, non mi va bene aspettare 3 settimane", "label": "ordine_annullamento"}
+{"text": "Ho fatto un ordine con indirizzo di fatturazione e di spedizione uguali ma devo spedire in un posto diverso, come faccio? Non ho ancora ricevuto avviso di partenza.", "label": "ordine_modifica_indirizzo"}
+{"text": "Mi serve la fattura dell'ordine OT-2026-48213", "label": "fattura_richiesta"}
+{"text": "Tutte le volte che chiamo l'attesa è lunga e poi mi chiedono sempre gli stessi dati. Possibile che non abbiate niente di salvato? Vorrei che un responsabile mi spiegasse questa organizzazione.", "label": "reclamo_servizio_clienti"}
+{"text": "ho dimenticato la password", "label": "accesso_account"}
+{"text": "Salve, ho acquistato un robot da cucina ma dopo averlo provato una volta ho capito che non lo userò mai. È tutto perfettamente funzionante, volevo capire se rientra nei 14 giorni per il ripensamento.", "label": "recesso_ripensamento"}
+{"text": "Hai presente la friggitrice che ho comprato? Dopo un po' di uso, la manopola del timer gira a vuoto. Ho il pezzo rotto in mano. Cosa fate?", "label": "reso_garanzia_difetto"}
+{"text": "Salve, la mia amica mi ha invitato nel club e dice che ci sono 200 punti per chi si iscrive tramite invito. Dove inserisco il suo codice?", "label": "programma_fedelta"}
+{"text": "Rateizzazione: avete convenzioni con la mia banca (Banca Sella) per prestiti sui vostri prodotti?", "label": "pagamento_rate"}
+{"text": "Come sta andando il mio ordine? Mi sembra fermo ma credo sia normale visto che era il weekend.", "label": "ordine_stato_spedizione"}
+{"text": "Buonasera, ho ricevuto una mail che mi comunica la scadenza dei punti. Vorrei sapere se posso convertirli in uno sconto sulla prossima spesa, e come fare.", "label": "programma_fedelta"}
+{"text": "Mi sapete dire se il filtro di ricambio per il purificatore d'aria tornerà disponibile? Ho il vecchio che è quasi finito.", "label": "disponibilita_riassortimento"}
+{"text": "ho ricevuto la mail che il rimborso è stato emesso ma sulla postepay non c'è nulla, passati 6 giorni. È normale?", "label": "rimborso_stato"}
+{"text": "Salve, vorrei sapere come si passa dal livello Silver al livello Gold della tessera. Servono tot punti o una spesa annua minima? Grazie", "label": "programma_fedelta"}
+{"text": "Vi prego di eliminare il mio nominativo dall'elenco per l'invio di pubblicità. Il mio cognome è Esposito, residente a Napoli, e mi arrivano mail anche per mio marito defunto.", "label": "disiscrizione_marketing"}
+{"text": "Hi, ehm in italiano: ho reso il pacco ma non vedo il rimborso, voi quanto tempo ci mettete di solito?", "label": "rimborso_stato"}
+{"text": "ciao mi serve la fattura di un ordine vecchio, del 2024, si può ancora scaricare?", "label": "fattura_richiesta"}
+{"text": "Gent.mo servizio clienti, a causa di un improvviso trasferimento per lavoro chiedo di poter modificare l'indirizzo di consegna dell'ordine 2026-41076 che non risulta ancora spedito. Il nuovo indirizzo è Via Manzoni 11, 50123 Firenze. Distinti saluti.", "label": "ordine_modifica_indirizzo"}
+{"text": "Buongiorno, vorrei restituire la smart TV ma non perché sia difettosa: l'abbiamo provata una settimana e a mia moglie non piace il telecomando. Siamo nei termini?", "label": "recesso_ripensamento"}
+{"text": "Buongiorno, riguardo al reso del mixer: ricevuta mail di avvenuto rimborso il 14/10, ma la banca non ha ancora nulla. Potete dirmi la data in cui il rimborso è stato effettivamente disposto?", "label": "rimborso_stato"}
+{"text": "Buongiorno, ho ordinato per errore due friggitrici ad aria invece di una. Posso annullare l'ordine prima della spedizione? Grazie.", "label": "ordine_annullamento"}
+{"text": "ma se pago a rate il prodotto è mio da subito o resta vostro finché non finisco di pagare?", "label": "pagamento_rate"}
+{"text": "Gentilissimi, ho un problema di accesso. Quando tento di fare il login l'app Ottavo Store mi riporta continuamente alla schermata di benvenuto. Ho provato a cancellare la cache. Voi che dite?", "label": "accesso_account"}
+{"text": "Dopo il pagamento a rate posso ritirare subito in negozio oppure devo aspettare l'approvazione della finanziaria? Chiedo per capire quanto aspettare prima di andare a Treviso.", "label": "ritiro_in_negozio"}
+{"text": "Salve, la mia richiesta di reso è stata approvata il 6 ottobre e il pacco è tornato in magazzino. Resto in attesa di sapere quando verrà accreditato il rimborso sul conto.", "label": "rimborso_stato"}
+{"text": "Buonasera, sono stato avvisato che i miei punti in scadenza saranno persi tra 20 giorni: posso estenderli facendo un acquisto minimo?", "label": "programma_fedelta"}
+{"text": "cancellazione richiesta, non ho ancora ricevuto mail di spedizione", "label": "ordine_annullamento"}
+{"text": "Voglio annullare l'ordine, sono ancora in tempo?? il tracking dice solo 'ordine ricevuto'", "label": "ordine_annullamento"}
+{"text": "Seconda volta che ordino da voi e seconda volta che il pacco arriva dopo la data indicata, stavolta di una settimana. Così perdete clienti.", "label": "ordine_ritardo_reclamo"}
+{"text": "pagamento negato. la banca dice che è tutto ok sulla carta. Ma voi mi dite che è rifiutata. Non so più che fare, devo comprare un regalo entro sabato", "label": "pagamento_rifiutato"}
+{"text": "Ottavo Store S.r.l., con la presente vi invitiamo a rinnovare la registrazione del dominio ottavostore.it. Scadenza entro 48 ore, pena perdita del dominio. Pagate al seguente conto.", "label": "fuori_tema"}
+{"text": "Buongiorno, ho vinto un buono da 100 euro al concorso in negozio a Genova. Mi hanno dato un foglio con un codice. Come posso spenderlo online, e posso usarlo anche in più volte?", "label": "codice_sconto"}
+{"text": "ordine OT-2026-33410 pagato due volte con bonifico: ho fatto un bonifico e poi per sbaglio ne ho rifatto uno uguale perché il sito non confermava. mi restituite uno?", "label": "addebito_doppio_errato"}
+{"text": "Ciao, ho fatto l'ordine con l'account sbagliato, devo cancellarlo e rifarlo. Per favore bloccatelo!", "label": "ordine_annullamento"}
+{"text": "Mi hanno detto di scrivere qui per avere la fattura del phon che ho comprato a settembre, ho il numero d ordine ma non mi ricordo la mail", "label": "fattura_richiesta"}
+{"text": "Ciao a tutti, volevo chiedere se posso rimandare il tablet della ragazzina, dopo 4 giorni si è stufata e preferisce lo smartphone. È ancora perfetto con pellicola.", "label": "recesso_ripensamento"}
+{"text": "Ho dimenticato di inserire la P.IVA all'ordine di ieri (OT-2026-52019) e la spedizione è già partita. Mi serve la fattura con i dati aziendali, non lo scontrino!", "label": "fattura_richiesta"}
+{"text": "Seguo il tracking ogni ora, ma al di là di questo, la verità è che avete superato di 6 giorni la data limite. Mi dovete un risarcimento.", "label": "ordine_ritardo_reclamo"}
+{"text": "Quanto tempo ci mettete a rispondere a una richiesta di cancellazione? Ne ho fatta una un mese fa e non ho ricevuto neanche una conferma di ricezione.", "label": "privacy_cancellazione_dati"}
+{"text": "Ho provato a fare il login con l'impronta digitale sull'app ma ora mi dice sessione scaduta e non mi fa più accedere nemmeno con la password", "label": "accesso_account"}
+{"text": "tornano disponibili le cuffie con cancellazione del rumore? Risultano non disponibili", "label": "disponibilita_riassortimento"}
+{"text": "ciao nn so come si fa, mi aiuti a togliere le pubblicità dal telefono? mi arrivano sms da voi", "label": "disiscrizione_marketing"}
+{"text": "Ho calcolato bene i giorni: doveva arrivare il 15, oggi 23. Voglio parlare di questo ritardo e di cosa mi spetta.", "label": "ordine_ritardo_reclamo"}
+{"text": "Vorrei sapere se la fattura è già disponibile, ho ordinato ieri e il pacco non è ancora uscito", "label": "fattura_richiesta"}
+{"text": "ho sbagliato indirizzo e non voglio cambiarlo, annullate l'ordine e lo rifaccio da capo con quello giusto", "label": "ordine_annullamento"}
+{"text": "Vorrei capire se esiste un pagamento a rate per i clienti Ottavo Club con la tessera livello Oro, magari con condizioni migliori.", "label": "pagamento_rate"}
+{"text": "mi manca l'alimentatore del portatile, nella scatola solo il pc e basta, mi avete rovinato la giornata", "label": "articolo_errato_mancante"}
+{"text": "Salve, vorrei capire come mai il mio account è stato disattivato per inattività. Non ho cancellato nulla io, e adesso non riesco a rientrare", "label": "accesso_account"}
+{"text": "Il phon è arrivato col corpo spaccato e il cavo mezzo tagliato. Pacco visibilmente maltrattato.", "label": "danno_alla_consegna"}
+{"text": "Ho ordinato il 15 ottobre uno smartwatch. Il prezzo sul sito era 129 euro, la carta mi ha trattenuto 192. Sembra uno scambio di cifre. Potete controllare per cortesia?", "label": "addebito_doppio_errato"}
+{"text": "Salve, mi hanno consegnato per errore la posta del vostro negozio nella mia cassetta, c'è una lettera della società elettrica. A chi devo darla?", "label": "fuori_tema"}
+{"text": "Buonasera, posso pagare con American Express? Ho provato ma il sito dice carta non accettata.", "label": "pagamento_rifiutato"}
+{"text": "non ci sono le viti x montare il mobile tv. solo il pannello", "label": "articolo_errato_mancante"}
+{"text": "Salve, le cuffie bluetooth che ho comprato a gennaio hanno il lato sinistro che non suona più. Chiedo la sostituzione in garanzia. Ordine OT-2026-12874.", "label": "reso_garanzia_difetto"}
+{"text": "Mi avete caricato 2 volte l'importo sul conto PayPal. Un acquisto, 2 pagamenti da 71 euro.", "label": "addebito_doppio_errato"}
+{"text": "quando torna disponibile la friggitrice da 5 litri? è esaurita da settimane", "label": "disponibilita_riassortimento"}
+{"text": "Non vi basta ignorarmi, quando rispondete mi date risposte che non c'entrano con la mia domanda", "label": "reclamo_servizio_clienti"}
+{"text": "ciao", "label": "fuori_tema"}
+{"text": "SONO TRE SETTIMANE CHE ASPETTO IL RIMBORSO DELLA LAVATRICE RESA. COSA ASPETTATE?", "label": "rimborso_stato"}
+{"text": "Vorrei un consiglio, devo comprare un ventilatore a torre silenzioso per la camera da letto di mia figlia: meglio quello con telecomando o con app? Quanto rumore fa in modalità notte?", "label": "info_prodotto_prevendita"}
+{"text": "Ho preso due casse bluetooth per sbaglio, una la voglio rendere. Funzionano entrambe perfettamente, solo che una mi basta. È possibile?", "label": "recesso_ripensamento"}
+{"text": "Buongiorno, ho provato a reimpostare la password tre volte ma la mail con il link non mi arriva mai. Ho controllato anche nello spam. L'indirizzo è quello giusto, lo uso da anni. Potete aiutarmi?", "label": "accesso_account"}
+{"text": "Sono molto arrabbiato. Ho scritto tre volte su Messenger e hanno visualizzato senza rispondere. Poi ho telefonato e mi hanno detto di scrivere su Messenger. Siamo al ridicolo.", "label": "reclamo_servizio_clienti"}
+{"text": "non voglio più il tablet, annullate", "label": "ordine_annullamento"}
+{"text": "mi servirebbe la ricevuta fiscale o fattura dello smart tv 55 pollici, la devo dare all'assicurazione per il furto in casa", "label": "fattura_richiesta"}
+{"text": "Ciao! Il mio ordine ha ancora lo stato 'confermato'. Posso variare l'indirizzo con quello della mia ragazza? Altrimenti il pacco resta fuori al freddo.", "label": "ordine_modifica_indirizzo"}
+{"text": "Il mio ordine di 5 filtri per la caffettiera è arrivato con soltanto 2 filtri. Il pacco era sigillato. Non so che fare.", "label": "articolo_errato_mancante"}
+{"text": "Salve, scrivo dalla provincia di Lecce. Io e mio marito abbiamo ordinato un robot da cucina e adesso ci siamo resi conto che costa troppo per il nostro budget. Possiamo disfarcene rimandandolo? È uguale a come l'abbiamo ricevuto. Aspetto vostro cenno.", "label": "recesso_ripensamento"}
+{"text": "il pulsante accedi non fa niente sul mio iphone", "label": "accesso_account"}
+{"text": "Non ho più bisogno di ricevere le offerte su elettrodomestici, ho già rifatto la cucina. Toglietemi dalle comunicazioni promozionali.", "label": "disiscrizione_marketing"}
+{"text": "Salve. Ho già la ricevuta del corriere di consegna del 17/10 e non mi interessa più il prodotto (un deumidificatore). Non ha nessun problema, semplicemente ho cambiato idea. Cosa devo compilare?", "label": "recesso_ripensamento"}
+{"text": "Come mai il numero verde è a pagamento da cellulare e poi mi fate aspettare mezz'ora? Pago io per non essere ascoltato.", "label": "reclamo_servizio_clienti"}
+{"text": "Hey, scusa se disturbo, ordine OT-2026-49918, mi serve la fattura con il nome della mia ragazza, ho pagato io ma è un regalo e lei la vuole per la garanzia", "label": "fattura_richiesta"}
+{"text": "Ciao, credo di aver pagato troppo: mi hanno fatto pagare 15 euro di spedizione ma al checkout c'era scritto spedizione gratuita", "label": "addebito_doppio_errato"}
+{"text": "la friggitrice senza olio va bene anche per cuocere il pesce o resta l'odore ovunque", "label": "info_prodotto_prevendita"}
+{"text": "URGENTE: la fattura ha la partita iva sbagliata, manca una cifra. Il mio commercialista non la può registrare. Rifatela subito!!", "label": "fattura_richiesta"}
+{"text": "Vorrei smettere di ricevere il codice sconto compleanno e le altre offerte, non mi serve niente di tutto ciò.", "label": "disiscrizione_marketing"}
+{"text": "il codice che mi avete dato per scusarvi del ritardo risulta già utilizzato, ma io non l'ho mai usato", "label": "codice_sconto"}
+{"text": "Il piumone... no, la coperta elettrica: si può lavare in lavatrice? Ha l'autospegnimento dopo qualche ora?", "label": "info_prodotto_prevendita"}
+{"text": "Buonasera, il sensore di movimento della mia lampada smart non funziona più dopo 3 mesi. Non è un problema di app, ho già riconfigurato tutto. Chiedo sostituzione in garanzia.", "label": "reso_garanzia_difetto"}
+{"text": "ma lo smartphone in colore blu notte arriva di nuovo o è fuori produzione definitivamente?", "label": "disponibilita_riassortimento"}
+{"text": "La friggitrice si era rotta dopo 3 mesi, l'ho mandata in sostituzione e poi mi avete detto che mi rimborsavate perché non ne avete più. Il rimborso è partito? Non ho ricevuto niente.", "label": "rimborso_stato"}
+{"text": "Buongiorno, ho una domanda sul diritto di ripensamento: ho comprato una tastiera meccanica, ha un click troppo rumoroso per l'ufficio, funziona perfettamente. Posso restituirla? Il rimborso quando lo ricevo lo vedremo dopo, intanto mi serve sapere come spedirla.", "label": "recesso_ripensamento"}
+{"text": "Buongiorno. Per chi vive a Bolzano esiste un punto di ritiro? Non trovo il negozio nella lista. Se non c'è, qual è il più vicino?", "label": "ritiro_in_negozio"}
+{"text": "Salve, ho trovato la friggitrice in offerta, ma purtroppo la versione con doppio cestello è esaurita; ne arriveranno altre? Non vorrei che l'offerta finisse prima del rientro.", "label": "disponibilita_riassortimento"}
+{"text": "Gentile assistenza, da stamattina il sito mi dice credenziali non valide ma sono certo di usare la password giusta, l'ho anche salvata nel browser. Ieri funzionava tutto. Non ho cambiato nulla. Attendo un vostro aiuto per accedere.", "label": "accesso_account"}
+{"text": "salve vorrei sapere in che deposito è il mio pacco, il corriere è Poste e il codice inizia con 'RR'", "label": "ordine_stato_spedizione"}
+{"text": "ciao! mi hanno scalato l'importo del carrello in anticipo e poi ancora alla spedizione. alla fine ho speso il doppio rispetto al prezzo del forno (130 euro)", "label": "addebito_doppio_errato"}
+{"text": "Provato 4 volte con la carta di mio marito e 2 con la mia. Niente da fare, 'pagamento rifiutato'. Ma io volevo solo comprare una lavatrice, è così difficile?", "label": "pagamento_rifiutato"}
+{"text": "ordine non concluso: la banca ha negato l'autorizzazione, i soldi ci sono sul conto. riprovo domani oppure c'è un modo diverso per pagare?", "label": "pagamento_rifiutato"}
+{"text": "Buonasera, sono Gianni di Catania. Pacco consegnato da un corriere con il furgone sporco e caotico. Dentro il condizionatore con la griglia ammaccata e le alette storte. Ho tutte le foto. Che si fa?", "label": "danno_alla_consegna"}
+{"text": "Mi hanno consegnato il robot aspirapolvere nella versione 'base', ma io ho pagato la versione con svuotamento automatico. Dalla confezione non c'è la stazione di svuotamento. Voglio quello che ho pagato.", "label": "articolo_errato_mancante"}
+{"text": "Ho fatto un acquisto come privato ma poi ho capito che mi conveniva come azienda, si può riemettere la fattura con partita iva? è passato un mese", "label": "fattura_richiesta"}
+{"text": "Ho prenotato il ritiro in negozio per il tablet ma mi sa che arrivo dopodomani invece che domani, il pacco me lo tengono comunque?", "label": "ritiro_in_negozio"}
+{"text": "tracking ordine? non mi è arrivata nessuna mail", "label": "ordine_stato_spedizione"}
+{"text": "Ho provato più volte ad acquistare la cuffia da gaming ma ogni volta dice non disponibile. Hanno finito le scorte? Vi pregherei di dirmi se vale la pena aspettare.", "label": "disponibilita_riassortimento"}
+{"text": "ragazzi cancellatemi l'ordine di ieri, l'ho fatto da ubriaco", "label": "ordine_annullamento"}
+{"text": "Vorrei capire se i punti accumulati sull'acquisto della lavatrice rimangono anche se la restituisco dopo 10 giorni. È solo curiosità, non la rendo, vorrei solo sapere come funziona.", "label": "programma_fedelta"}
+{"text": "Un saluto dalla Sardegna! Volevo chiedere info sul mio rimborso: ho reso il tritatutto la settimana scorsa e dato che le spedizioni per l'isola sono lente mi chiedevo se il rimborso parte appena il corriere ritira o quando arriva da voi.", "label": "rimborso_stato"}
+{"text": "elimina il mio numero dalle liste promozionali", "label": "disiscrizione_marketing"}
+{"text": "quando uno vi chiama risponde un robot che poi si blocca, quando scrivete rispondete dopo una settimana. fate schifo", "label": "reclamo_servizio_clienti"}
+{"text": "Gentile Ottavo Store, vi scrivo perché ho scoperto che i miei dati sono stati condivisi con partner commerciali. Non ho mai dato il consenso. Pretendo di sapere a chi li avete ceduti e di farli cancellare.", "label": "privacy_cancellazione_dati"}
+{"text": "la consegna era per le 18 di ieri e non è venuto nessuno, il tracking dice 'consegna tentata' ma io ero in casa", "label": "ordine_ritardo_reclamo"}
+{"text": "Buongiorno, sono rimasto stupito vedendo lo stato della scatola della friggitrice, piena di buchi e con il nastro rifatto. Dentro la ciotola in ceramica era rotta in due. Chiedo che mi venga mandato un prodotto integro, e di sapere come restituire quello rotto.", "label": "danno_alla_consegna"}
+{"text": "codice sconto scaduto ma io ho il carrello da una settimana, potete onorarlo?", "label": "codice_sconto"}
+{"text": "Salve, devo cancellare un ordine di ieri che ho fatto con PayPal. Mi serve un semplice annullamento, ancora non è stato preso in carico dal corriere. Dopo, eventualmente, mi direte voi quando arriva il rimborso.", "label": "ordine_annullamento"}
+{"text": "L'operatrice al telefono è stata maleducata, mi ha chiuso il telefono in faccia mentre le spiegavo il problema. Chiedo che venga ripreso il comportamento.", "label": "reclamo_servizio_clienti"}
+{"text": "Ho avuto il dispiacere di parlare con un operatore che mi ha risposto con sarcasmo e poi ha chiuso la telefonata senza salutare. Lo trovo grave, soprattutto perché ero in difficoltà, e vorrei un confronto con il responsabile.", "label": "reclamo_servizio_clienti"}
+{"text": "Buonasera, ho accumulato punti con la tessera Ottavo Club e vorrei sapere se al momento del ritiro in negozio posso farmeli scalare alla cassa, oppure solo online. Grazie per la risposta sul ritiro.", "label": "ritiro_in_negozio"}
+{"text": "Salve, il condizionatore split bianco lo trovo non disponibile con consegna da voi. Ci sarà un rifornimento prima dell'inverno? Ho un'offerta del 15% che scade a fine mese e vorrei approfittarne appena torna.", "label": "disponibilita_riassortimento"}
+{"text": "come si fa a bloccare gli sms promozionali di ottavo store", "label": "disiscrizione_marketing"}
+{"text": "tablet con angolo schiacciato e schermo che ha un alone nero. scatola ammaccata. appena arrivato", "label": "danno_alla_consegna"}
+{"text": "mi aiutate a capire come si usa il telecomando universale con la vecchia tv?", "label": "supporto_uso_prodotto"}
+{"text": "Buongiorno. Ho restituito il pacco con il tostapane e allego la ricevuta del corriere. Non ho idea se sia arrivato da voi, e non ho ricevuto alcun rimborso. Potreste controllare e dirmi quando verranno restituiti i miei soldi? Sono 39 euro, non è una somma enorme ma preferirei riaverli.", "label": "rimborso_stato"}
+{"text": "vorrei ricevere solo le comunicazioni sugli ordini e niente pubblicità, è possibile", "label": "disiscrizione_marketing"}
+{"text": "Ricevuto stamattina. Nella scatola dell'aspirapolvere manca il tubo prolunga. Sul sito veniva indicato fra gli accessori. Che fate?", "label": "articolo_errato_mancante"}
+{"text": "Ciao! Ho mandato indietro le cuffie con noise cancelling, tracking OT-RES-7731 consegnato. Rimborso in arrivo o devo sollecitare?", "label": "rimborso_stato"}
+{"text": "SONO PASSATI GIA' 15 GIORNI. DOV'E' IL MIO ORDINE??? DOVEVA ARRIVARE ENTRO IL 30!", "label": "ordine_ritardo_reclamo"}
+{"text": "Buongiorno, dovrei avere la fattura per un acquisto effettuato come ospite senza account. Numero ordine OT-2026-38820, email usata nome.cognome@mail.example. Grazie mille per l'aiuto.", "label": "fattura_richiesta"}
+{"text": "Salve, ordine di un monitor: devo aggiornare l'indirizzo perché la mia ditta si è trasferita. Nuova sede: Via dell'Industria 44, 35129 Padova. Grazie e cordiali saluti.", "label": "ordine_modifica_indirizzo"}
+{"text": "la lavatrice 8kg è a incasso o libera installazione?", "label": "info_prodotto_prevendita"}
+{"text": "Dentro il pacco dello smartphone c'era solo il telefono: niente caricatore, niente cavo, niente auricolari. Lo schermo è a posto. Sul sito diceva \"con accessori\".", "label": "articolo_errato_mancante"}
+{"text": "Salve, mi hanno spedito la lavatrice ma senza il manuale e senza il kit di fissaggio dei tubi. Non è urgente, però vorrei che mi venissero mandati.", "label": "articolo_errato_mancante"}
+{"text": "Ti piace guadagnare da casa? Con solo 50 euro al giorno lavorando 1 ora. Scrivimi in privato per scoprire come.", "label": "fuori_tema"}
+{"text": "punti omaggio di benvenuto non arrivati, mi sono iscritto giovedì", "label": "programma_fedelta"}
+{"text": "Siamo un ente di formazione accreditato: corsi per addetti alla sicurezza sul lavoro, obbligatori per tutte le aziende con dipendenti. Contattaci per un preventivo.", "label": "fuori_tema"}
+{"text": "Non entro più nel profilo e così non posso nemmeno usare il codice sconto che ho ricevuto. Prima mi serve la password nuova, il link di recupero non arriva", "label": "accesso_account"}
+{"text": "Sono stato addebitato due volte per l'acquisto di un robot da cucina e ho anche ricevuto due mail con lo stesso ordine. Nel frattempo il pacco non è ancora partito. Quello che mi interessa è lo storno del pagamento duplicato.", "label": "addebito_doppio_errato"}
+{"text": "BASTA CON LE MAIL!!!!! SONO STUFO", "label": "disiscrizione_marketing"}
+{"text": "Il mio sconto dice 'ordine minimo non raggiunto' però tolgo un articolo e non va neanche così", "label": "codice_sconto"}
+{"text": "Buon pomeriggio, scrivo per sapere se il mio ordine di sabato è già stato consegnato al corriere. Ho letto nel tracking 'ordine ricevuto dal vettore' ma niente altro. Avrei piacere di avere un aggiornamento quando possibile.", "label": "ordine_stato_spedizione"}
+{"text": "Vorrei cambiare luogo di consegna: da casa a casa dei nonni in campagna, località Poggio Alto, vicino a Gubbio. Il pacco non è ancora stato spedito.", "label": "ordine_modifica_indirizzo"}
+{"text": "Buonasera, ho perso l'accesso all'account perché mio marito ha cambiato la password senza dirmelo. Potete mandarmi un link di reset all'indirizzo mail che avevo usato nel 2022?", "label": "accesso_account"}
+{"text": "E ora un reclamo gentile: per due volte il commesso a Roma Eur non ha letto la mia tessera alla cassa, quindi niente punti. Come posso recuperare quelli degli ultimi due scontrini? Ho le foto.", "label": "programma_fedelta"}
+{"text": "Voglio rimuovere tutto, il mio account è inutile, ho già disdetto la tessera. Cancellazione definitiva e dei dati associati, please.", "label": "privacy_cancellazione_dati"}
+{"text": "Voucher reso: ho ricevuto un buono al posto del rimborso e non riesco ad usarlo, il sito dice codice errato", "label": "codice_sconto"}
+{"text": "Buongiorno, mi hanno detto in negozio a Sassari che l'ordine sarebbe stato pronto in 24 ore, ma qui sul sito leggo 2 ore. Qual è il tempo giusto per il ritiro?", "label": "ritiro_in_negozio"}
+{"text": "Ho aperto il pacco con le casse bluetooth e c'era dentro una sola cassa. Ne avevo ordinate due (stereo). Possibile? Il pacco pesava poco, in effetti.", "label": "articolo_errato_mancante"}
+{"text": "Mio marito ed io vorremmo fare l'acquisto a rate cointestando il finanziamento. È possibile? Ordine previsto di circa 1.400 euro per un set di elettrodomestici.", "label": "pagamento_rate"}
+{"text": "Buongiorno, abbiamo comprato a febbraio un frigorifero combinato; da una settimana il freezer forma ghiaccio ovunque e la guarnizione non tiene. Sarebbe da sostituire. Siamo a Cagliari, potete mandare un tecnico a casa?", "label": "reso_garanzia_difetto"}
+{"text": "Siete aperti il lunedì mattina a Gorizia? Passerei prima di andare al lavoro.", "label": "ritiro_in_negozio"}
+{"text": "ma quindi 'compra ora paga dopo' cosa vuol dire? pago 30 giorni dopo la consegna? lo fate?", "label": "pagamento_rate"}
+{"text": "rimborso??? ho reso tutto 12 gg fa", "label": "rimborso_stato"}
+{"text": "Mi avete addebitato il costo del reso (6,90) ma io avevo fatto il recesso e sul sito è scritto che il reso è gratuito. Mi riaccreditate?", "label": "addebito_doppio_errato"}
+{"text": "Il mio account funziona benissimo, riesco a fare login e riempire il carrello, ma al momento di pagare il sito rifiuta qualunque carta. Ho provato tre carte diverse.", "label": "pagamento_rifiutato"}
+{"text": "cuffie arrivate senza adattatore jack. nell'articolo c'era scritto compreso.", "label": "articolo_errato_mancante"}
+{"text": "Gentilissimi, ricevo SMS promozionali alle 21:40 di sera. Vi chiedo di non contattarmi più per scopi pubblicitari.", "label": "disiscrizione_marketing"}
+{"text": "Ho appena finito una telefonata con il vostro servizio clienti: l'operatore parlava sopra di me e non mi ha lasciato finire una frase. Sono sconcertato.", "label": "reclamo_servizio_clienti"}
+{"text": "quando riavrete il phon compatto da viaggio? lo cerco da un mese", "label": "disponibilita_riassortimento"}
+{"text": "Buonasera, vi scrivo perché la scatola della lavastoviglie conteneva solo il cestello superiore, dell'elettrodomestico nemmeno l'ombra... forse hanno sbagliato a imballare? Ordine OT-2026-72290", "label": "articolo_errato_mancante"}
+{"text": "Se non provvedete a cancellare i miei dati entro 30 giorni mi rivolgerò al Garante per la protezione dei dati personali. Questa è la seconda richiesta, la prima era del 12 settembre.", "label": "privacy_cancellazione_dati"}
+{"text": "Salve, mi hanno consegnato il purificatore con il filtro e la griglia frontale rotti, sembrava che avessero giocato a calcio con la scatola. Mi dite come richiedere un invio di sostituzione?", "label": "danno_alla_consegna"}
+{"text": "Cuffie con cancellazione del rumore: dopo due mesi il microfono non funziona più. Ordine OT-2026-23019. Chiedo riparazione o sostituzione.", "label": "reso_garanzia_difetto"}
+{"text": "Il corriere mi ha chiamato per dire che consegna domani, volevo solo confermare con voi lo stato dell'ordine OT-2026-93844 e se serve la firma.", "label": "ordine_stato_spedizione"}
+{"text": "Salve, vorrei cancellare il mio account Ottavo Club. Se cancello perdo i punti, lo so, non mi interessa. Voglio che i miei dati vengano tolti dalla vostra banca dati.", "label": "privacy_cancellazione_dati"}
+{"text": "Mi hanno fatto pagare una cosa 4.99 per la spedizione ma non ho avuto i punti su quei 4.99, lo trovo strano, va bene così?", "label": "programma_fedelta"}
+{"text": "il numero del negozio di Padova per sapere se ordine e pronto?", "label": "ritiro_in_negozio"}
+{"text": "Buongiorno, vorrei cancellare il mio ordine perché il pagamento a rate non mi è stato accettato e ho pagato poi con carta, per cui ho fatto un secondo ordine uguale. Chiedo di annullare il primo ordine (OT-2026-70014) che non è ancora stato spedito.", "label": "ordine_annullamento"}
+{"text": "Buonasera. Vorrei sapere se la tessera Ottavo Club ha una app dedicata oppure se si usa solo il QR del sito. In negozio a Trieste non sapevano rispondermi bene.", "label": "programma_fedelta"}
+{"text": "Il sito dice 'spedito' ma il link del corriere non trova niente, forse è troppo presto? Ordine OT-2026-27760.", "label": "ordine_stato_spedizione"}
+{"text": "Gentile assistenza, per mia madre ottantenne cerco un telefono con tasti grandi e suoneria forte. Avete qualcosa di adatto? Non deve avere internet.", "label": "info_prodotto_prevendita"}
+{"text": "come si accoppia il telecomando con la smart tv? ha cambiato le batterie ma niente", "label": "supporto_uso_prodotto"}
+{"text": "Una settimana per leggere un mio messaggio? Forse dovreste assumere qualcuno.", "label": "reclamo_servizio_clienti"}
+{"text": "Carissimi, in occasione della sagra del paese organizziamo una lotteria benefica. Potreste donare un piccolo elettrodomestico come premio? Sarebbe un gesto molto gradito, resto a disposizione. Don Vincenzo, parrocchia di San Giuseppe.", "label": "fuori_tema"}
+{"text": "Il mio sconto del 10% per la registrazione risulta applicato solo a metà dell'ordine, solo su un prodotto. Succede sempre così?", "label": "codice_sconto"}
+{"text": "Salve, stamattina ho provato a pagare l'ordine con la mia Mastercard e dopo il caricamento il sito mi ha detto 'carta declinata'. Ho verificato: soldi sufficienti, carta attiva, nessun blocco. Potete controllare se c'è qualcosa sul mio account?", "label": "pagamento_rifiutato"}
+{"text": "Salve, ho comprato una friggitrice ad aria a settembre e da allora mi riempite la casella di promozioni. Non mi interessano, smettetela di mandarmele.", "label": "disiscrizione_marketing"}
+{"text": "Sono stato messo in attesa per 40 minuti, con la musichetta, poi la chiamata è caduta. Ho richiamato e altri 35 minuti. Stasera ci riprovo ma non è così che si gestisce un'azienda.", "label": "reclamo_servizio_clienti"}
+{"text": "ciao il mio tablet si spegne da solo e la batteria dura un'ora, l'ho preso a ottobre dell'anno scorso, è in garanzia vero?", "label": "reso_garanzia_difetto"}
+{"text": "Le casse bluetooth sono impermeabili IPX7? Posso portarla in spiaggia?", "label": "info_prodotto_prevendita"}
+{"text": "Salve, ho comprato il phon qualche mese fa, il motore fa un rumore da trattore e poi si ferma. Posso mandarlo in riparazione presso il vostro negozio di Bologna?", "label": "reso_garanzia_difetto"}
+{"text": "stop sms promo, numero 333 5551122", "label": "disiscrizione_marketing"}
+{"text": "mi si è bruciato il motore del tritacarne dopo poche volte che l ho usato, ci sono 5 mesi. cambio in garanzia?", "label": "reso_garanzia_difetto"}
+{"text": "Gentili signori, il televisore 55\" acquistato nel febbraio scorso presenta delle righe verticali sullo schermo che sono comparse da una settimana. Chiedo l'intervento in garanzia legale di due anni. Resto a disposizione per qualsiasi documento. Cordiali saluti.", "label": "reso_garanzia_difetto"}
+{"text": "Gentili signori, ho acquistato la smart TV 55 pollici la settimana scorsa e funziona benissimo, però non riesco a sintonizzare i canali del digitale terrestre dopo il cambio di standard. Come devo procedere?", "label": "supporto_uso_prodotto"}
+{"text": "hey bro vuoi comprare criptovalute? Raddoppia il tuo capitale in 7 giorni, garantito", "label": "fuori_tema"}
+{"text": "Volevo restituire l'ordine ma non so se sono ancora nei termini: consegna avvenuta il 10 ottobre, oggi è il 23. Non è difettoso, non mi serve.", "label": "recesso_ripensamento"}
+{"text": "Spedizioni dalla Cina, prodotti dropshipping senza magazzino! Apri il tuo negozio online in 24 ore. Contattaci per il corso gratuito.", "label": "fuori_tema"}
+{"text": "Salve, ho pagato un ordine di 149,99 e dalla carta sono usciti 1.499,90. Credo sia un errore di virgola! Urgente, ho il conto in rosso adesso!", "label": "addebito_doppio_errato"}
+{"text": "Mi potete confermare che il pacco sia partito? Domani sono fuori città e vorrei sapere se devo avvisare qualcuno.", "label": "ordine_stato_spedizione"}
+{"text": "Ho ricevuto il frigorifero giusto, ma la porta è con apertura a sinistra invece che a destra come ordinato. Non è rotto, è proprio la versione sbagliata. Possiamo fare il cambio?", "label": "articolo_errato_mancante"}
+{"text": "Gentile cliente... anzi no, gentile Ottavo Store, sono io il cliente! Ho commesso un errore di inserimento dei dati e vorrei variare l'indirizzo di spedizione del mio ordine, che ancora non è stato inviato. Grazie mille per la pazienza.", "label": "ordine_modifica_indirizzo"}
+{"text": "Compatibilità del caricatore da 65W con il Macbook Air? serve cavo usb c a c o è incluso?", "label": "info_prodotto_prevendita"}
+{"text": "Salve ho collegato lo smart plug ad alexa e lo vede, ma non riesco a creare la routine per accendere la lampada alle 18. Qualcuno può guidarmi?", "label": "supporto_uso_prodotto"}
+{"text": "è arrivata la macchina da cucire con la scocca rotta e i pezzi sciolti dentro la scatola, tipo è stata presa a calci", "label": "danno_alla_consegna"}
+{"text": "Avrei bisogno di restituire un pc portatile perché ho cambiato idea e ne prendo uno più potente. È acceso solo una volta per l'avvio iniziale. Entro 14 giorni, ordine OT-2026-57731.", "label": "recesso_ripensamento"}
+{"text": "Ciao ragazzi, nel reso avevo indicato PayPal come metodo di rimborso. Ho controllato oggi e ancora non c'è nulla. Date indicative?", "label": "rimborso_stato"}
+{"text": "Ho rispedito la friggitrice 10 giorni fa, il rimborso quando arriva?", "label": "rimborso_stato"}
+{"text": "Salve ho letto che c è la verifica in due passaggi ma non mi arriva il codice, e adesso non posso più loggarmi. Ho bisogno di recuperare l'accesso oggi stesso perché devo seguire una spedizione.", "label": "accesso_account"}
+{"text": "Salve, sono un signore di una certa età e mio nipote mi ha detto che posso chiedere di far dimenticare i miei dati dal vostro negozio. Come si fa? Non sono pratico di internet.", "label": "privacy_cancellazione_dati"}
+{"text": "Per quale motivo la fattura è stata emessa il giorno della spedizione e non dell'ordine? Ho bisogno di una data precisa", "label": "fattura_richiesta"}
+{"text": "cuffie belle ma ne ho prese due paia per errore mio, ne restituisco un paio. ok?", "label": "recesso_ripensamento"}
+{"text": "Salve, sto per fare un acquisto da 700 euro. Meglio le rate con la vostra finanziaria o il pagamento in 3 volte con PayPal? Quali sono le differenze di costo?", "label": "pagamento_rate"}
+{"text": "Vi ho lasciato i miei dati nel negozio di Torino per una garanzia e un commesso li ha scritti su un foglio. Ora voglio che vengano distrutti. Come posso chiederlo?", "label": "privacy_cancellazione_dati"}
+{"text": "Buonasera, sono la segretaria del dottor Fabbri. Per l'acquisto di un notebook (ordine OT-2026-46055) serve fattura a nome dello studio medico, con P.IVA 01122330445. Potete inviarla a segreteria@studiofabbri.example?", "label": "fattura_richiesta"}
+{"text": "Siamo specializzati nella stampa di gadget personalizzati con il logo aziendale: penne, tazze, power bank. Ottimi sconti sui volumi. Richiedi il catalogo!", "label": "fuori_tema"}
+{"text": "arrivata la pentola a pressione con il manico spezzato e il coperchio deformato come se fosse caduta. posso averne un'altra", "label": "danno_alla_consegna"}
+{"text": "Buongiorno, ho cambiato lavoro e vorrei capire se il pacco è già in viaggio o se posso ancora modificare qualcosa... in realtà volevo solo sapere se è partito, poi vedo io.", "label": "ordine_stato_spedizione"}
+{"text": "pagamento fattura n. 3345 scaduta, versare entro oggi su IBAN IT00 0000 0000. Distinti saluti, ufficio amministrativo", "label": "fuori_tema"}
+{"text": "Ciao, volevo annullare il mio ordine, ho visto sul sito che la TV era in offerta flash per più di 100 euro in meno e sono arrabbiato. Annullate quello vecchio.", "label": "ordine_annullamento"}
+{"text": "Gentile Servizio Clienti, mi permetto di scrivere per richiedere la sospensione definitiva degli invii promozionali; sono stato iscritto d'ufficio dopo un acquisto del 2024 e non ho mai dato il consenso. Ringrazio per la cortese attenzione.", "label": "disiscrizione_marketing"}
+{"text": "Il pulsante paga non fa niente, gira e basta", "label": "pagamento_rifiutato"}
+{"text": "cambio intestazione fattura x favore, da Rossi Mario a Rossi Mario & C. sas", "label": "fattura_richiesta"}
+{"text": "Buongiorno, io pagherei volentieri a rate ma ho paura di non essere approvato perché ho un contratto a tempo determinato. Quali sono i requisiti per ottenere il finanziamento?", "label": "pagamento_rate"}
+{"text": "Sono tre settimane che sto aspettando che qualcuno mi chiami come promesso. Prima o poi qualcuno si ricorderà del mio numero?", "label": "reclamo_servizio_clienti"}
+{"text": "Salve, il totale che ho pagato con carta (214,50) non corrisponde a quanto riportato nella fattura (194,50). Venti euro in più rispetto all'importo della fattura. Chiedo spiegazioni.", "label": "addebito_doppio_errato"}
+{"text": "Dentro la confezione della friggitrice ad aria ho trovato l'apparecchio, ma senza la pinza e senza la teglia forata. Saranno stati dimenticati? Vorrei che mi inviaste gli accessori mancanti.", "label": "articolo_errato_mancante"}
+{"text": "Il telecomando della smart TV non risponde più, ho cambiato pile. La tv ha 7 mesi. Magari è il ricevitore sulla tv. Posso avere assistenza in garanzia?", "label": "reso_garanzia_difetto"}
+{"text": "la webcam hd da 1080 torna disponibile?", "label": "disponibilita_riassortimento"}
+{"text": "doppio addebito!!! 2 volte lo stesso importo, risolvete subito", "label": "addebito_doppio_errato"}
+{"text": "buonasera avevo ordinato un tostapane il 9, consegna indicata dal 12 al 14, oggi è il 20. è normale secondo voi??", "label": "ordine_ritardo_reclamo"}
+{"text": "Si può pagare una parte in anticipo e il resto in rate? Tipo 200 subito e il resto in 6 mesi per un tablet da 500", "label": "pagamento_rate"}
+{"text": "Dove è finito il mio frullatore ad immersione? Ordinato venerdì, oggi martedì, consegna stimata mercoledì quindi ci siamo, volevo solo sapere dov'è ora.", "label": "ordine_stato_spedizione"}
+{"text": "Mi è arrivato il carrello portatile del condizionatore con una ruota rotta e un graffio sul pannello. Imballo sfondato. È recente, consegnato oggi.", "label": "danno_alla_consegna"}
+{"text": "Sono 8 giorni che il tracking dice 'consegna prevista oggi'. Ogni giorno la stessa storia, mai arrivato.", "label": "ordine_ritardo_reclamo"}
+{"text": "Mio marito ha usato la mia tessera in negozio senza dirmelo e ha speso i punti. Posso vedere il dettaglio degli utilizzi? Non mi ricordo di aver autorizzato niente.", "label": "programma_fedelta"}
+{"text": "Il tablet dei miei figli dopo 4 mesi non carica più, la porta usb sembra rotta dentro. Non l'hanno maltrattato. Garanzia??", "label": "reso_garanzia_difetto"}
+{"text": "Si può usare la tessera di mia mamma per i miei acquisti senza perdere i punti?", "label": "programma_fedelta"}
+{"text": "Buongiorno, ho aperto la scatola dell'aspirapolvere per provarlo, va bene, ma ho deciso di tenere il vecchio. Sono ancora nei 14 giorni, vero? Posso restituirlo?", "label": "recesso_ripensamento"}
+{"text": "Gentilissimi, a distanza di una settimana dal ricevimento dell'ordine desidero recedere dall'acquisto del telefono cordless per ripensamenti personali. Il telefono è perfettamente funzionante. Richiedo codice RMA o procedura equivalente. Cordiali saluti, Dott. Ferrante", "label": "recesso_ripensamento"}
+{"text": "vorrei il link per seguire la spedizione", "label": "ordine_stato_spedizione"}
+{"text": "non ricordo la risposta alla domanda di sicurezza", "label": "accesso_account"}
+{"text": "Il codice sconto è stato accettato ma al pagamento con PayPal l'importo è tornato quello pieno. Riscontro anche su un altro browser. Problema vostro o mio?", "label": "codice_sconto"}
+{"text": "Con 1500 punti che premio posso prendere? C'è un catalogo?", "label": "programma_fedelta"}
+{"text": "Ho preso la lavasciuga. Che programma devo scegliere per lavare e asciugare le lenzuola in un solo ciclo? Mi dite anche quanto carico massimo va messo?", "label": "supporto_uso_prodotto"}
+{"text": "Salve, avevo fatto un ordine per un regalo ma la persona non compie più gli anni qui, non serve più. Posso annullarlo? Magari prima che parta, sono passate solo poche ore.", "label": "ordine_annullamento"}
+{"text": "Ho una prepagata Revolut e il sito la rifiuta sempre. Altri siti la accettano. Non accettate le carte virtuali?", "label": "pagamento_rifiutato"}
+{"text": "potete mandarmi la fattura? grazie", "label": "fattura_richiesta"}
+{"text": "Buongiorno, avevo ordinato la smart TV da 55 pollici e mi hanno annullato l'ordine perché non disponibile (mi è già stato restituito il pagamento, tutto ok). Ora volevo solo sapere quando la rimettete in vendita, la voglio ricomprare.", "label": "disponibilita_riassortimento"}
+{"text": "Sono un programmatore freelance e vi scrivo per offrirvi lo sviluppo di un'app mobile personalizzata per il vostro shop. Prezzi da 2.500 euro.", "label": "fuori_tema"}
+{"text": "Salve. Avevo scelto Ottavo Store perché indicava consegna rapida. Il pacco è in ritardo di cinque giorni rispetto alla data scelta al checkout. Deluso.", "label": "ordine_ritardo_reclamo"}
+{"text": "Il piumone elettrico che ho comprato non è abbastanza caldo, o meglio, funziona ma non è come me l'aspettavo. Posso restituirlo?", "label": "recesso_ripensamento"}
+{"text": "Ciao, volevo ritirare stasera ma ho visto che il negozio chiude alle 19:30. Se arrivo alle 19:35 mi danno il pacco lo stesso o devo tornare domani? 😅", "label": "ritiro_in_negozio"}
+{"text": "perché il codice dice 'soltanto articoli venduti e spediti da Ottavo'? cosa vuol dire", "label": "codice_sconto"}
+{"text": "Sono passati 10 giorni dalla data prevista di consegna e il mio ordine OT-2026-33198 non si trova. Il corriere dice che non sa nulla. Come intendete procedere?", "label": "ordine_ritardo_reclamo"}
+{"text": "Gentilissimi, sono un'insegnante e mi hanno detto che c'è una tessera speciale per il personale scolastico, si accumulano più punti? Se sì, come si richiede?", "label": "programma_fedelta"}
+{"text": "Ordine OT-2026-50219: totale carrello 76,50 euro, addebitati 86,50. Dieci euro in più, da dove escono?", "label": "addebito_doppio_errato"}
+{"text": "pessima esperienza con la vostra assistenza, il tizio al telefono ha riso quando gli ho spiegato il problema", "label": "reclamo_servizio_clienti"}
+{"text": "buonasera, ho una gift card da 100 euro e voglio comprare un robot aspirapolvere da 140. posso pagare la differenza con carta?", "label": "codice_sconto"}
+{"text": "Buongiorno, ho seguito la guida per collegare la lavatrice alla presa dell'acqua ma non so se il tubo di scarico va infilato nel sifone a muro o appeso al lavandino. Mi consigliate la configurazione corretta?", "label": "supporto_uso_prodotto"}
+{"text": "Scusate il disturbo, sono un signore di 74 anni e mio nipote mi ha comprato da voi un robot aspirapolvere. Mi serve la fattura per la garanzia ma non so dove trovarla. Come posso fare? Grazie mille, siete gentili.", "label": "fattura_richiesta"}
+{"text": "smartwatch nero: ancora disponibile o finito??", "label": "disponibilita_riassortimento"}
+{"text": "mi dice di riprovare con un altro metodo di pagamento. ma io ne ho solo uno!! come faccio a ordinare", "label": "pagamento_rifiutato"}
+{"text": "Ho trovato nella scatola un volantino con un codice per 300 punti bonus. Dove lo inserisco nel profilo?", "label": "programma_fedelta"}
+{"text": "Buongiorno, la smart TV comprata a Natale non si connette più al wifi, ho riavviato e resettato più volte, anche aggiornato il firmware. Credo sia guasta la scheda. Mi mandate un tecnico?", "label": "reso_garanzia_difetto"}
+{"text": "Mi hanno detto in negozio che si può pagare in comode rate ma non ricordo con quale società. Potete spiegarmelo? Vorrei prendere un robot aspirapolvere da 399.", "label": "pagamento_rate"}
+{"text": "Sono furibondo: avevo ordinato una soundbar pensando fosse più compatta e invece occupa tutto il mobile. Voglio rimandarla e pretendo di sapere come, subito. Funziona perfettamente ma non la voglio.", "label": "recesso_ripensamento"}
+{"text": "Mi dite come cambiare l'indirizzo di un ordine in corso? Nel mio account vedo solo l'elenco degli indirizzi, ma non nell'ordine.", "label": "ordine_modifica_indirizzo"}
+{"text": "Vorrei disiscrivermi dalla newsletter ma continuare ad avere l'account Ottavo Club con i miei punti. Si può fare?", "label": "disiscrizione_marketing"}
+{"text": "Gentile assistenza, desidero presentare formale istanza di accesso ai dati personali ex art. 15 GDPR relativamente a tutti i trattamenti effettuati da Ottavo Store sul mio nominativo, compresi quelli effettuati tramite cookie e sistemi di tracciamento sul sito e sull'app.", "label": "privacy_cancellazione_dati"}
+{"text": "Vi chiedo di verificare il motivo per cui il mio pagamento è stato respinto per l'ordine in attesa nel carrello (tablet e cover, € 342). Ho provato sia da PC che da smartphone e con due carte differenti. Tra l'altro non è la prima volta, anche in estate mi accadde lo stesso e poi con altra carta andò bene. Ringrazio.", "label": "pagamento_rifiutato"}
+{"text": "e il deumidificatore? dice terminato", "label": "disponibilita_riassortimento"}
+{"text": "Salve, siamo una società di consulenza per la certificazione ISO 9001 e vorremmo proporvi un audit gratuito per la vostra azienda. Rispondere a questa mail.", "label": "fuori_tema"}
+{"text": "Salve, volevo solo sapere se il rimborso dell'ordine OT-2026-44590 è già partito. Grazie mille.", "label": "rimborso_stato"}
+{"text": "nn mi hanno dato i punti per l'ordine OT-2026-38811 xké?", "label": "programma_fedelta"}
+{"text": "come si apre il vano batterie del telecomando?? niente viti", "label": "supporto_uso_prodotto"}
+{"text": "Mi è arrivata una mail della finanziaria che chiede ulteriore documentazione per la mia pratica di finanziamento del forno. Devo inviarla a voi o direttamente a loro? Non voglio ritardare la spedizione.", "label": "pagamento_rate"}
+{"text": "come si monta la staffa a muro della tv? c'è il manuale ma le viti sono troppe", "label": "supporto_uso_prodotto"}
+{"text": "Buongiorno, ho ricevuto un televisore a cui mancano il piede destro del supporto e le relative viti, probabilmente non messi nella scatola. Il televisore è integro, non ha graffi. Me li spedite?", "label": "articolo_errato_mancante"}
+{"text": "Buonasera, cortesemente cancellate l'ordine del mixer. Mi sono accorta di averlo già comprato mesi fa e non avevo ricordato!", "label": "ordine_annullamento"}
+{"text": "mio marito sta urlando perché il forno nuovo (di 5 mesi) non scalda più sopra. fate qualcosa!", "label": "reso_garanzia_difetto"}
+{"text": "Servizio assistenza lentissimo: ho mandato una mail con ordine OT-2026-20147 e dopo 6 giorni nessuno mi ha ancora risposto, nemmeno con un numero di ticket.", "label": "reclamo_servizio_clienti"}
+{"text": "cap sbagliato, è 20123 non 20132", "label": "ordine_modifica_indirizzo"}
+{"text": "Ho visto che c'è un bundle con smartphone più auricolari. Gli auricolari sono wireless con cancellazione del rumore o semplici? Non mi è chiaro dalla scheda.", "label": "info_prodotto_prevendita"}
+{"text": "Mi dite se il ferro da stiro a vapore ha lo spegnimento automatico? Ho la paura di dimenticarlo acceso, sono molto smemorato.", "label": "info_prodotto_prevendita"}
+{"text": "buongiorno, vorrei passare a Platinum, cosa devo spendere ancora? Sono a 3900 punti", "label": "programma_fedelta"}
+{"text": "Salve! Ho appena visto che la fattura riporta solo il mio nome ma non il codice fiscale, e mi serve per scaricare il 50% sulle ristrutturazioni (bonus mobili). Potete integrarla? Era un frigorifero ordinato a giugno.", "label": "fattura_richiesta"}
+{"text": "quanti punti ho sulla tessera?", "label": "programma_fedelta"}
+{"text": "Ho acquistato un robot aspirapolvere, nella confezione ho ricevuto un altro modello ma di fascia più alta. Non voglio approfittarne, lo segnalo: mi spiace per l'errore. Come procediamo?", "label": "articolo_errato_mancante"}
+{"text": "Il phon è giusto ma mancano i due beccucci concentratori che erano nell'offerta. Spero sia un errore e che me li mandiate.", "label": "articolo_errato_mancante"}
+{"text": "Il tablet è arrivato ma nella confezione non c'era la penna che era in omaggio nell'offerta di ottobre. Ho il vostro volantino. La penna è un accessorio incluso quindi la voglio.", "label": "articolo_errato_mancante"}
+{"text": "Buongiorno, ho scelto il ritiro presso il punto vendita di Padova per l'ordine OT-2026-41872. Dopo quanto tempo posso passare a ritirarlo? Mi hanno scritto che è in preparazione ma non so se devo aspettare un'altra mail.", "label": "ritiro_in_negozio"}
+{"text": "Buongiorno, volevo ritirare un ordine ma non ho più la mail di conferma, la posso richiedere? Il negozio è quello di Ancona.", "label": "ritiro_in_negozio"}
+{"text": "Il rimborso è stato fatto sul buono invece che sulla carta? Avevo annullato l'ordine OT-2026-39988 e non capisco dove siano finiti i soldi.", "label": "rimborso_stato"}
+{"text": "Salve, ho ordinato un set di auricolari wireless con spedizione express, vorrei sapere se la spedizione è già avvenuta. Nessuna fretta eccessiva ma ho un viaggio sabato.", "label": "ordine_stato_spedizione"}
+{"text": "ho controllato la carta e c'è una cifra che non mi torna, 164 euro invece di 146. Inversione di numeri?? ordine di ieri sera", "label": "addebito_doppio_errato"}
+{"text": "Il servizio assistenza è un disastro: orario di chiusura alle 18 ma alle 17:30 non rispondono già più. Ho provato 3 giorni di fila.", "label": "reclamo_servizio_clienti"}
+{"text": "Il corriere mi ha consegnato il pacco della lampada piantana con il tubo spezzato in due parti. Ma l'imballo era perfetto, quindi l'avranno confezionata male.", "label": "danno_alla_consegna"}
+{"text": "dati fatturazione sbagliati, c è il cap di milano ma abito a monza", "label": "fattura_richiesta"}
+{"text": "come si installa il driver della stampante su mac sonoma?", "label": "supporto_uso_prodotto"}
+{"text": "Buongiorno, l'ordine OT-2026-45120 era previsto per il 12 ottobre. Il tracking mostra tutto regolare ma il pacco non è arrivato. Sono passati 4 giorni dalla data promessa e vorrei sapere perché.", "label": "ordine_ritardo_reclamo"}
+{"text": "Ecco, è arrivato il pacco, sembrava passato sotto un camion. La smart TV ha lo schermo nero con ragnatele di crepe.", "label": "danno_alla_consegna"}
+{"text": "Gentili signori, desidero acquistare una lavatrice da 9 kg per un bagno stretto. Potete dirmi la profondità esatta del modello a carico frontale e se può essere installata sotto un piano di lavoro? Grazie.", "label": "info_prodotto_prevendita"}
+{"text": "Aggiornamento sul rimborso? Il reso risulta ricevuto ma ancora nulla in app.", "label": "rimborso_stato"}
+{"text": "ho aperto un ticket 10 giorni fa, ancora stato 'in lavorazione'. possibile che nessuno lo guardi?", "label": "reclamo_servizio_clienti"}
+{"text": "Voglio sporgere reclamo contro l'operatore del call center che mi ha dato informazioni sbagliate sul rimborso e poi ha negato di averlo fatto. Vorrei ascoltare la registrazione e parlarne con il suo capo.", "label": "reclamo_servizio_clienti"}
+{"text": "Ordine bloccato al pagamento, ricevo 'errore 502' dopo aver cliccato Paga ora. Carrello con cuffie e caricatore.", "label": "pagamento_rifiutato"}
+{"text": "Ho visto che il mio pacco è passato da 'in transito' a 'in arrivo alla filiale'. Cosa devo aspettarmi nelle prossime ore? Non ho scadenze, curiosità mia.", "label": "ordine_stato_spedizione"}
+{"text": "Non riesco a comprare niente: ogni volta che confermo, la pagina dice 'pagamento rifiutato dal circuito'. Ho una Visa Electron. Funzionano solo certe carte?", "label": "pagamento_rifiutato"}
+{"text": "Salve, cerco un piccolo frigo da camera per un dormitorio: quanto è alto il modello da 45 litri e fa rumore di notte? Mi interessa pure se si può pagare a rate ma questo lo vedrò dopo, intanto mi serve sapere se ci sta sotto la scrivania alta 72 cm.", "label": "info_prodotto_prevendita"}
+{"text": "Mi serve la TV per una stanza di 4 metri di distanza dal divano: 50 o 55 pollici? E per i videogiochi della PS5 serve il 120Hz?", "label": "info_prodotto_prevendita"}
+{"text": "Ho molta voglia di una pizza. Voi no?", "label": "fuori_tema"}
+{"text": "Potete dirmi se i miei dati di pagamento vengono memorizzati sui vostri server?", "label": "privacy_cancellazione_dati"}
+{"text": "Ho ordinato un aspirapolvere con il sito, ma adesso devo rinunciare perché mi cambia la casa e non ho spazio. Posso annullare, visto che non è ancora partito?", "label": "ordine_annullamento"}
+{"text": "Ciao, nel carrello ho 2 articoli e mi si sblocca il pagamento solo col bonifico, ma lo vorrei con carta e non va. È normale?", "label": "pagamento_rifiutato"}
+{"text": "Ordine di ieri, sono già ricevuti i pezzi. Ma il robot lavapavimenti è arrivato senza acqua... no, senza serbatoio dell'acqua. Quello sì che manca.", "label": "articolo_errato_mancante"}
+{"text": "ho preso la smart tv ma mio marito dice che è troppo costosa e che dobbiamo riportarla. come si fa?", "label": "recesso_ripensamento"}
+{"text": "tutto ok con la spedizione della mia lavastoviglie? vedo solo 'in attesa di corriere'", "label": "ordine_stato_spedizione"}
+{"text": "vorrei la fattura elettronica, il mio codice destinatario è KRRH6B9", "label": "fattura_richiesta"}
+{"text": "Gentile servizio clienti, dovendomi trasferire all'estero desidero cancellare l'account e ogni dato personale associato; vi prego di indicarmi la procedura e di confermarmi quando sarà completata. Cordiali saluti, Elena Marchetti.", "label": "privacy_cancellazione_dati"}
+{"text": "La mia email ha un apostrofo (d'angelo) e il sito non la accetta al login, ma in fase di registrazione l'ha accettata. Come faccio?", "label": "accesso_account"}
+{"text": "Scusate ma io ho chiesto la fattura e mi è arrivato solo lo scontrino nel pacco, la fattura dov è?", "label": "fattura_richiesta"}
+{"text": "Buongiorno. Desidero non ricevere più alcuna comunicazione commerciale da parte vostra, né per posta elettronica né via SMS né tramite notifiche. Attendo conferma dell'avvenuta cancellazione.", "label": "disiscrizione_marketing"}
+{"text": "Egregi, il prezzo che ho visto nel riepilogo era 219,00 euro IVA inclusa. Mi è stato addebitato 219 + 22% di IVA, quindi 267,18. Non è corretto. Vi prego di verificare l'importo.", "label": "addebito_doppio_errato"}

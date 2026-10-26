@@ -1,0 +1,15 @@
+{
+ "accuracy": 0.9967,
+ "macro_f1": 0.9968,
+ "no_answer": 0,
+ "ece": 0.0378,
+ "latency_p50_ms": 263.4,
+ "latency_p95_ms": 470.7,
+ "system": "mammoth-1",
+ "variant": "0-shot",
+ "task": "ottavo_adv",
+ "train_examples": 0,
+ "n": 601,
+ "wall_s": 44.3,
+ "input_tokens": 531255
+}

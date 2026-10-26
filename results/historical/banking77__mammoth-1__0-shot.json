@@ -1,0 +1,15 @@
+{
+ "accuracy": 0.936,
+ "macro_f1": 0.9354,
+ "no_answer": 0,
+ "ece": 0.0175,
+ "latency_p50_ms": 293.3,
+ "latency_p95_ms": 2931.6,
+ "system": "mammoth-1",
+ "variant": "0-shot",
+ "task": "banking77",
+ "train_examples": 0,
+ "n": 1000,
+ "wall_s": 145.8,
+ "input_tokens": 1110104
+}

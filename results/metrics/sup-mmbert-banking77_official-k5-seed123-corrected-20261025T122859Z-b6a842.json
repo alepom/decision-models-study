@@ -1,0 +1,141 @@
+{
+ "run_id": "sup-mmbert-banking77_official-k5-seed123-corrected-20261025T122859Z-b6a842",
+ "config": {
+  "task": "banking77_official",
+  "model": "mmbert",
+  "model_id": "jhu-clsp/mmBERT-base",
+  "budget": "5",
+  "seed": 123,
+  "recipe": "corrected",
+  "max_len": 256,
+  "batch_size": 32,
+  "train_n": 385,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "banking77",
+  "lr": 5e-05,
+  "epochs": 20,
+  "train_seed": 123,
+  "micro_batch": 32,
+  "grad_accumulation": 1,
+  "dtype": "torch.float32",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 5.584928433306805
+   },
+   {
+    "epoch": 2,
+    "train_loss": 3.6097004717046564
+   },
+   {
+    "epoch": 3,
+    "train_loss": 1.1694240483370695
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.15470086667783461
+   },
+   {
+    "epoch": 5,
+    "train_loss": 0.052676198502561056
+   },
+   {
+    "epoch": 6,
+    "train_loss": 0.05981662323720347
+   },
+   {
+    "epoch": 7,
+    "train_loss": 0.015042780165548449
+   },
+   {
+    "epoch": 8,
+    "train_loss": 0.006297121991633208
+   },
+   {
+    "epoch": 9,
+    "train_loss": 0.01865209282194729
+   },
+   {
+    "epoch": 10,
+    "train_loss": 0.0011548268054642219
+   },
+   {
+    "epoch": 11,
+    "train_loss": 0.0025835036590027127
+   },
+   {
+    "epoch": 12,
+    "train_loss": 0.00029496433540865744
+   },
+   {
+    "epoch": 13,
+    "train_loss": 7.10850351696264e-05
+   },
+   {
+    "epoch": 14,
+    "train_loss": 3.230151550824657e-05
+   },
+   {
+    "epoch": 15,
+    "train_loss": 2.109546124762795e-05
+   },
+   {
+    "epoch": 16,
+    "train_loss": 1.7056506911032627e-05
+   },
+   {
+    "epoch": 17,
+    "train_loss": 1.4725052862157501e-05
+   },
+   {
+    "epoch": 18,
+    "train_loss": 1.2990231126812951e-05
+   },
+   {
+    "epoch": 19,
+    "train_loss": 1.1675249641177595e-05
+   },
+   {
+    "epoch": 20,
+    "train_loss": 1.0645120516540362e-05
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 29.125979360193014,
+   "head_params": [
+    "classifier.weight",
+    "classifier.bias"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "8287db9b263ca6754500f33937ce8664a27e1f51",
+  "utc": "2026-10-25T12:28:59.535574+00:00",
+  "host": "d36c696de22f",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/banking77_official/test.jsonl": "260ab65c221e3b627a2c87c0f3070da17d192937d2b077e19a7c1efcb2380696",
+   "data/banking77/train_full.jsonl": "a9eaff7d4f9bc00b3aa0a5c818bd6daa7f38468f1f22215bf996bfb102d80993"
+  }
+ },
+ "metrics": {
+  "n": 3076,
+  "coverage": 1.0,
+  "macro_f1": 0.5449729266781098,
+  "accuracy": 0.5510403120936281,
+  "refusals": 0,
+  "n_calibrated": 3076,
+  "ece15": 0.20602445552907928,
+  "brier": 0.646303625858851,
+  "mean_confidence": 0.7568952493001411,
+  "latency_p50_ms": 22.96287349963677,
+  "latency_p95_ms": 28.904604499075504,
+  "train_s": 62.5,
+  "selection": null,
+  "peak_vram_gb": 6.28,
+  "load_s": 5.5
+ }
+}

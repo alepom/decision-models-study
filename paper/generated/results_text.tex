@@ -1,0 +1,128 @@
+% Testo dei risultati. Ogni numero viene da reports/contrasts.csv, reports/contrasts_sensitivity_neardup.csv,
+% reports/robustness.csv, reports/selective.csv o results/runs_index.csv (solo run "used"), generati da dmstudy.analysis.
+
+Table~\ref{tab:main} reports macro-F1 for every system on the historical test samples; Table~\ref{tab:contrasts} lists the
+paired contrasts other than the budget families, which are in \texttt{reports/contrasts.csv}. Unless stated otherwise, intervals are
+paired 95\% bootstrap intervals over test messages, not adjusted for multiplicity; $p$-values are Holm-adjusted within each family;
+supervised scores are means over three seeds.
+
+\subsection{RQ1: label budget and training recipe}
+
+\paragraph{Zero-label comparison.} On Banking77 and MASSIVE-it the category descriptions (D) were written from labelled training
+examples (Section~\ref{sec:protocol}), so the comparison that uses no task label at all is with label names only (N). We report it first
+(post-hoc family P2N); the pre-declared comparison with descriptions (P2) follows. With label names the best decision model is Mammoth-1
+on all three datasets (0.934 on Banking77, 0.858 on MASSIVE-it, 0.975 on Ottavo).
+
+\paragraph{Few labels: decision models are far ahead.} With 5 labelled examples per class the best compact classifier is SetFit on
+every dataset (0.717 on Banking77, 0.615 on MASSIVE-it, 0.766 on Ottavo). Mammoth-1 with label names is ahead by $+0.217$ [$+0.202$,
+$+0.242$], $+0.242$ [$+0.207$, $+0.276$] and $+0.209$ [$+0.189$, $+0.232$] respectively. With 20 examples per class the gap narrows but
+remains large: $+0.089$ [$+0.074$, $+0.109$] on Banking77 (vs.\ Qwen3-0.6B, 0.846), $+0.169$ [$+0.131$, $+0.196$] on MASSIVE-it and
+$+0.068$ [$+0.051$, $+0.086$] on Ottavo (vs.\ SetFit, 0.688 and 0.907). With descriptions (P2) the corresponding 5-shot differences are
+$+0.207$, $+0.249$ and $+0.224$. All these contrasts have Holm-adjusted $p<0.001$.
+
+\paragraph{Full training data: compact classifiers come close, and the recipe matters.} With the full training set (130--190 examples per
+class on the public datasets, 70 on Ottavo) and the protocol recipes, Mammoth-1 with label names leads the best compact classifier by
+$+0.024$ [$+0.011$, $+0.039$] on Banking77 (Qwen3-0.6B LoRA, 0.910) and $+0.055$ [$+0.021$, $+0.081$] on MASSIVE-it (mmBERT, 0.803); on
+Ottavo the difference with Qwen3-8B QLoRA (0.975) is not resolved ($-0.001$ [$-0.012$, $+0.010$]). With descriptions the picture is
+similar: $+0.014$ [$-0.001$, $+0.030$] on Banking77 (Holm-adjusted $p=0.065$, not resolved), $+0.061$ [$+0.029$, $+0.086$] on MASSIVE-it
+(Elephant-1 vs.\ mmBERT) and $+0.015$ [$+0.007$, $+0.024$] on Ottavo, where D is the generation specification. Excluding the test messages
+that have a near duplicate in the training set (cosine $\geq 0.9$ on character n-grams; 149 messages on Banking77 and 155 on MASSIVE-it)
+widens every full-data gap (with label names: Banking77 $+0.028$ [$+0.013$, $+0.045$], MASSIVE-it $+0.066$ [$+0.031$, $+0.092$]): the
+supervised models benefited more from near duplicates than the zero-shot systems.
+
+\paragraph{Sensitivity: with the exploratory recipe the Banking77 gap is no longer resolved.} The earlier exploratory run reported 0.940 for
+Qwen3-0.6B on Banking77 with the full training set, above Mammoth-1. Under the frozen protocol the same model scored 0.910. Before
+seeing its result we declared a sensitivity run with the exploratory recipe (one-cycle schedule with annealing, 3 epochs on the whole
+training set, same learning rate $2\cdot10^{-4}$) and four training seeds, one of which (seed 0) replicates the exploratory run. It scored
+0.936 on average (0.931--0.940; 0.936 with seed 0), $+0.026$ [$+0.018$, $+0.035$] above the protocol recipe, with better calibration (ECE
+0.033--0.038 against 0.049--0.057). Against Mammoth-1 the difference is not resolved: $-0.011$ [$-0.025$, $+0.002$] with descriptions and
+$-0.002$ [$-0.014$, $+0.011$] with label names (Holm-adjusted $p=0.31$ and $1.0$); the full official test (3{,}076 messages) gives the same
+picture ($-0.007$ [$-0.014$, $+0.001$] and $+0.001$ [$-0.006$, $+0.008$]). The exploratory score is therefore reproduced, but not the claim
+that the small model beats the decision model: with this recipe this test sample does not resolve a difference in either direction,
+which is not evidence that the two systems are equivalent. The two recipes differ in schedule, amount of training
+data (100\% vs.\ 90\%) and epoch selection; we did not separate these factors. The exploratory recipe was not run on MASSIVE-it and
+Ottavo, nor for mmBERT, which uses the same constant-rate protocol recipe: the full-data gaps reported above for these models may
+overstate what a better-tuned recipe would leave.
+
+\paragraph{The 5-shot collapse persists with both recipes tested.} Decoder classifiers with a newly initialised
+classification head collapse at 5 examples per class (Ottavo: 0.150 for Qwen3-0.6B, 0.236 for Qwen3-1.7B, 0.277 for Qwen3-8B).
+Re-running the exploratory recipe on the same subsets gives the same scores (corrected minus original: $+0.000$ [$-0.016$, $+0.018$]
+for Qwen3-0.6B, $+0.004$ [$-0.030$, $+0.036$] for Qwen3-8B). In cross-validation inside the 5-shot budget no configuration of the grid
+exceeded a validation macro-F1 of 0.15 for any decoder, while the training loss fell below 0.01: the models fit the 120 training
+messages and do not generalise. The selected recipe does help at 20 examples per class for Qwen3-0.6B ($+0.076$ [$+0.057$, $+0.096$]).
+Among the compact methods evaluated, SetFit, which learns from contrastive pairs instead of a fresh head, is the best at 5 examples per
+class and the only one above 0.6 macro-F1 on every dataset. These observations concern a fresh classification head with the two recipes
+and the small grid we tested; other recipes or a head that reads the descriptions might behave differently.
+Larger decoders help once enough data are available (Ottavo, 20 per class: 0.764, 0.820, 0.893 for 0.6B, 1.7B, 8B; all data: 0.913,
+0.950, 0.975). For mmBERT and for Qwen3-1.7B at 5 examples per class the cross-validation selected the longest duration in the grid.
+
+\subsection{RQ2: category descriptions, option order and in-context examples}
+
+Figure~\ref{fig:descriptions} compares label names (N) with names plus descriptions (D) on identical messages. Descriptions help
+OpenAI Decisions on Banking77 ($+0.071$ [$+0.051$, $+0.093$]) and all three decision models on Ottavo ($+0.016$ to $+0.032$), all with
+Holm-adjusted $p<0.001$. Elsewhere the observed effects are small and mixed: on Banking77 Elephant-1 and Mammoth-1 score slightly
+lower with descriptions ($-0.009$ and $-0.010$ on the historical sample, not resolved; $-0.007$ [$-0.013$, $-0.001$] and $-0.008$
+[$-0.014$, $-0.003$] on the full test, Holm-adjusted $p=0.22$ and $0.045$), and on MASSIVE-it Elephant-1 gains $+0.037$ [$+0.001$,
+$+0.060$] (Holm-adjusted $p=0.31$) while Mammoth-1 and OpenAI Decisions do not change significantly. The effect of descriptions
+therefore varies with the model and the dataset, and not every observed gain survives the correction for multiple comparisons; the exploratory claim that ``descriptions matter more than the model'' is not supported
+as a general statement. One explanation compatible with these data, which we cannot test, is that the Base Labs models have seen these
+public label inventories during training.
+
+On a frozen stratified subset of 300 messages, permuting the order of the options leaves the predictions of Elephant-1 and Mammoth-1
+unchanged (100\% agreement across three permutations on all three datasets), consistent with the order-insensitive attention described by
+Base Labs. OpenAI Decisions changes 7--9\% of its predictions and its macro-F1 varies by up to 0.048 on MASSIVE-it; the generalist
+Qwen3-8B varies by 0.043 on Ottavo. Repeating identical requests within the same day gave identical predictions for all three APIs.
+Across days, OpenAI's macro-F1 on MASSIVE-it with label names moved from 0.736 (exploratory run) to 0.748.
+
+Adding labelled examples to the prompt (descriptions fixed, same examples as the 5- and 20-shot supervised runs) helps OpenAI on Banking77
+($+0.054$ [$+0.022$, $+0.094$] with 5 per class) and is neutral or slightly harmful for Elephant-1 and Mammoth-1. Ten retrieved examples
+taken from the same 20-per-class pool match the 20-per-class prompt ($+0.057$) at one tenth of the cost (0.11 vs.\ 1.08 USD for 300 messages).
+With 20 examples per class the prompt exceeds the 16{,}384-token input limit of Elephant-1 and Mammoth-1 on every dataset.
+
+\subsection{RQ3: how much does decision-specific post-training add?}
+
+Elephant-1 is post-trained from Qwen3.5-9B. Used zero-shot with the same descriptions through option-letter scoring, Qwen3.5-9B already
+reaches 0.974 on Ottavo and 0.968 on the stress test (Figure~\ref{fig:stress}, right). Elephant-1 is ahead by $+0.013$ [$+0.003$, $+0.024$]
+and $+0.030$ [$+0.017$, $+0.046$]. The older Qwen3-8B, used the same way, is well behind Qwen3.5-9B ($-0.032$ and $-0.067$). The
+observed gap between Elephant-1 and a generalist is therefore much smaller when the generalist is its own base checkpoint than when it is
+an older model; the remaining gap is small and significant, and larger on the stress test. This is a comparison with the progenitor, not a causal ablation: the post-trained model
+also differs in attention mask, objective and serving stack, and we evaluate the progenitor locally at 4-bit precision.
+Fine-tuning Qwen3-8B on all 1{,}669 Ottavo examples adds $+0.033$ [$+0.019$, $+0.049$] over its own zero-shot score, but with 20 examples
+per class it is \emph{worse} than zero-shot ($-0.048$), and with 5 it collapses.
+
+\subsection{RQ4: lexical stress and targeted phenomena}
+
+On the lexical stress set, trained on the normal Ottavo data, compact classifiers lose 1.6 (Qwen3-8B) to 6 points (SetFit, TF-IDF), while the
+decision models do not lose accuracy (Figure~\ref{fig:stress}, left). On Ottavo-R (Table~\ref{tab:robust}) the three decision models are
+perfect on every closed-set phenomenon (negation, intent correction, lexical distractors, very short messages, clean/perturbed pairs);
+this ceiling reflects the synthetic, LLM-written test as much as the systems. Among trained systems Qwen3-8B is the most robust (0.93--0.98
+on the closed-set phenomena). For messages that should go to a human, the review threshold chosen on the dev half routes 80--90\% of
+out-of-scope messages to review for the decision models, with 14\% (OpenAI) to 30\% (Mammoth-1) of in-scope messages also routed.
+
+\subsection{Where the systems err}
+
+Table~\ref{tab:errors} lists the most frequent confusions of the best decision model and of the best compact classifier trained
+on all data. On MASSIVE-it both families confuse \nolinkurl{calendar_set} with \nolinkurl{calendar_query}; Elephant-1 also confuses
+\nolinkurl{cooking_recipe} with \nolinkurl{cooking_query}, and mmBERT confuses \nolinkurl{general_quirky} with other intents. The
+description writers had already marked these classes as overlapping in the training data, so part of the remaining error is likely label
+ambiguity rather than model weakness. On Banking77
+the confusions are between semantically adjacent intents (a transfer that is pending versus not received, variants of top-up
+problems). The errors of the two families overlap only partially (Table~\ref{tab:overlap}): on Banking77 about 41 messages are
+misclassified by both Mammoth-1 and Qwen3-0.6B, 34 only by Mammoth-1 and 49 only by Qwen3-0.6B (means over seeds). Per-class
+results are in Appendix~\ref{app:perclass}: on the public datasets the median class F1 of the Base Labs models is 0.90--0.93, and
+the weakest classes coincide largely with the confusions above.
+
+\begin{table}[t]
+\centering\footnotesize
+\caption{Most frequent confusions (gold $\to$ predicted, number of test messages; compact classifier: mean over three seeds).}
+\label{tab:errors}
+\input{generated/table_errors.tex}
+\end{table}
+
+\begin{table}[t]
+\centering\small
+\caption{Overlap of errors between the best decision model and the best compact classifier trained on all data (counts of test
+messages; compact classifier: mean over the three seeds of the per-seed overlap).}
+\label{tab:overlap}
+\resizebox{\linewidth}{!}{\input{generated/table_error_overlap.tex}}
+\end{table}

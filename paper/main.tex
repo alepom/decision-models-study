@@ -1,0 +1,62 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2.4cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{caption}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\captionsetup{font=small,labelfont=bf}
+\graphicspath{{figures/}}
+\input{generated/meta.tex}
+
+\title{When Are Decision Models Worth It?\\
+\large An Empirical Comparison with Small Task-Specific Classifiers}
+\author{\PaperAuthors}
+\date{\PaperVersionLine}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{generated/abstract.tex}
+\end{abstract}
+
+\noindent\textbf{Status.} \PaperStatus
+
+\input{sections/introduction}
+\input{sections/related}
+\input{sections/data_models}
+\input{sections/protocol}
+\input{sections/results}
+\input{sections/calibration}
+\input{sections/discussion}
+\input{sections/limitations}
+\input{sections/conclusion}
+
+\section*{AI assistance and authorship}
+\input{sections/ai_statement}
+
+\section*{Funding and competing interests}
+This study received no external funding. The OpenAI API costs (about 8 USD) were paid by the author; Elephant-1 and Mammoth-1 were
+used during a free promotional period offered by Baseten. The author has no financial or other relationship with OpenAI, Base Labs,
+Baseten or the Qwen team.
+
+\section*{Code and data availability}
+\input{generated/availability.tex}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\appendix
+\input{sections/appendix}
+\end{document}

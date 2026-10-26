@@ -1,0 +1,26 @@
+{
+ "probe": 5,
+ "model_id": "Qwen/Qwen3.5-9B",
+ "model_class": "Qwen3_5ForCausalLM",
+ "dtype": "torch.float16",
+ "quantization": "nf4-4bit",
+ "load_s": 485.2,
+ "device": "Tesla T4",
+ "peak_vram_gb": 7.87,
+ "mean_prompt_tokens": 794.6,
+ "latency_ms": [
+  3859,
+  955,
+  969,
+  951,
+  951
+ ],
+ "correct": 5,
+ "letter_mass": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ]
+}

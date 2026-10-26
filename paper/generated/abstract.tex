@@ -1,0 +1,10 @@
+Decision models are API endpoints that receive a text and a list of options and return a probability for each option. We compare
+three of them (OpenAI Decisions, Base Labs Elephant-1 and Mammoth-1), used zero-shot, with compact classifiers trained on 5, 20 or all
+labelled examples per class (TF-IDF, SetFit, mmBERT, Qwen3 0.6B--8B with LoRA/QLoRA) on Banking77, Italian MASSIVE and a synthetic Italian
+customer-service task, using paired bootstrap tests, three seeds and consumer-grade GPUs. With label names only, so with no labelled
+example of the task, the best decision model was 0.21--0.24 macro-F1 ahead of the best compact classifier trained on 5 examples per
+class. With the full training sets the gap shrank to 0.024 on Banking77 and 0.055 on Italian MASSIVE, and was not resolved on the synthetic
+task. On Banking77 the recipe of an earlier exploratory study raised Qwen3-0.6B from 0.910 to 0.936, and its difference from Mammoth-1 was
+no longer resolved: with many labels, the comparison depends on how the small model is trained. Elephant-1 was only 0.013 ahead of its own
+base checkpoint, Qwen3.5-9B, used zero-shot on the synthetic task. Category descriptions changed results in different directions for
+different models and datasets. Code, protocol, synthetic data and per-example predictions are released.

@@ -1,0 +1,51 @@
+\section{Introduction}
+
+Many production uses of language models are classification problems in disguise: routing a support ticket, choosing an
+intent, deciding whether a message needs a human. In 2026 several providers started offering \emph{decision models}
+for exactly this job: endpoints that receive a text and a list of options and return a probability for each option
+instead of generated text. TypeSafe AI's Jev popularised the category \citep{venturebeat2026jev}; OpenAI Decisions
+\citep{openai2026decisions} and Base Labs' Elephant-1 and Mammoth-1 \citep{baselabs2026decision} followed. They are
+marketed as cheap and accurate without any task-specific training. Jev itself is not part of this study: at the time of
+the experiments access was limited to a waiting list.
+
+A practitioner's natural objection is that a small open model, fine-tuned on the task and run on hardware one already
+owns, should be cheaper and at least as accurate. Are decision models a meaningful new tool, or can small task-specific
+classifiers, possibly run locally, achieve the same result? This paper tests that objection empirically, under explicit and
+modest conditions: two public intent benchmarks (Banking77 in English, MASSIVE in Italian), a synthetic Italian
+customer-service task with a lexically adversarial test condition and a phenomenon-level robustness set, consumer
+hardware (a 6\,GB laptop GPU and a free 16\,GB cloud GPU), and a capped API budget.
+
+We ask: \emph{under which conditions do zero-shot decision models outperform compact classifiers adapted to the task,
+and how does the comparison change with the label budget, the category descriptions and a shift of the test
+distribution?} Concretely:
+\begin{itemize}
+  \item[RQ1] How many labelled examples per class does a compact supervised classifier need to match zero-shot decision models,
+  and does the answer depend on the training recipe?
+  \item[RQ2] How much do category descriptions change zero-shot performance when everything else is held fixed?
+  \item[RQ3] How much of a decision model's advantage remains when it is compared with its own base checkpoint used zero-shot?
+  \item[RQ4] How do the systems behave on a lexical stress test and on targeted phenomena, including inputs that should be
+  routed to a human because they are ambiguous or outside the taxonomy?
+  \item[RQ5] What do calibration, latency and cost imply for deployment?
+\end{itemize}
+
+Figure~\ref{fig:design} summarises the design. Our contributions are:
+\begin{itemize}
+  \item an independent, paired comparison of three commercial decision models with six families of compact classifiers on two
+  public benchmarks and a new synthetic Italian task, across three label budgets and three seeds;
+  \item a controlled measurement of the effect of category descriptions, option order and in-context examples on the same messages,
+  with a label-free comparison (label names only) separated from descriptions written from training data;
+  \item a comparison of Elephant-1 with its own base checkpoint used zero-shot, which shows how much smaller the observed gap is
+  against the right progenitor (not a causal ablation);
+  \item a diagnosis of the few-shot failure of decoder classifiers, which persists with both recipes tested, and a sensitivity
+  analysis showing that with the full training set the outcome on Banking77 depends on the recipe;
+  \item a lexical stress set and a phenomenon-level robustness set with out-of-taxonomy and ambiguous messages, and an analysis of
+  calibration and routing to human review;
+  \item code, frozen protocol, per-example predictions and synthetic data, sufficient to recompute every reported number.
+\end{itemize}
+
+\input{sections/design_figure}
+
+This is an independent technical report, not a claim of novelty: we did not find a published independent comparison of these
+specific systems, but we do not claim to be the first study of zero-shot versus fine-tuned classification. Our contribution is a
+pre-registered-in-repository protocol, paired comparisons on identical examples, per-example predictions released for
+re-analysis, and an explicit account of what could not be tested.

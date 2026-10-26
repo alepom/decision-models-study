@@ -1,0 +1,140 @@
+{
+ "run_id": "sup-qwen0.6b-banking77_official-k5-seed17-corrected-20261025T132600Z-cc39a7",
+ "config": {
+  "task": "banking77_official",
+  "model": "qwen0.6b",
+  "model_id": "Qwen/Qwen3-0.6B",
+  "budget": "5",
+  "seed": 17,
+  "recipe": "corrected",
+  "max_len": 256,
+  "batch_size": 16,
+  "train_n": 385,
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "kind": "supervised",
+  "trained_on_task": "banking77",
+  "lr": 0.0002,
+  "epochs": 20,
+  "train_seed": 17,
+  "micro_batch": 16,
+  "grad_accumulation": 1,
+  "dtype": "torch.float32",
+  "amp": "torch.float16",
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 5.250121072050813
+   },
+   {
+    "epoch": 2,
+    "train_loss": 3.588092231750488
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.769812766864084
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.13752179863309344
+   },
+   {
+    "epoch": 5,
+    "train_loss": 0.04121473315685939
+   },
+   {
+    "epoch": 6,
+    "train_loss": 0.03030062087939284
+   },
+   {
+    "epoch": 7,
+    "train_loss": 0.0012400923317585834
+   },
+   {
+    "epoch": 8,
+    "train_loss": 0.010688539365115242
+   },
+   {
+    "epoch": 9,
+    "train_loss": 0.00012261846912389792
+   },
+   {
+    "epoch": 10,
+    "train_loss": 5.880672002816724e-05
+   },
+   {
+    "epoch": 11,
+    "train_loss": 4.476341679722506e-05
+   },
+   {
+    "epoch": 12,
+    "train_loss": 3.654287769612503e-05
+   },
+   {
+    "epoch": 13,
+    "train_loss": 3.1210800637370097e-05
+   },
+   {
+    "epoch": 14,
+    "train_loss": 2.739107874660547e-05
+   },
+   {
+    "epoch": 15,
+    "train_loss": 2.4500173181971963e-05
+   },
+   {
+    "epoch": 16,
+    "train_loss": 2.136961324400285e-05
+   },
+   {
+    "epoch": 17,
+    "train_loss": 2.0195838376160035e-05
+   },
+   {
+    "epoch": 18,
+    "train_loss": 1.8270601527505035e-05
+   },
+   {
+    "epoch": 19,
+    "train_loss": 1.6972355168142607e-05
+   },
+   {
+    "epoch": 20,
+    "train_loss": 1.5592974285606364e-05
+   }
+  ],
+  "head": {
+   "head_param_change_l1": 192.84652709960938,
+   "head_params": [
+    "base_model.model.score.modules_to_save.default.weight"
+   ]
+  }
+ },
+ "provenance": {
+  "git_commit": "8287db9b263ca6754500f33937ce8664a27e1f51",
+  "utc": "2026-10-25T13:26:00.380386+00:00",
+  "host": "d36c696de22f",
+  "python": "3.13.16",
+  "data_sha256": {
+   "data/banking77_official/test.jsonl": "260ab65c221e3b627a2c87c0f3070da17d192937d2b077e19a7c1efcb2380696",
+   "data/banking77/train_full.jsonl": "a9eaff7d4f9bc00b3aa0a5c818bd6daa7f38468f1f22215bf996bfb102d80993"
+  }
+ },
+ "metrics": {
+  "n": 3076,
+  "coverage": 1.0,
+  "macro_f1": 0.5587791917559922,
+  "accuracy": 0.5633940182054616,
+  "refusals": 0,
+  "n_calibrated": 3076,
+  "ece15": 0.196899564188308,
+  "brier": 0.6347143965593657,
+  "mean_confidence": 0.7602935823937697,
+  "latency_p50_ms": 102.77772350127634,
+  "latency_p95_ms": 119.63029750040732,
+  "train_s": 151.0,
+  "selection": null,
+  "peak_vram_gb": 7.41,
+  "load_s": 6.5
+ }
+}
