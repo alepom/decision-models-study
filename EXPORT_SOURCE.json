@@ -1,6 +1,6 @@
 {
- "source_commit": "5b32f9e7d6ce947751fe8d43c819108f6d2b3897",
- "created_utc": "2026-10-25T23:59:15+00:00",
+ "source_commit": "00c0418a1ae1bc300b634d072df0e5e98248c46d",
+ "created_utc": "2026-10-26T14:46:39+00:00",
  "files": 1180,
  "include": [
   "publication/huggingface/README.md",

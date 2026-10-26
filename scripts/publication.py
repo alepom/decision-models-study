@@ -149,6 +149,9 @@ def included_files():
 
 
 def cmd_export(a):
+    keep = PUB / ".github_export_git"  # la storia git del repository pubblicato sopravvive alla rigenerazione
+    if (EXPORT / ".git").exists():
+        shutil.move(EXPORT / ".git", keep)
     if EXPORT.exists():
         shutil.rmtree(EXPORT)
     files = included_files()
@@ -162,6 +165,8 @@ def cmd_export(a):
     (EXPORT / "EXPORT_SOURCE.json").write_text(json.dumps(
         {"source_commit": commit, "created_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
          "files": len(files) + len(FROM_PUBLICATION), "include": INCLUDE, "exclude": EXCLUDE}, indent=1))
+    if keep.exists():
+        shutil.move(keep, EXPORT / ".git")
     print(f"{len(files)} file del laboratorio + {len(FROM_PUBLICATION)} file di distribuzione in {EXPORT.relative_to(ROOT)}")
 
 
@@ -183,7 +188,7 @@ def cmd_package(a):
     if not EXPORT.exists():
         raise SystemExit("prima: python scripts/publication.py export")
     PKG.mkdir(parents=True, exist_ok=True)
-    allf = [p for p in EXPORT.rglob("*") if p.is_file()]
+    allf = [p for p in EXPORT.rglob("*") if p.is_file() and ".git" not in p.relative_to(EXPORT).parts[:1]]
     paper = [p for p in allf if str(p.relative_to(EXPORT)).startswith("paper/")]
     results = [p for p in allf if str(p.relative_to(EXPORT)).startswith(("results/", "reports/"))]
     zipdir(PKG / "paper_sources.zip", EXPORT, paper)

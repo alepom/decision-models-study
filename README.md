@@ -5,6 +5,7 @@ Alessio Pomaro, 2026. Preprint, not peer reviewed.
 
 > Paper: [doi:10.5281/zenodo.23652645](https://doi.org/10.5281/zenodo.23652645) ·
 > Archived code and predictions: [doi:10.5281/zenodo.23652764](https://doi.org/10.5281/zenodo.23652764) · How to cite: `CITATION.cff`
+>
 > This repository contains the code, frozen protocol, data manifests, synthetic datasets and **per-example predictions** needed
 > to reproduce every number in the paper.
 
